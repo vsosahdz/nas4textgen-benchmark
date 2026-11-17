@@ -1,0 +1,149 @@
+# The `verify` replication tier, run from a clean checkout on every change.
+#
+# Two purposes. First, a space revision cannot reach the sweep without passing the
+# structural gate — the gate is a job here, not a convention someone remembers to run.
+# Second, the replication instructions are executed rather than trusted: this workflow
+# runs the same commands the documentation prints, so the two cannot drift apart.
+#
+# The claim that this workflow runs the documented commands is checked rather than
+# asserted: tests/test_ci.py compares these steps against the stage declaration the
+# document is generated from, and a verify-tier stage must appear here or be listed there
+# as one CI cannot run, with a reason. That test was written after two commands the
+# document printed turned out not to exist for weeks — CI passed the whole time, because
+# it never ran them — and it immediately found a third stage, tokenisation, that no step
+# here covered.
+#
+# No GPU anywhere. That is the point of the tier.
+
+name: verify
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    env:
+      # Load-bearing, not preferences. Multithreaded BLAS combines partial sums in
+      # completion order, so a reduction is correct but not bit-identical between runs.
+      # The tier's bit-exactness claim depends on pinning these.
+      PYTHONHASHSEED: "0"
+      OMP_NUM_THREADS: "1"
+      MKL_NUM_THREADS: "1"
+      OPENBLAS_NUM_THREADS: "1"
+      NUMEXPR_NUM_THREADS: "1"
+      NAS4TG_SEED: "20260101"
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install the analysis tier from the committed lock
+        run: |
+          python -m pip install --upgrade pip
+          # From the lock alone, with no extra flags — if this needs a flag the
+          # documentation lied.
+          pip install -r requirements/analysis.txt
+          pip install -r requirements/dev.txt
+          pip install -e . --no-deps
+
+      - name: No credentials in tracked files
+        # Added after GitGuardian flagged a Terraform provider checksum as a high-entropy
+        # secret. It was right to fire and wrong about the cause, so the distinction is
+        # checked here — before a push — rather than reported by an external service after
+        # one. Every high-entropy string must match a format documented as public
+        # integrity data, or a human classifies it.
+        run: python -m nas4textgen.audit_secrets
+
+      - name: Environment imports and runs, not merely installs
+        run: python -m nas4textgen.check_env
+
+      - name: The analysis lock describes what is installed
+        # The same audit the training image runs on itself, pointed at this tier's lock.
+        # Drift here is the cheap rehearsal for drift in the image, where it would be
+        # invisible: a container that runs and produces numbers while the manifest records
+        # a lock hash describing a file that no longer describes the container.
+        run: python -m nas4textgen.audit_image --lock requirements/analysis.txt
+
+      - name: The replication document matches the declaration
+        # Regenerated from code, so a stale document fails here rather than misleading a
+        # reader who follows it.
+        run: python -m nas4textgen.cli replication --check
+
+      - name: Structural gate
+        run: python -m nas4textgen.cli gate
+
+      - name: Enumeration and the exact cost front
+        run: python -m nas4textgen.cli enumerate
+
+      - name: Sampling designs and the nested execution order
+        run: python -m nas4textgen.cli designs
+
+      - name: The audit of the prior protocol, re-derived rather than quoted
+        # Section 5 of the paper rests on these figures. They were constants in a test
+        # fixture until this command existed, which is the position the paper criticises
+        # in the work it audits. A few seconds on CPU; the corpus is a small download.
+        run: python -m nas4textgen.cli audit
+
+      - name: The reviewer-objection registry still points at real files
+        # Every objection cites the artifact that answers it and quotes the reviewer
+        # verbatim. A rename breaks a citation silently, and a paraphrase that drifts from
+        # what was asked is worse than no answer, so both are checked here.
+        run: python -m nas4textgen.cli objections
+
+      - name: Gate and space invariants
+        run: python -m pytest tests/ -q -m "gate or not (gpu or slow)"
+
+      - name: A corpus slice, retrieved and tokenised
+        # A slice, not the corpus: the four in full are several gigabytes and every pull
+        # request would wait on them. What this proves is that the retrieval and
+        # tokenisation path runs from a clean checkout — the two stages of the tier that
+        # touch data rather than only arithmetic.
+        run: |
+          python -m nas4textgen.cli fetch --corpus wikitext103 --limit 4000
+          # Named here too. Without it this encodes every corpus in the registry and only
+          # one was fetched, which is how a clean-checkout run produced correct output for
+          # WikiText-103 and then exited non-zero on TinyStories.
+          python -m nas4textgen.cli tokenise --corpus wikitext103
+
+      - name: The smoke tier — the training path, end to end
+        # The verify tier proves the analysis reproduces and says nothing about whether a
+        # model can be trained at all. This trains one tiny architecture on CPU and checks
+        # that its manifest carries every field the benchmark assembly reads: a run missing
+        # `usable_for_benchmark` is dropped at assembly, and finding that here costs two
+        # minutes instead of twelve days.
+        #
+        # The perplexity is meaningless at this budget and is not compared. The tier's own
+        # declaration says so, which is why this step asserts structure rather than value.
+        run: python -m nas4textgen.cli verify --tier smoke --into /tmp/smoke-tier
+
+      - name: Bit-exactness — the same commands twice must agree
+        run: |
+          python -m nas4textgen.cli enumerate
+          cp artifacts/space/enumeration.csv /tmp/first.csv
+          rm -rf artifacts
+          python -m nas4textgen.cli enumerate
+          diff -q /tmp/first.csv artifacts/space/enumeration.csv \
+            || { echo "enumeration is not reproducible between runs"; exit 1; }
+          echo "enumeration reproduced byte for byte"
+
+      - name: No AI attribution in the commit range
+        run: |
+          if git log --format='%B' "${{ github.event.before || 'HEAD~1' }}..HEAD" 2>/dev/null \
+             | grep -iE 'co-authored-by:.*(claude|anthropic|copilot|gpt)'; then
+            echo "AI attribution found in a commit message; see openspec/config.yaml"
+            exit 1
+          fi
+          echo "none found"
+
+      - name: Publish the verify-tier artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: verify-artifacts
+          path: artifacts/

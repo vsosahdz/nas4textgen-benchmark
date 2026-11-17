@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "written_at": "2026-08-07T08:25:19+00:00",
+    "git_revision": "780d19d368d9072d5d0b7cb168f281395205f27f",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": "0",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "seed": "20260101",
+    "command": "nas4textgen enumerate"
+  },
+  "cardinality": 1099,
+  "total_before_ceiling": 1386,
+  "parameter_ceiling": 150000000,
+  "excluded": 287,
+  "excluded_fraction": 0.207071,
+  "reference_context": 1024,
+  "reference_point": [
+    152137036.8,
+    52848230.400000006
+  ],
+  "cost_front_size": 1,
+  "cost_front_indices": [
+    0
+  ],
+  "params_range": [
+    3340736,
+    144892416
+  ],
+  "kv_bytes_range": [
+    262144,
+    50331648
+  ]
+}

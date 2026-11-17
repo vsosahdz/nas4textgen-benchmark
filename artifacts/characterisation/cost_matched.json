@@ -1,0 +1,943 @@
+{
+  "provenance": {
+    "written_at": "2026-10-14T18:04:55+00:00",
+    "git_revision": "d37fa83daec56b17effa54e43ea6f0794cacabeb",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen matched"
+  },
+  "bands": 5,
+  "cost_definitions": [
+    "parameters",
+    "kv_cache_bytes"
+  ],
+  "comparisons": [
+    {
+      "corpus": "wikitext103 (front only)",
+      "seed": null,
+      "cost": "parameters",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        320.571,
+        195.606,
+        147.852,
+        96.188,
+        71.178
+      ],
+      "wide_mean_perplexity": [
+        349.983,
+        176.159,
+        130.713,
+        108.047,
+        73.862
+      ],
+      "delta_deep_minus_wide": [
+        -29.412,
+        19.446,
+        17.139,
+        -11.859,
+        -2.684
+      ],
+      "bands_won_by_width": 2,
+      "unanimous": false
+    },
+    {
+      "corpus": "wikitext103 (front only)",
+      "seed": null,
+      "cost": "kv_cache_bytes",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        359.623,
+        313.221,
+        228.23,
+        225.672,
+        192.257
+      ],
+      "wide_mean_perplexity": [
+        122.119,
+        98.009,
+        105.001,
+        90.348,
+        73.384
+      ],
+      "delta_deep_minus_wide": [
+        237.504,
+        215.212,
+        123.229,
+        135.325,
+        118.873
+      ],
+      "bands_won_by_width": 5,
+      "unanimous": true
+    },
+    {
+      "corpus": "babylm",
+      "seed": null,
+      "cost": "parameters",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        104.867,
+        71.313,
+        61.068,
+        48.352,
+        42.312
+      ],
+      "wide_mean_perplexity": [
+        110.651,
+        68.997,
+        58.12,
+        52.902,
+        44.708
+      ],
+      "delta_deep_minus_wide": [
+        -5.784,
+        2.316,
+        2.948,
+        -4.549,
+        -2.396
+      ],
+      "bands_won_by_width": 2,
+      "unanimous": false
+    },
+    {
+      "corpus": "babylm",
+      "seed": null,
+      "cost": "kv_cache_bytes",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        110.855,
+        100.58,
+        90.731,
+        78.262,
+        71.438
+      ],
+      "wide_mean_perplexity": [
+        53.704,
+        52.091,
+        47.847,
+        48.494,
+        44.343
+      ],
+      "delta_deep_minus_wide": [
+        57.151,
+        48.489,
+        42.884,
+        29.769,
+        27.095
+      ],
+      "bands_won_by_width": 5,
+      "unanimous": true
+    },
+    {
+      "corpus": "babylm",
+      "seed": 0,
+      "cost": "parameters",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        105.28,
+        71.273,
+        61.081,
+        48.379,
+        42.309
+      ],
+      "wide_mean_perplexity": [
+        110.536,
+        68.923,
+        58.06,
+        52.853,
+        44.855
+      ],
+      "delta_deep_minus_wide": [
+        -5.257,
+        2.35,
+        3.021,
+        -4.474,
+        -2.546
+      ],
+      "bands_won_by_width": 2,
+      "unanimous": false
+    },
+    {
+      "corpus": "babylm",
+      "seed": 0,
+      "cost": "kv_cache_bytes",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        113.715,
+        89.485,
+        92.843,
+        80.406,
+        71.373
+      ],
+      "wide_mean_perplexity": [
+        55.485,
+        49.025,
+        51.515,
+        46.261,
+        44.455
+      ],
+      "delta_deep_minus_wide": [
+        58.229,
+        40.459,
+        41.328,
+        34.145,
+        26.918
+      ],
+      "bands_won_by_width": 5,
+      "unanimous": true
+    },
+    {
+      "corpus": "babylm",
+      "seed": 1,
+      "cost": "parameters",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        104.919,
+        71.43,
+        60.961,
+        48.327,
+        42.313
+      ],
+      "wide_mean_perplexity": [
+        110.962,
+        69.058,
+        58.132,
+        52.902,
+        44.627
+      ],
+      "delta_deep_minus_wide": [
+        -6.042,
+        2.372,
+        2.829,
+        -4.575,
+        -2.314
+      ],
+      "bands_won_by_width": 2,
+      "unanimous": false
+    },
+    {
+      "corpus": "babylm",
+      "seed": 1,
+      "cost": "kv_cache_bytes",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        106.661,
+        106.135,
+        85.704,
+        77.83,
+        71.513
+      ],
+      "wide_mean_perplexity": [
+        57.019,
+        49.505,
+        49.691,
+        47.796,
+        44.307
+      ],
+      "delta_deep_minus_wide": [
+        49.642,
+        56.631,
+        36.013,
+        30.033,
+        27.206
+      ],
+      "bands_won_by_width": 5,
+      "unanimous": true
+    },
+    {
+      "corpus": "babylm",
+      "seed": 2,
+      "cost": "parameters",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        104.402,
+        71.237,
+        61.161,
+        48.35,
+        42.314
+      ],
+      "wide_mean_perplexity": [
+        110.455,
+        69.01,
+        58.168,
+        52.949,
+        44.642
+      ],
+      "delta_deep_minus_wide": [
+        -6.054,
+        2.227,
+        2.993,
+        -4.599,
+        -2.327
+      ],
+      "bands_won_by_width": 2,
+      "unanimous": false
+    },
+    {
+      "corpus": "babylm",
+      "seed": 2,
+      "cost": "kv_cache_bytes",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        108.82,
+        97.759,
+        89.208,
+        79.238,
+        71.427
+      ],
+      "wide_mean_perplexity": [
+        54.374,
+        51.757,
+        48.149,
+        46.422,
+        44.265
+      ],
+      "delta_deep_minus_wide": [
+        54.447,
+        46.002,
+        41.059,
+        32.816,
+        27.162
+      ],
+      "bands_won_by_width": 5,
+      "unanimous": true
+    },
+    {
+      "corpus": "stack_python",
+      "seed": null,
+      "cost": "parameters",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        23.515,
+        15.119,
+        12.019,
+        8.188,
+        6.083
+      ],
+      "wide_mean_perplexity": [
+        25.687,
+        15.253,
+        12.293,
+        10.747,
+        7.398
+      ],
+      "delta_deep_minus_wide": [
+        -2.172,
+        -0.135,
+        -0.274,
+        -2.559,
+        -1.315
+      ],
+      "bands_won_by_width": 0,
+      "unanimous": false
+    },
+    {
+      "corpus": "stack_python",
+      "seed": null,
+      "cost": "kv_cache_bytes",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        25.89,
+        20.151,
+        19.891,
+        17.721,
+        14.556
+      ],
+      "wide_mean_perplexity": [
+        11.59,
+        10.68,
+        8.177,
+        8.299,
+        6.881
+      ],
+      "delta_deep_minus_wide": [
+        14.301,
+        9.471,
+        11.714,
+        9.422,
+        7.676
+      ],
+      "bands_won_by_width": 5,
+      "unanimous": true
+    },
+    {
+      "corpus": "stack_python",
+      "seed": 0,
+      "cost": "parameters",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        23.509,
+        15.135,
+        11.972,
+        8.239,
+        6.123
+      ],
+      "wide_mean_perplexity": [
+        25.74,
+        15.218,
+        12.128,
+        10.808,
+        7.465
+      ],
+      "delta_deep_minus_wide": [
+        -2.231,
+        -0.083,
+        -0.156,
+        -2.57,
+        -1.342
+      ],
+      "bands_won_by_width": 0,
+      "unanimous": false
+    },
+    {
+      "corpus": "stack_python",
+      "seed": 0,
+      "cost": "kv_cache_bytes",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        26.875,
+        19.861,
+        20.544,
+        16.316,
+        14.503
+      ],
+      "wide_mean_perplexity": [
+        11.766,
+        10.356,
+        8.368,
+        8.657,
+        7.044
+      ],
+      "delta_deep_minus_wide": [
+        15.11,
+        9.505,
+        12.176,
+        7.659,
+        7.459
+      ],
+      "bands_won_by_width": 5,
+      "unanimous": true
+    },
+    {
+      "corpus": "stack_python",
+      "seed": 1,
+      "cost": "parameters",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        23.502,
+        15.115,
+        11.959,
+        8.201,
+        6.058
+      ],
+      "wide_mean_perplexity": [
+        25.743,
+        15.198,
+        12.386,
+        10.663,
+        7.279
+      ],
+      "delta_deep_minus_wide": [
+        -2.241,
+        -0.083,
+        -0.427,
+        -2.463,
+        -1.221
+      ],
+      "bands_won_by_width": 0,
+      "unanimous": false
+    },
+    {
+      "corpus": "stack_python",
+      "seed": 1,
+      "cost": "kv_cache_bytes",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        24.267,
+        24.01,
+        18.478,
+        16.564,
+        14.543
+      ],
+      "wide_mean_perplexity": [
+        11.288,
+        10.804,
+        7.996,
+        8.512,
+        6.765
+      ],
+      "delta_deep_minus_wide": [
+        12.98,
+        13.207,
+        10.481,
+        8.052,
+        7.778
+      ],
+      "bands_won_by_width": 5,
+      "unanimous": true
+    },
+    {
+      "corpus": "stack_python",
+      "seed": 2,
+      "cost": "parameters",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        23.534,
+        15.105,
+        12.128,
+        8.125,
+        6.069
+      ],
+      "wide_mean_perplexity": [
+        25.577,
+        15.343,
+        12.366,
+        10.77,
+        7.45
+      ],
+      "delta_deep_minus_wide": [
+        -2.042,
+        -0.238,
+        -0.239,
+        -2.645,
+        -1.381
+      ],
+      "bands_won_by_width": 0,
+      "unanimous": false
+    },
+    {
+      "corpus": "stack_python",
+      "seed": 2,
+      "cost": "kv_cache_bytes",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        28.213,
+        19.984,
+        18.347,
+        17.734,
+        14.645
+      ],
+      "wide_mean_perplexity": [
+        11.243,
+        10.68,
+        8.662,
+        7.979,
+        6.834
+      ],
+      "delta_deep_minus_wide": [
+        16.97,
+        9.305,
+        9.685,
+        9.755,
+        7.812
+      ],
+      "bands_won_by_width": 5,
+      "unanimous": true
+    },
+    {
+      "corpus": "tinystories",
+      "seed": null,
+      "cost": "parameters",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        34.364,
+        17.908,
+        13.332,
+        8.787,
+        7.012
+      ],
+      "wide_mean_perplexity": [
+        40.838,
+        17.228,
+        12.344,
+        10.254,
+        7.683
+      ],
+      "delta_deep_minus_wide": [
+        -6.475,
+        0.68,
+        0.988,
+        -1.467,
+        -0.671
+      ],
+      "bands_won_by_width": 2,
+      "unanimous": false
+    },
+    {
+      "corpus": "tinystories",
+      "seed": null,
+      "cost": "kv_cache_bytes",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        40.464,
+        36.338,
+        23.362,
+        22.57,
+        17.362
+      ],
+      "wide_mean_perplexity": [
+        11.765,
+        10.518,
+        8.604,
+        8.247,
+        7.441
+      ],
+      "delta_deep_minus_wide": [
+        28.699,
+        25.82,
+        14.758,
+        14.323,
+        9.921
+      ],
+      "bands_won_by_width": 5,
+      "unanimous": true
+    },
+    {
+      "corpus": "tinystories",
+      "seed": 0,
+      "cost": "parameters",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        34.533,
+        17.852,
+        13.339,
+        8.801,
+        7.009
+      ],
+      "wide_mean_perplexity": [
+        41.006,
+        17.179,
+        12.336,
+        10.253,
+        7.699
+      ],
+      "delta_deep_minus_wide": [
+        -6.473,
+        0.673,
+        1.003,
+        -1.452,
+        -0.691
+      ],
+      "bands_won_by_width": 2,
+      "unanimous": false
+    },
+    {
+      "corpus": "tinystories",
+      "seed": 0,
+      "cost": "kv_cache_bytes",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        45.519,
+        29.734,
+        23.051,
+        23.197,
+        17.392
+      ],
+      "wide_mean_perplexity": [
+        11.006,
+        10.987,
+        9.036,
+        8.804,
+        7.438
+      ],
+      "delta_deep_minus_wide": [
+        34.513,
+        18.747,
+        14.014,
+        14.393,
+        9.953
+      ],
+      "bands_won_by_width": 5,
+      "unanimous": true
+    },
+    {
+      "corpus": "tinystories",
+      "seed": 1,
+      "cost": "parameters",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        34.27,
+        17.991,
+        13.364,
+        8.783,
+        7.009
+      ],
+      "wide_mean_perplexity": [
+        40.761,
+        17.289,
+        12.362,
+        10.261,
+        7.687
+      ],
+      "delta_deep_minus_wide": [
+        -6.491,
+        0.702,
+        1.001,
+        -1.478,
+        -0.678
+      ],
+      "bands_won_by_width": 2,
+      "unanimous": false
+    },
+    {
+      "corpus": "tinystories",
+      "seed": 1,
+      "cost": "kv_cache_bytes",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        43.445,
+        25.467,
+        27.978,
+        23.371,
+        17.428
+      ],
+      "wide_mean_perplexity": [
+        11.003,
+        10.74,
+        8.39,
+        8.775,
+        7.462
+      ],
+      "delta_deep_minus_wide": [
+        32.441,
+        14.727,
+        19.588,
+        14.596,
+        9.966
+      ],
+      "bands_won_by_width": 5,
+      "unanimous": true
+    },
+    {
+      "corpus": "tinystories",
+      "seed": 2,
+      "cost": "parameters",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        34.119,
+        17.939,
+        13.287,
+        8.761,
+        7.024
+      ],
+      "wide_mean_perplexity": [
+        40.58,
+        17.268,
+        12.342,
+        10.246,
+        7.648
+      ],
+      "delta_deep_minus_wide": [
+        -6.462,
+        0.671,
+        0.945,
+        -1.485,
+        -0.624
+      ],
+      "bands_won_by_width": 2,
+      "unanimous": false
+    },
+    {
+      "corpus": "tinystories",
+      "seed": 2,
+      "cost": "kv_cache_bytes",
+      "bands": 5,
+      "architectures": 220,
+      "deep_mean_perplexity": [
+        39.319,
+        34.475,
+        23.237,
+        22.358,
+        17.294
+      ],
+      "wide_mean_perplexity": [
+        10.819,
+        9.611,
+        9.506,
+        8.805,
+        7.427
+      ],
+      "delta_deep_minus_wide": [
+        28.5,
+        24.864,
+        13.731,
+        13.553,
+        9.867
+      ],
+      "bands_won_by_width": 5,
+      "unanimous": true
+    },
+    {
+      "corpus": "wikitext103",
+      "seed": null,
+      "cost": "parameters",
+      "bands": 5,
+      "architectures": 1099,
+      "deep_mean_perplexity": [
+        341.371,
+        156.502,
+        114.533,
+        93.435,
+        75.966
+      ],
+      "wide_mean_perplexity": [
+        257.649,
+        139.077,
+        101.187,
+        82.196,
+        63.76
+      ],
+      "delta_deep_minus_wide": [
+        83.721,
+        17.425,
+        13.346,
+        11.239,
+        12.206
+      ],
+      "bands_won_by_width": 5,
+      "unanimous": true
+    },
+    {
+      "corpus": "wikitext103",
+      "seed": null,
+      "cost": "kv_cache_bytes",
+      "bands": 5,
+      "architectures": 1099,
+      "deep_mean_perplexity": [
+        292.684,
+        247.219,
+        205.08,
+        173.674,
+        125.937
+      ],
+      "wide_mean_perplexity": [
+        112.634,
+        96.087,
+        80.789,
+        76.526,
+        69.921
+      ],
+      "delta_deep_minus_wide": [
+        180.049,
+        151.132,
+        124.291,
+        97.148,
+        56.016
+      ],
+      "bands_won_by_width": 5,
+      "unanimous": true
+    },
+    {
+      "corpus": "wikitext103",
+      "seed": 0,
+      "cost": "parameters",
+      "bands": 5,
+      "architectures": 1099,
+      "deep_mean_perplexity": [
+        341.371,
+        156.509,
+        114.533,
+        93.435,
+        75.966
+      ],
+      "wide_mean_perplexity": [
+        257.649,
+        139.077,
+        101.187,
+        82.196,
+        63.76
+      ],
+      "delta_deep_minus_wide": [
+        83.721,
+        17.433,
+        13.346,
+        11.239,
+        12.206
+      ],
+      "bands_won_by_width": 5,
+      "unanimous": true
+    },
+    {
+      "corpus": "wikitext103",
+      "seed": 0,
+      "cost": "kv_cache_bytes",
+      "bands": 5,
+      "architectures": 1099,
+      "deep_mean_perplexity": [
+        292.684,
+        247.219,
+        205.08,
+        173.075,
+        126.538
+      ],
+      "wide_mean_perplexity": [
+        112.634,
+        96.087,
+        80.789,
+        76.923,
+        69.535
+      ],
+      "delta_deep_minus_wide": [
+        180.049,
+        151.132,
+        124.291,
+        96.152,
+        57.003
+      ],
+      "bands_won_by_width": 5,
+      "unanimous": true
+    }
+  ],
+  "bands_won_by_width": {
+    "parameters": {
+      "total": 28,
+      "of": 75
+    },
+    "kv_cache_bytes": {
+      "total": 75,
+      "of": 75
+    }
+  },
+  "unanimous_everywhere": false,
+  "what_this_runs_over": "The 220 architectures of the measured front, which is the only set retrained off the search corpus. A front is selected for being Pareto-optimal, so this asks whether the ordering holds among good architectures elsewhere, not whether a second census would reproduce it.",
+  "why_two_definitions_of_cost": "Parameter count and key-value cache size rank the space differently \u2014 the structural gate accepts the space only because their rank correlation is +0.661 \u2014 so matching on one is not matching on the other, and a shape conclusion can hold under one definition and fail under the other."
+}

@@ -1,0 +1,36 @@
+{
+  "title": "An Exhaustively Measured Benchmark for Multi-Objective Neural Architecture Search in Text Generation",
+  "upload_type": "dataset",
+  "description": "<p>Benchmark table, exact Pareto fronts, run manifests, cost artifact and analysis code for an exhaustive census of a DistilGPT2-derived design space. All 1,099 architectures were trained to an identical budget of 100 million tokens under one protocol, which makes the Pareto front over held-out perplexity, parameter count and key-value cache size exact rather than estimated.</p><p>The analysis code and the data it reads are archived in the same revision, so any result can be recomputed against the measurements it came from.</p>",
+  "creators": [
+    {
+      "name": "Sánchez Miranda, Israel",
+      "affiliation": "Tecnológico de Monterrey, School of Engineering and Sciences"
+    },
+    {
+      "name": "Sarmiento-Rosales, Sergio",
+      "affiliation": "Tecnológico de Monterrey, School of Engineering and Sciences",
+      "orcid": "0000-0001-9219-7223"
+    },
+    {
+      "name": "Pescador-Rojas, Miriam",
+      "affiliation": "Escuela Superior de Cómputo, Instituto Politécnico Nacional"
+    },
+    {
+      "name": "Sosa Hernández, Víctor Adrián",
+      "affiliation": "Tecnológico de Monterrey, School of Engineering and Sciences",
+      "orcid": "0000-0002-1099-8148"
+    }
+  ],
+  "license": "Apache-2.0",
+  "access_right": "open",
+  "keywords": [
+    "neural architecture search",
+    "multi-objective optimization",
+    "text generation",
+    "large language models",
+    "benchmark",
+    "Pareto front"
+  ],
+  "language": "eng"
+}

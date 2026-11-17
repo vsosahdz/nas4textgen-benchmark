@@ -1,0 +1,1569 @@
+{
+  "provenance": {
+    "written_at": "2026-10-07T05:49:55+00:00",
+    "git_revision": "d37fa83daec56b17effa54e43ea6f0794cacabeb",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen battery --submit"
+  },
+  "outcomes": [
+    {
+      "fingerprint": "3f0e0574054f3f03",
+      "job_name": "nas-3f0e0574054f3f03-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n12-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7317s"
+    },
+    {
+      "fingerprint": "4adfccb6ebb5aff2",
+      "job_name": "nas-4adfccb6ebb5aff2-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5466s"
+    },
+    {
+      "fingerprint": "b6694df7e62f7f4b",
+      "job_name": "nas-b6694df7e62f7f4b-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n8-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7881s"
+    },
+    {
+      "fingerprint": "d09cd377cd603a97",
+      "job_name": "nas-d09cd377cd603a97-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6725s"
+    },
+    {
+      "fingerprint": "16bf10597e16f1ef",
+      "job_name": "nas-16bf10597e16f1ef-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n2-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6839s"
+    },
+    {
+      "fingerprint": "a764e04d69c7efee",
+      "job_name": "nas-a764e04d69c7efee-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n8-f3-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7881s"
+    },
+    {
+      "fingerprint": "16ba53589accc777",
+      "job_name": "nas-16ba53589accc777-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n4-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5151s"
+    },
+    {
+      "fingerprint": "11bf05597d2e324c",
+      "job_name": "nas-11bf05597d2e324c-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n12-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8199s"
+    },
+    {
+      "fingerprint": "955e9fa77fee4815",
+      "job_name": "nas-955e9fa77fee4815-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n2-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5244s"
+    },
+    {
+      "fingerprint": "330e5328613f7cbc",
+      "job_name": "nas-330e5328613f7cbc-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n12-f3-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8199s"
+    },
+    {
+      "fingerprint": "a424c9b64dcef007",
+      "job_name": "nas-a424c9b64dcef007-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n2-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4783s"
+    },
+    {
+      "fingerprint": "9e1cb545f05c67ba",
+      "job_name": "nas-9e1cb545f05c67ba-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n12-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7317s"
+    },
+    {
+      "fingerprint": "cc691b67c8364fa2",
+      "job_name": "nas-cc691b67c8364fa2-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n8-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6245s"
+    },
+    {
+      "fingerprint": "16345e8881c367d1",
+      "job_name": "nas-16345e8881c367d1-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n8-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6832s"
+    },
+    {
+      "fingerprint": "9ab61a9c167d9891",
+      "job_name": "nas-9ab61a9c167d9891-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5550s"
+    },
+    {
+      "fingerprint": "640f8e3d573aea4c",
+      "job_name": "nas-640f8e3d573aea4c-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n6-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6149s"
+    },
+    {
+      "fingerprint": "97ce71a555989509",
+      "job_name": "nas-97ce71a555989509-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5130s"
+    },
+    {
+      "fingerprint": "835e754d2ddc225c",
+      "job_name": "nas-835e754d2ddc225c-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n2-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6461s"
+    },
+    {
+      "fingerprint": "bd37585087f12cc7",
+      "job_name": "nas-bd37585087f12cc7-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f4-kv6 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5139s"
+    },
+    {
+      "fingerprint": "e5053c4da1c8195f",
+      "job_name": "nas-e5053c4da1c8195f-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n6-f3-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8037s"
+    },
+    {
+      "fingerprint": "efc05b99ca7159f5",
+      "job_name": "nas-efc05b99ca7159f5-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n6-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6275s"
+    },
+    {
+      "fingerprint": "a41f14132e97026f",
+      "job_name": "nas-a41f14132e97026f-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n6-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5645s"
+    },
+    {
+      "fingerprint": "90b8c8a7c8d858c9",
+      "job_name": "nas-90b8c8a7c8d858c9-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n2-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4615s"
+    },
+    {
+      "fingerprint": "9d08bfced566d7de",
+      "job_name": "nas-9d08bfced566d7de-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n4-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5172s"
+    },
+    {
+      "fingerprint": "211a202cd5d4b1bb",
+      "job_name": "nas-211a202cd5d4b1bb-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n6-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8541s"
+    },
+    {
+      "fingerprint": "d7a52952d9a3735e",
+      "job_name": "nas-d7a52952d9a3735e-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n6-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5677s"
+    },
+    {
+      "fingerprint": "afa3d0e67cf9b039",
+      "job_name": "nas-afa3d0e67cf9b039-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n4-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6725s"
+    },
+    {
+      "fingerprint": "5b362479e3c6cffd",
+      "job_name": "nas-5b362479e3c6cffd-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n4-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5466s"
+    },
+    {
+      "fingerprint": "810b7b03661c14fb",
+      "job_name": "nas-810b7b03661c14fb-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n4-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 9578s"
+    },
+    {
+      "fingerprint": "52cc786644dd1056",
+      "job_name": "nas-52cc786644dd1056-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n6-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 10052s"
+    },
+    {
+      "fingerprint": "b2ff57e2b6764cc6",
+      "job_name": "nas-b2ff57e2b6764cc6-a1",
+      "status": "submitted",
+      "display_name": "h8-d128-n4-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 13103s"
+    },
+    {
+      "fingerprint": "10cf08c3be9cd144",
+      "job_name": "nas-10cf08c3be9cd144-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n4-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6179s"
+    },
+    {
+      "fingerprint": "977ee418d14d21f0",
+      "job_name": "nas-977ee418d14d21f0-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5944s"
+    },
+    {
+      "fingerprint": "df2645e6547f527a",
+      "job_name": "nas-df2645e6547f527a-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n6-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6275s"
+    },
+    {
+      "fingerprint": "672c49e0e56419ed",
+      "job_name": "nas-672c49e0e56419ed-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n6-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 12318s"
+    },
+    {
+      "fingerprint": "f9d80bd249c3e54a",
+      "job_name": "nas-f9d80bd249c3e54a-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n8-f4-kv4 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "134e44a8a638d4e0",
+      "job_name": "nas-134e44a8a638d4e0-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6653s"
+    },
+    {
+      "fingerprint": "131b25aa083c11e7",
+      "job_name": "nas-131b25aa083c11e7-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5580s"
+    },
+    {
+      "fingerprint": "dba6a7aa68a611d2",
+      "job_name": "nas-dba6a7aa68a611d2-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5330s"
+    },
+    {
+      "fingerprint": "7842678367986bc3",
+      "job_name": "nas-7842678367986bc3-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5172s"
+    },
+    {
+      "fingerprint": "8f82d077d39ddffc",
+      "job_name": "nas-8f82d077d39ddffc-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n4-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5072s"
+    },
+    {
+      "fingerprint": "c06234e1f8df77ad",
+      "job_name": "nas-c06234e1f8df77ad-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n12-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7947s"
+    },
+    {
+      "fingerprint": "dbc316f0efc61605",
+      "job_name": "nas-dbc316f0efc61605-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5151s"
+    },
+    {
+      "fingerprint": "9486064eb31a7966",
+      "job_name": "nas-9486064eb31a7966-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f2-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5382s"
+    },
+    {
+      "fingerprint": "bca43a295a8cd99c",
+      "job_name": "nas-bca43a295a8cd99c-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n6-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8541s"
+    },
+    {
+      "fingerprint": "f618fdaaab7d80b0",
+      "job_name": "nas-f618fdaaab7d80b0-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7219s"
+    },
+    {
+      "fingerprint": "596f94c3c018cb0e",
+      "job_name": "nas-596f94c3c018cb0e-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f2-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5802s"
+    },
+    {
+      "fingerprint": "112a0673921449b6",
+      "job_name": "nas-112a0673921449b6-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n2-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4825s"
+    },
+    {
+      "fingerprint": "17c8cb2ea614233b",
+      "job_name": "nas-17c8cb2ea614233b-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n6-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 12318s"
+    },
+    {
+      "fingerprint": "914df4fd6b768b94",
+      "job_name": "nas-914df4fd6b768b94-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n4-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 13103s"
+    },
+    {
+      "fingerprint": "5d6cf254812b95db",
+      "job_name": "nas-5d6cf254812b95db-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n6-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8037s"
+    },
+    {
+      "fingerprint": "ff042a3843421e64",
+      "job_name": "nas-ff042a3843421e64-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n6-f3-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5559s"
+    },
+    {
+      "fingerprint": "de2b409e6474c607",
+      "job_name": "nas-de2b409e6474c607-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n6-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6275s"
+    },
+    {
+      "fingerprint": "9bbdc474a91654d6",
+      "job_name": "nas-9bbdc474a91654d6-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n6-f2-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7534s"
+    },
+    {
+      "fingerprint": "0f157e65e816c3d7",
+      "job_name": "nas-0f157e65e816c3d7-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5244s"
+    },
+    {
+      "fingerprint": "ae19ca5522b1048f",
+      "job_name": "nas-ae19ca5522b1048f-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5580s"
+    },
+    {
+      "fingerprint": "2e72ed53ed2b8d84",
+      "job_name": "nas-2e72ed53ed2b8d84-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n6-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 13577s"
+    },
+    {
+      "fingerprint": "368f15a1f90992d0",
+      "job_name": "nas-368f15a1f90992d0-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5990s"
+    },
+    {
+      "fingerprint": "621497310793497c",
+      "job_name": "nas-621497310793497c-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n4-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5078s"
+    },
+    {
+      "fingerprint": "772143801bd938d4",
+      "job_name": "nas-772143801bd938d4-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n4-f3-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8823s"
+    },
+    {
+      "fingerprint": "d058e199758fa071",
+      "job_name": "nas-d058e199758fa071-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n2-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5045s"
+    },
+    {
+      "fingerprint": "4addf71dee93aa26",
+      "job_name": "nas-4addf71dee93aa26-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n4-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5466s"
+    },
+    {
+      "fingerprint": "296ccd07eae9dcd2",
+      "job_name": "nas-296ccd07eae9dcd2-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n8-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6056s"
+    },
+    {
+      "fingerprint": "e715583386dd1ea3",
+      "job_name": "nas-e715583386dd1ea3-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6559s"
+    },
+    {
+      "fingerprint": "6f366d625a269a01",
+      "job_name": "nas-6f366d625a269a01-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n8-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "d64c7a1553264781",
+      "job_name": "nas-d64c7a1553264781-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n12-f3-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8199s"
+    },
+    {
+      "fingerprint": "a1cec9a5739b5448",
+      "job_name": "nas-a1cec9a5739b5448-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4253s"
+    },
+    {
+      "fingerprint": "e555498bbdc4b0d0",
+      "job_name": "nas-e555498bbdc4b0d0-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7219s"
+    },
+    {
+      "fingerprint": "29bd2e34ba67f9d8",
+      "job_name": "nas-29bd2e34ba67f9d8-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n6-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5645s"
+    },
+    {
+      "fingerprint": "123f4f474a64da38",
+      "job_name": "nas-123f4f474a64da38-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n12-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8450s"
+    },
+    {
+      "fingerprint": "256a2c0ce222f57b",
+      "job_name": "nas-256a2c0ce222f57b-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n6-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8037s"
+    },
+    {
+      "fingerprint": "b1ce119a4d387216",
+      "job_name": "nas-b1ce119a4d387216-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n2-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7930s"
+    },
+    {
+      "fingerprint": "f1dd8737d1f926db",
+      "job_name": "nas-f1dd8737d1f926db-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n4-f3-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 11760s"
+    },
+    {
+      "fingerprint": "d79d7aea49715d5c",
+      "job_name": "nas-d79d7aea49715d5c-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n8-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "0921560f5461befa",
+      "job_name": "nas-0921560f5461befa-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n2-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "50bfd5687c3cdeb8",
+      "job_name": "nas-50bfd5687c3cdeb8-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n6-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 12318s"
+    },
+    {
+      "fingerprint": "eeb4ed8c9ad67070",
+      "job_name": "nas-eeb4ed8c9ad67070-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n8-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 9350s"
+    },
+    {
+      "fingerprint": "73a0d6f278063d10",
+      "job_name": "nas-73a0d6f278063d10-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n8-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7000s"
+    },
+    {
+      "fingerprint": "5d9ea920c7072f00",
+      "job_name": "nas-5d9ea920c7072f00-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f2-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6653s"
+    },
+    {
+      "fingerprint": "fad2534ec6e140f4",
+      "job_name": "nas-fad2534ec6e140f4-a1",
+      "status": "already_present",
+      "display_name": "h2-d32-n2-f2-kv2 wikitext103 s0",
+      "detail": "attempt 1 exists in state Completed; not resubmitted"
+    },
+    {
+      "fingerprint": "825ad528392a7f68",
+      "job_name": "nas-825ad528392a7f68-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f3-kv4 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "c2d6cef05968d89a",
+      "job_name": "nas-c2d6cef05968d89a-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f2-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4667s"
+    },
+    {
+      "fingerprint": "da0f80a0de71b7cc",
+      "job_name": "nas-da0f80a0de71b7cc-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n8-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7000s"
+    },
+    {
+      "fingerprint": "cd3f7f71ddcbe3b5",
+      "job_name": "nas-cd3f7f71ddcbe3b5-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6179s"
+    },
+    {
+      "fingerprint": "a32656ccd7d3632a",
+      "job_name": "nas-a32656ccd7d3632a-a1",
+      "status": "already_present",
+      "display_name": "h6-d64-n4-f4-kv6 wikitext103 s0",
+      "detail": "attempt 1 exists in state Completed; not resubmitted"
+    },
+    {
+      "fingerprint": "40c96c312f140474",
+      "job_name": "nas-40c96c312f140474-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n4-f4-kv4 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5550s"
+    },
+    {
+      "fingerprint": "1d9f11d4ef26ced4",
+      "job_name": "nas-1d9f11d4ef26ced4-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n4-f2-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5382s"
+    },
+    {
+      "fingerprint": "ef5571df0d8bc687",
+      "job_name": "nas-ef5571df0d8bc687-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n2-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6839s"
+    },
+    {
+      "fingerprint": "c75e95a3083d15dc",
+      "job_name": "nas-c75e95a3083d15dc-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4951s"
+    },
+    {
+      "fingerprint": "472ce676b5031a1a",
+      "job_name": "nas-472ce676b5031a1a-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n4-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6725s"
+    },
+    {
+      "fingerprint": "8f47695b8aa0b28d",
+      "job_name": "nas-8f47695b8aa0b28d-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n16-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7098s"
+    },
+    {
+      "fingerprint": "e34f7a8d0acc54fa",
+      "job_name": "nas-e34f7a8d0acc54fa-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n16-f3-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8306s"
+    },
+    {
+      "fingerprint": "15d1cb71bc61bbb6",
+      "job_name": "nas-15d1cb71bc61bbb6-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n8-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 13546s"
+    },
+    {
+      "fingerprint": "b9c92833bab7e46b",
+      "job_name": "nas-b9c92833bab7e46b-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n2-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6839s"
+    },
+    {
+      "fingerprint": "c143f3f910a15e49",
+      "job_name": "nas-c143f3f910a15e49-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n6-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6653s"
+    },
+    {
+      "fingerprint": "25148d0d7ad3eccc",
+      "job_name": "nas-25148d0d7ad3eccc-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f3-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "4ab31a14f1395ac0",
+      "job_name": "nas-4ab31a14f1395ac0-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4572s"
+    },
+    {
+      "fingerprint": "c1d6d0dd727774e2",
+      "job_name": "nas-c1d6d0dd727774e2-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n6-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 11185s"
+    },
+    {
+      "fingerprint": "0b5723693cc953f0",
+      "job_name": "nas-0b5723693cc953f0-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5139s"
+    },
+    {
+      "fingerprint": "55d1c65b25304f66",
+      "job_name": "nas-55d1c65b25304f66-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f3-kv6 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5990s"
+    },
+    {
+      "fingerprint": "43d8c9eb94ea6755",
+      "job_name": "nas-43d8c9eb94ea6755-a1",
+      "status": "submitted",
+      "display_name": "h8-d128-n6-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 15591s"
+    },
+    {
+      "fingerprint": "0c2ec34a14772715",
+      "job_name": "nas-0c2ec34a14772715-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7061s"
+    },
+    {
+      "fingerprint": "36d686a80124b666",
+      "job_name": "nas-36d686a80124b666-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n2-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4625s"
+    },
+    {
+      "fingerprint": "2a2dad14cff3a31a",
+      "job_name": "nas-2a2dad14cff3a31a-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7061s"
+    },
+    {
+      "fingerprint": "22e7ad27b41e39d2",
+      "job_name": "nas-22e7ad27b41e39d2-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n6-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 17605s"
+    },
+    {
+      "fingerprint": "ae3916d54d39dce5",
+      "job_name": "nas-ae3916d54d39dce5-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n2-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4783s"
+    },
+    {
+      "fingerprint": "ac676cfaa12a494d",
+      "job_name": "nas-ac676cfaa12a494d-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n4-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 11760s"
+    },
+    {
+      "fingerprint": "ec865c30985d6616",
+      "job_name": "nas-ec865c30985d6616-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n2-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4589s"
+    },
+    {
+      "fingerprint": "7c8ff162f69d5ec3",
+      "job_name": "nas-7c8ff162f69d5ec3-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f3-kv6 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5874s"
+    },
+    {
+      "fingerprint": "63fb722471059c73",
+      "job_name": "nas-63fb722471059c73-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5172s"
+    },
+    {
+      "fingerprint": "9fbd9c3fd612d50b",
+      "job_name": "nas-9fbd9c3fd612d50b-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f2-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5803s"
+    },
+    {
+      "fingerprint": "9664c4ce7781f1ff",
+      "job_name": "nas-9664c4ce7781f1ff-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n2-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4741s"
+    },
+    {
+      "fingerprint": "012d23381730aa2c",
+      "job_name": "nas-012d23381730aa2c-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f2-kv6 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4951s"
+    },
+    {
+      "fingerprint": "a25c5b8402317cf8",
+      "job_name": "nas-a25c5b8402317cf8-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n2-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4951s"
+    },
+    {
+      "fingerprint": "6b028612959cef76",
+      "job_name": "nas-6b028612959cef76-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n16-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8306s"
+    },
+    {
+      "fingerprint": "85413853a1e65d7e",
+      "job_name": "nas-85413853a1e65d7e-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n4-f2-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5382s"
+    },
+    {
+      "fingerprint": "c0a1088a93bf53ad",
+      "job_name": "nas-c0a1088a93bf53ad-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n2-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4825s"
+    },
+    {
+      "fingerprint": "316e7d5f18531686",
+      "job_name": "nas-316e7d5f18531686-a1",
+      "status": "submitted",
+      "display_name": "h12-d128-n2-f3-kv4 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 12126s"
+    },
+    {
+      "fingerprint": "fbb22f4ac7b3f15d",
+      "job_name": "nas-fbb22f4ac7b3f15d-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n2-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4741s"
+    },
+    {
+      "fingerprint": "4c054bc119c9ac93",
+      "job_name": "nas-4c054bc119c9ac93-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n2-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6461s"
+    },
+    {
+      "fingerprint": "ae7995c27fd060d6",
+      "job_name": "nas-ae7995c27fd060d6-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f2-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5130s"
+    },
+    {
+      "fingerprint": "479da36a01904011",
+      "job_name": "nas-479da36a01904011-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n4-f3-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8823s"
+    },
+    {
+      "fingerprint": "c48e17109dbf08d4",
+      "job_name": "nas-c48e17109dbf08d4-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5382s"
+    },
+    {
+      "fingerprint": "01962b0eb50b78d7",
+      "job_name": "nas-01962b0eb50b78d7-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5550s"
+    },
+    {
+      "fingerprint": "5982bba04c6e0cbb",
+      "job_name": "nas-5982bba04c6e0cbb-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n8-f3-kv4 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6832s"
+    },
+    {
+      "fingerprint": "0d555360d5311258",
+      "job_name": "nas-0d555360d5311258-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n4-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8823s"
+    },
+    {
+      "fingerprint": "f8bd524875a2e5a1",
+      "job_name": "nas-f8bd524875a2e5a1-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n2-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4586s"
+    },
+    {
+      "fingerprint": "877e783a01b06def",
+      "job_name": "nas-877e783a01b06def-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "b44a8bfe574daf12",
+      "job_name": "nas-b44a8bfe574daf12-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5802s"
+    },
+    {
+      "fingerprint": "51621f76f09c97ba",
+      "job_name": "nas-51621f76f09c97ba-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f2-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6389s"
+    },
+    {
+      "fingerprint": "4948b6a2214fee84",
+      "job_name": "nas-4948b6a2214fee84-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n12-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7648s"
+    },
+    {
+      "fingerprint": "7c737cf61a2e00bd",
+      "job_name": "nas-7c737cf61a2e00bd-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n4-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6389s"
+    },
+    {
+      "fingerprint": "11fa45a7595c7b0f",
+      "job_name": "nas-11fa45a7595c7b0f-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6559s"
+    },
+    {
+      "fingerprint": "d55a6af102ef5aa6",
+      "job_name": "nas-d55a6af102ef5aa6-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n6-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 10052s"
+    },
+    {
+      "fingerprint": "62b14ea3e6a85b55",
+      "job_name": "nas-62b14ea3e6a85b55-a1",
+      "status": "submitted",
+      "display_name": "h12-d128-n4-f2-kv6 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 16664s"
+    },
+    {
+      "fingerprint": "399c8ff1c20cf572",
+      "job_name": "nas-399c8ff1c20cf572-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n2-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4625s"
+    },
+    {
+      "fingerprint": "95b068ecc751627c",
+      "job_name": "nas-95b068ecc751627c-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n8-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "c36452541b985f72",
+      "job_name": "nas-c36452541b985f72-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n2-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5139s"
+    },
+    {
+      "fingerprint": "c4781f155d8aa25f",
+      "job_name": "nas-c4781f155d8aa25f-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n2-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5580s"
+    },
+    {
+      "fingerprint": "470a76aecdf21079",
+      "job_name": "nas-470a76aecdf21079-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n4-f4-kv6 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 9578s"
+    },
+    {
+      "fingerprint": "47674b6df3b38ef6",
+      "job_name": "nas-47674b6df3b38ef6-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n4-f3-kv4 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6725s"
+    },
+    {
+      "fingerprint": "f19b4d1138aace26",
+      "job_name": "nas-f19b4d1138aace26-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n6-f3-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6149s"
+    },
+    {
+      "fingerprint": "04b5dc044a3c0204",
+      "job_name": "nas-04b5dc044a3c0204-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n6-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5559s"
+    },
+    {
+      "fingerprint": "9f6e4ed3b3fb3aa9",
+      "job_name": "nas-9f6e4ed3b3fb3aa9-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4715s"
+    },
+    {
+      "fingerprint": "d052e05a2c75964f",
+      "job_name": "nas-d052e05a2c75964f-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f2-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4951s"
+    },
+    {
+      "fingerprint": "cbd8a236696faf5b",
+      "job_name": "nas-cbd8a236696faf5b-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5330s"
+    },
+    {
+      "fingerprint": "9898e5929278ad6a",
+      "job_name": "nas-9898e5929278ad6a-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n6-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6023s"
+    },
+    {
+      "fingerprint": "56e793a1723e4f2f",
+      "job_name": "nas-56e793a1723e4f2f-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f4-kv6 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4715s"
+    },
+    {
+      "fingerprint": "17cb7edb9c1de7ec",
+      "job_name": "nas-17cb7edb9c1de7ec-a1",
+      "status": "already_present",
+      "display_name": "h16-d64-n8-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 exists in state Completed; not resubmitted"
+    },
+    {
+      "fingerprint": "ce5341414afb81cc",
+      "job_name": "nas-ce5341414afb81cc-a1",
+      "status": "submitted",
+      "display_name": "h8-d128-n2-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8601s"
+    },
+    {
+      "fingerprint": "d5309d4f7b73e019",
+      "job_name": "nas-d5309d4f7b73e019-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4691s"
+    },
+    {
+      "fingerprint": "c21833b7525fa7a2",
+      "job_name": "nas-c21833b7525fa7a2-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4667s"
+    },
+    {
+      "fingerprint": "0ae4cb2096bb121b",
+      "job_name": "nas-0ae4cb2096bb121b-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n6-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8541s"
+    },
+    {
+      "fingerprint": "80ce72dd1413ca5b",
+      "job_name": "nas-80ce72dd1413ca5b-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f3-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5874s"
+    },
+    {
+      "fingerprint": "2b15e43272c35e02",
+      "job_name": "nas-2b15e43272c35e02-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n2-f3-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4586s"
+    },
+    {
+      "fingerprint": "c620f0bac4ecfc5a",
+      "job_name": "nas-c620f0bac4ecfc5a-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n6-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8037s"
+    },
+    {
+      "fingerprint": "f8d39bef72839c53",
+      "job_name": "nas-f8d39bef72839c53-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5235s"
+    },
+    {
+      "fingerprint": "f17482eeace2436a",
+      "job_name": "nas-f17482eeace2436a-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f3-kv6 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6465s"
+    },
+    {
+      "fingerprint": "9efe3d5cfd313ee5",
+      "job_name": "nas-9efe3d5cfd313ee5-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f4-kv6 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6559s"
+    },
+    {
+      "fingerprint": "8d274dcb7395ea49",
+      "job_name": "nas-8d274dcb7395ea49-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n2-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "383aa661bfaab951",
+      "job_name": "nas-383aa661bfaab951-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n8-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "dc5688a26e64f7d5",
+      "job_name": "nas-dc5688a26e64f7d5-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n6-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8541s"
+    },
+    {
+      "fingerprint": "668dc4e89de6a2f3",
+      "job_name": "nas-668dc4e89de6a2f3-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n12-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8450s"
+    },
+    {
+      "fingerprint": "4d8a6d329876b167",
+      "job_name": "nas-4d8a6d329876b167-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n2-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4741s"
+    },
+    {
+      "fingerprint": "53e0529e033346c8",
+      "job_name": "nas-53e0529e033346c8-a1",
+      "status": "submitted",
+      "display_name": "h8-d128-n6-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 17605s"
+    },
+    {
+      "fingerprint": "bc920aa119728534",
+      "job_name": "nas-bc920aa119728534-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n2-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 3256s"
+    },
+    {
+      "fingerprint": "77165a2eae51608f",
+      "job_name": "nas-77165a2eae51608f-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f3-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5990s"
+    },
+    {
+      "fingerprint": "b49bf9c9ba750503",
+      "job_name": "nas-b49bf9c9ba750503-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n6-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6149s"
+    },
+    {
+      "fingerprint": "23971706c65c8939",
+      "job_name": "nas-23971706c65c8939-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n8-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7000s"
+    },
+    {
+      "fingerprint": "47ac27ed075e4ea1",
+      "job_name": "nas-47ac27ed075e4ea1-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n2-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4825s"
+    },
+    {
+      "fingerprint": "b4fdd6357ce7733e",
+      "job_name": "nas-b4fdd6357ce7733e-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f2-kv6 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5802s"
+    },
+    {
+      "fingerprint": "973d59e4f711f375",
+      "job_name": "nas-973d59e4f711f375-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n8-f3-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7881s"
+    },
+    {
+      "fingerprint": "91e7febe3df17a9e",
+      "job_name": "nas-91e7febe3df17a9e-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n6-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 11185s"
+    },
+    {
+      "fingerprint": "d253ea077142ddd1",
+      "job_name": "nas-d253ea077142ddd1-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5045s"
+    },
+    {
+      "fingerprint": "4cccaea7d3331dd4",
+      "job_name": "nas-4cccaea7d3331dd4-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5803s"
+    },
+    {
+      "fingerprint": "db31fdadf56ca282",
+      "job_name": "nas-db31fdadf56ca282-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n8-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 13546s"
+    },
+    {
+      "fingerprint": "f559d5dfa86a0ae0",
+      "job_name": "nas-f559d5dfa86a0ae0-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n16-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8642s"
+    },
+    {
+      "fingerprint": "0d042b2b25c7c0f5",
+      "job_name": "nas-0d042b2b25c7c0f5-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n2-f3-kv6 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6461s"
+    },
+    {
+      "fingerprint": "75a70690f5ef1964",
+      "job_name": "nas-75a70690f5ef1964-a1",
+      "status": "submitted",
+      "display_name": "h8-d128-n6-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 17605s"
+    },
+    {
+      "fingerprint": "467c4524be741818",
+      "job_name": "nas-467c4524be741818-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n6-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6275s"
+    },
+    {
+      "fingerprint": "468155a48fdfd1ca",
+      "job_name": "nas-468155a48fdfd1ca-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n8-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6056s"
+    },
+    {
+      "fingerprint": "ac04423e7650a1e0",
+      "job_name": "nas-ac04423e7650a1e0-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n6-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6936s"
+    },
+    {
+      "fingerprint": "f320d735d3b795eb",
+      "job_name": "nas-f320d735d3b795eb-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f4-kv4 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7061s"
+    },
+    {
+      "fingerprint": "b43ef3f43b6e63b8",
+      "job_name": "nas-b43ef3f43b6e63b8-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n4-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5990s"
+    },
+    {
+      "fingerprint": "9a3df265079a197f",
+      "job_name": "nas-9a3df265079a197f-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n4-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 10418s"
+    },
+    {
+      "fingerprint": "4874d64a5c2a078a",
+      "job_name": "nas-4874d64a5c2a078a-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n6-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7534s"
+    },
+    {
+      "fingerprint": "44c442e75f7ff3f0",
+      "job_name": "nas-44c442e75f7ff3f0-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n2-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5244s"
+    },
+    {
+      "fingerprint": "359b2cb95206914a",
+      "job_name": "nas-359b2cb95206914a-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n8-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6832s"
+    },
+    {
+      "fingerprint": "eca54013468e6798",
+      "job_name": "nas-eca54013468e6798-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n2-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4615s"
+    },
+    {
+      "fingerprint": "364dd08aa0d09c43",
+      "job_name": "nas-364dd08aa0d09c43-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f3-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6465s"
+    },
+    {
+      "fingerprint": "b78d5b9bc5da0e76",
+      "job_name": "nas-b78d5b9bc5da0e76-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n2-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4783s"
+    },
+    {
+      "fingerprint": "a194ed86a8a64d57",
+      "job_name": "nas-a194ed86a8a64d57-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n16-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8222s"
+    },
+    {
+      "fingerprint": "1838ca7190a946e2",
+      "job_name": "nas-1838ca7190a946e2-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n6-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7534s"
+    },
+    {
+      "fingerprint": "af55a547d918e39d",
+      "job_name": "nas-af55a547d918e39d-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n6-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5708s"
+    },
+    {
+      "fingerprint": "0c7fb070581d3132",
+      "job_name": "nas-0c7fb070581d3132-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n24-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 10409s"
+    },
+    {
+      "fingerprint": "4ffced9fece899f0",
+      "job_name": "nas-4ffced9fece899f0-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f2-kv6 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5235s"
+    },
+    {
+      "fingerprint": "658eb73efb9b70ae",
+      "job_name": "nas-658eb73efb9b70ae-a1",
+      "status": "submitted",
+      "display_name": "h12-d128-n2-f4-kv4 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 13637s"
+    },
+    {
+      "fingerprint": "5092e144dcd9bc61",
+      "job_name": "nas-5092e144dcd9bc61-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f3-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6936s"
+    },
+    {
+      "fingerprint": "3cb36bda779b9926",
+      "job_name": "nas-3cb36bda779b9926-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n6-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6023s"
+    },
+    {
+      "fingerprint": "1082f682ee6de9af",
+      "job_name": "nas-1082f682ee6de9af-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6936s"
+    },
+    {
+      "fingerprint": "82e4096d4157b93a",
+      "job_name": "nas-82e4096d4157b93a-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n4-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5802s"
+    },
+    {
+      "fingerprint": "9e43aed4c282710a",
+      "job_name": "nas-9e43aed4c282710a-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n6-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7219s"
+    },
+    {
+      "fingerprint": "0828a9e46f4f7ea8",
+      "job_name": "nas-0828a9e46f4f7ea8-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n4-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 9578s"
+    },
+    {
+      "fingerprint": "a4c24709948e287c",
+      "job_name": "nas-a4c24709948e287c-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n4-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 3366s"
+    },
+    {
+      "fingerprint": "ac2b2f5d61856a78",
+      "job_name": "nas-ac2b2f5d61856a78-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n4-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7061s"
+    },
+    {
+      "fingerprint": "93ed8a14db202e9c",
+      "job_name": "nas-93ed8a14db202e9c-a1",
+      "status": "submitted",
+      "display_name": "h12-d128-n2-f4-kv6 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 13637s"
+    },
+    {
+      "fingerprint": "6b67a7e53dbef799",
+      "job_name": "nas-6b67a7e53dbef799-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n8-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6245s"
+    },
+    {
+      "fingerprint": "abf06c0dcae3610f",
+      "job_name": "nas-abf06c0dcae3610f-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n2-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 4825s"
+    },
+    {
+      "fingerprint": "404e7d0f19a0f1ac",
+      "job_name": "nas-404e7d0f19a0f1ac-a1",
+      "status": "submitted",
+      "display_name": "h8-d128-n2-f4-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8601s"
+    },
+    {
+      "fingerprint": "96d540c6d7122a86",
+      "job_name": "nas-96d540c6d7122a86-a1",
+      "status": "submitted",
+      "display_name": "h12-d128-n4-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 17132s"
+    },
+    {
+      "fingerprint": "c926620f55080fb7",
+      "job_name": "nas-c926620f55080fb7-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n2-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5580s"
+    },
+    {
+      "fingerprint": "4b5767f5f7bd1daf",
+      "job_name": "nas-4b5767f5f7bd1daf-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n4-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 3275s"
+    },
+    {
+      "fingerprint": "2d0d7592cab88a1b",
+      "job_name": "nas-2d0d7592cab88a1b-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n6-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 5677s"
+    },
+    {
+      "fingerprint": "e9817c8a069b6a9e",
+      "job_name": "nas-e9817c8a069b6a9e-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n4-f2-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6389s"
+    },
+    {
+      "fingerprint": "52468f66eb76bf2f",
+      "job_name": "nas-52468f66eb76bf2f-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n6-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6149s"
+    },
+    {
+      "fingerprint": "2482a2b42b124e93",
+      "job_name": "nas-2482a2b42b124e93-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n2-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 8601s"
+    },
+    {
+      "fingerprint": "899e6665073e83ce",
+      "job_name": "nas-899e6665073e83ce-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n8-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6203s"
+    },
+    {
+      "fingerprint": "f2eb5b78d5b546bd",
+      "job_name": "nas-f2eb5b78d5b546bd-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n8-f2-kv2 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 6664s"
+    },
+    {
+      "fingerprint": "f4d199fbb5233600",
+      "job_name": "nas-f4d199fbb5233600-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n8-f3-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 9350s"
+    },
+    {
+      "fingerprint": "7bdd9277a5750d2f",
+      "job_name": "nas-7bdd9277a5750d2f-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n4-f4-kv1 wikitext103 s0",
+      "detail": "attempt 1 on sweep-spot, limit 7061s"
+    }
+  ],
+  "tally": {
+    "submitted": 217,
+    "already_present": 3
+  }
+}

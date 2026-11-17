@@ -1,0 +1,1569 @@
+{
+  "provenance": {
+    "written_at": "2026-09-09T03:39:45+00:00",
+    "git_revision": "ffbc0c3635069bd1eebe0ddde20c58669ee78e18",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen transfer --submit"
+  },
+  "outcomes": [
+    {
+      "fingerprint": "2ecebdcb0cc22b6e",
+      "job_name": "nas-2ecebdcb0cc22b6e-a2",
+      "status": "submitted",
+      "display_name": "h2-d64-n12-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7317s"
+    },
+    {
+      "fingerprint": "d58b4edcc4ed5190",
+      "job_name": "nas-d58b4edcc4ed5190-a2",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5466s"
+    },
+    {
+      "fingerprint": "1b53ce7054ec554d",
+      "job_name": "nas-1b53ce7054ec554d-a2",
+      "status": "submitted",
+      "display_name": "h12-d32-n8-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7881s"
+    },
+    {
+      "fingerprint": "b3a09bcf8e0a5051",
+      "job_name": "nas-b3a09bcf8e0a5051-a2",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6725s"
+    },
+    {
+      "fingerprint": "40fd57e0a6689693",
+      "job_name": "nas-40fd57e0a6689693-a2",
+      "status": "submitted",
+      "display_name": "h6-d128-n2-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6839s"
+    },
+    {
+      "fingerprint": "1c64fbfcc7f660d6",
+      "job_name": "nas-1c64fbfcc7f660d6-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n8-f3-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7881s"
+    },
+    {
+      "fingerprint": "30597c1577a677dc",
+      "job_name": "nas-30597c1577a677dc-a2",
+      "status": "submitted",
+      "display_name": "h4-d32-n4-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5151s"
+    },
+    {
+      "fingerprint": "f551e32cd05203d7",
+      "job_name": "nas-f551e32cd05203d7-a2",
+      "status": "submitted",
+      "display_name": "h8-d32-n12-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8199s"
+    },
+    {
+      "fingerprint": "aada6f4cb1392594",
+      "job_name": "nas-aada6f4cb1392594-a2",
+      "status": "submitted",
+      "display_name": "h8-d64-n2-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5244s"
+    },
+    {
+      "fingerprint": "4289c9c9f5c22713",
+      "job_name": "nas-4289c9c9f5c22713-a2",
+      "status": "submitted",
+      "display_name": "h2-d128-n12-f3-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8199s"
+    },
+    {
+      "fingerprint": "72a6c70823c01c5a",
+      "job_name": "nas-72a6c70823c01c5a-a2",
+      "status": "submitted",
+      "display_name": "h4-d64-n2-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4783s"
+    },
+    {
+      "fingerprint": "eca4aef0a46ebff5",
+      "job_name": "nas-eca4aef0a46ebff5-a2",
+      "status": "submitted",
+      "display_name": "h4-d32-n12-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7317s"
+    },
+    {
+      "fingerprint": "5a7d587ef1d6423d",
+      "job_name": "nas-5a7d587ef1d6423d-a2",
+      "status": "submitted",
+      "display_name": "h2-d64-n8-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6245s"
+    },
+    {
+      "fingerprint": "243c62a5e0cfc848",
+      "job_name": "nas-243c62a5e0cfc848-a2",
+      "status": "submitted",
+      "display_name": "h4-d64-n8-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6832s"
+    },
+    {
+      "fingerprint": "d953de263bb0790c",
+      "job_name": "nas-d953de263bb0790c-a2",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5550s"
+    },
+    {
+      "fingerprint": "70ef0b87d4a17522",
+      "job_name": "nas-70ef0b87d4a17522-a2",
+      "status": "submitted",
+      "display_name": "h8-d32-n6-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6149s"
+    },
+    {
+      "fingerprint": "e92ccab6a3402503",
+      "job_name": "nas-e92ccab6a3402503-a2",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5130s"
+    },
+    {
+      "fingerprint": "0ea963d46ca491ae",
+      "job_name": "nas-0ea963d46ca491ae-a2",
+      "status": "submitted",
+      "display_name": "h12-d64-n2-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6461s"
+    },
+    {
+      "fingerprint": "a1742006beda3334",
+      "job_name": "nas-a1742006beda3334-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f4-kv6 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5139s"
+    },
+    {
+      "fingerprint": "15c14a79d2d17166",
+      "job_name": "nas-15c14a79d2d17166-a2",
+      "status": "submitted",
+      "display_name": "h4-d128-n6-f3-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8037s"
+    },
+    {
+      "fingerprint": "5df78679658445b8",
+      "job_name": "nas-5df78679658445b8-a2",
+      "status": "submitted",
+      "display_name": "h4-d64-n6-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6275s"
+    },
+    {
+      "fingerprint": "3f112fc901604904",
+      "job_name": "nas-3f112fc901604904-a2",
+      "status": "submitted",
+      "display_name": "h2-d64-n6-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5645s"
+    },
+    {
+      "fingerprint": "b01cee19281b1f64",
+      "job_name": "nas-b01cee19281b1f64-a2",
+      "status": "submitted",
+      "display_name": "h4-d32-n2-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4615s"
+    },
+    {
+      "fingerprint": "5577bdce21aae200",
+      "job_name": "nas-5577bdce21aae200-a2",
+      "status": "submitted",
+      "display_name": "h4-d32-n4-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5172s"
+    },
+    {
+      "fingerprint": "31f41449718ed331",
+      "job_name": "nas-31f41449718ed331-a2",
+      "status": "submitted",
+      "display_name": "h8-d64-n6-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8541s"
+    },
+    {
+      "fingerprint": "cd7a3ed2db6820a4",
+      "job_name": "nas-cd7a3ed2db6820a4-a2",
+      "status": "submitted",
+      "display_name": "h2-d64-n6-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5677s"
+    },
+    {
+      "fingerprint": "f58cbb3b9117b32b",
+      "job_name": "nas-f58cbb3b9117b32b-a2",
+      "status": "submitted",
+      "display_name": "h8-d64-n4-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6725s"
+    },
+    {
+      "fingerprint": "98c24479364e17df",
+      "job_name": "nas-98c24479364e17df-a2",
+      "status": "submitted",
+      "display_name": "h2-d128-n4-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5466s"
+    },
+    {
+      "fingerprint": "3dd5175be5dbf9b9",
+      "job_name": "nas-3dd5175be5dbf9b9-a2",
+      "status": "submitted",
+      "display_name": "h12-d64-n4-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 9578s"
+    },
+    {
+      "fingerprint": "7edfbce1498fad39",
+      "job_name": "nas-7edfbce1498fad39-a2",
+      "status": "submitted",
+      "display_name": "h6-d128-n6-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 10052s"
+    },
+    {
+      "fingerprint": "bbce35e52e60fedf",
+      "job_name": "nas-bbce35e52e60fedf-a2",
+      "status": "submitted",
+      "display_name": "h8-d128-n4-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 13103s"
+    },
+    {
+      "fingerprint": "df25f269945d9325",
+      "job_name": "nas-df25f269945d9325-a2",
+      "status": "submitted",
+      "display_name": "h12-d32-n4-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6179s"
+    },
+    {
+      "fingerprint": "eb000c5a41bd45c7",
+      "job_name": "nas-eb000c5a41bd45c7-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5944s"
+    },
+    {
+      "fingerprint": "47fd3a6baa40a7d2",
+      "job_name": "nas-47fd3a6baa40a7d2-a2",
+      "status": "submitted",
+      "display_name": "h2-d128-n6-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6275s"
+    },
+    {
+      "fingerprint": "7646239047da8833",
+      "job_name": "nas-7646239047da8833-a2",
+      "status": "submitted",
+      "display_name": "h12-d64-n6-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 12318s"
+    },
+    {
+      "fingerprint": "4ca78c30fc594f88",
+      "job_name": "nas-4ca78c30fc594f88-a2",
+      "status": "submitted",
+      "display_name": "h4-d128-n8-f4-kv4 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "33513278400131cd",
+      "job_name": "nas-33513278400131cd-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6653s"
+    },
+    {
+      "fingerprint": "2bb529147388d63a",
+      "job_name": "nas-2bb529147388d63a-a2",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5580s"
+    },
+    {
+      "fingerprint": "edf701605dbd535f",
+      "job_name": "nas-edf701605dbd535f-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5330s"
+    },
+    {
+      "fingerprint": "93d15a71981bf22a",
+      "job_name": "nas-93d15a71981bf22a-a2",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5172s"
+    },
+    {
+      "fingerprint": "6c2f0b55bb0f842f",
+      "job_name": "nas-6c2f0b55bb0f842f-a2",
+      "status": "submitted",
+      "display_name": "h2-d32-n4-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5072s"
+    },
+    {
+      "fingerprint": "62cbc9f713eb0e25",
+      "job_name": "nas-62cbc9f713eb0e25-a2",
+      "status": "submitted",
+      "display_name": "h4-d64-n12-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7947s"
+    },
+    {
+      "fingerprint": "2ec6a7a7901f68d3",
+      "job_name": "nas-2ec6a7a7901f68d3-a2",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5151s"
+    },
+    {
+      "fingerprint": "7579c1ec1ee045b3",
+      "job_name": "nas-7579c1ec1ee045b3-a2",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f2-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5382s"
+    },
+    {
+      "fingerprint": "0d7b20234c90ab8e",
+      "job_name": "nas-0d7b20234c90ab8e-a2",
+      "status": "submitted",
+      "display_name": "h4-d128-n6-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8541s"
+    },
+    {
+      "fingerprint": "d67ca6627ba5a990",
+      "job_name": "nas-d67ca6627ba5a990-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7219s"
+    },
+    {
+      "fingerprint": "dc46fb71d8bbf537",
+      "job_name": "nas-dc46fb71d8bbf537-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f2-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5802s"
+    },
+    {
+      "fingerprint": "1803e4578f7b4d53",
+      "job_name": "nas-1803e4578f7b4d53-a2",
+      "status": "submitted",
+      "display_name": "h4-d64-n2-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4825s"
+    },
+    {
+      "fingerprint": "c2e36d47fb20cec7",
+      "job_name": "nas-c2e36d47fb20cec7-a2",
+      "status": "submitted",
+      "display_name": "h6-d128-n6-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 12318s"
+    },
+    {
+      "fingerprint": "b92d42a97a2ff197",
+      "job_name": "nas-b92d42a97a2ff197-a2",
+      "status": "submitted",
+      "display_name": "h16-d64-n4-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 13103s"
+    },
+    {
+      "fingerprint": "f32c79d4a0d99760",
+      "job_name": "nas-f32c79d4a0d99760-a2",
+      "status": "submitted",
+      "display_name": "h4-d128-n6-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8037s"
+    },
+    {
+      "fingerprint": "f68bae6824579ee2",
+      "job_name": "nas-f68bae6824579ee2-a2",
+      "status": "submitted",
+      "display_name": "h2-d32-n6-f3-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5559s"
+    },
+    {
+      "fingerprint": "ade196f33804000b",
+      "job_name": "nas-ade196f33804000b-a2",
+      "status": "submitted",
+      "display_name": "h8-d32-n6-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6275s"
+    },
+    {
+      "fingerprint": "7939cdc12163097e",
+      "job_name": "nas-7939cdc12163097e-a2",
+      "status": "submitted",
+      "display_name": "h4-d128-n6-f2-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7534s"
+    },
+    {
+      "fingerprint": "d95907ffad57989f",
+      "job_name": "nas-d95907ffad57989f-a2",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5244s"
+    },
+    {
+      "fingerprint": "790df875522e3246",
+      "job_name": "nas-790df875522e3246-a2",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5580s"
+    },
+    {
+      "fingerprint": "4441a06c4e23f1a3",
+      "job_name": "nas-4441a06c4e23f1a3-a2",
+      "status": "submitted",
+      "display_name": "h16-d64-n6-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 13577s"
+    },
+    {
+      "fingerprint": "5baac69e6a55d45b",
+      "job_name": "nas-5baac69e6a55d45b-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5990s"
+    },
+    {
+      "fingerprint": "197de0917f57f95d",
+      "job_name": "nas-197de0917f57f95d-a2",
+      "status": "submitted",
+      "display_name": "h2-d32-n4-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5078s"
+    },
+    {
+      "fingerprint": "42b3b65cef5bd04a",
+      "job_name": "nas-42b3b65cef5bd04a-a2",
+      "status": "submitted",
+      "display_name": "h6-d128-n4-f3-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8823s"
+    },
+    {
+      "fingerprint": "2cf2ff85d0170931",
+      "job_name": "nas-2cf2ff85d0170931-a2",
+      "status": "submitted",
+      "display_name": "h12-d32-n2-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5045s"
+    },
+    {
+      "fingerprint": "1c8d03ed4029f647",
+      "job_name": "nas-1c8d03ed4029f647-a2",
+      "status": "submitted",
+      "display_name": "h4-d64-n4-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5466s"
+    },
+    {
+      "fingerprint": "0d77824fdec07462",
+      "job_name": "nas-0d77824fdec07462-a2",
+      "status": "submitted",
+      "display_name": "h2-d32-n8-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6056s"
+    },
+    {
+      "fingerprint": "27ee5ff5075c6ed5",
+      "job_name": "nas-27ee5ff5075c6ed5-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6559s"
+    },
+    {
+      "fingerprint": "1a14ae79ab246b8f",
+      "job_name": "nas-1a14ae79ab246b8f-a2",
+      "status": "submitted",
+      "display_name": "h16-d32-n8-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "cffee667f88ddc19",
+      "job_name": "nas-cffee667f88ddc19-a2",
+      "status": "submitted",
+      "display_name": "h4-d64-n12-f3-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8199s"
+    },
+    {
+      "fingerprint": "a5e26d6aeddab885",
+      "job_name": "nas-a5e26d6aeddab885-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4253s"
+    },
+    {
+      "fingerprint": "ac4cfbafe5466a5c",
+      "job_name": "nas-ac4cfbafe5466a5c-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7219s"
+    },
+    {
+      "fingerprint": "7b36d26f1aee7254",
+      "job_name": "nas-7b36d26f1aee7254-a2",
+      "status": "submitted",
+      "display_name": "h4-d32-n6-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5645s"
+    },
+    {
+      "fingerprint": "53103c487405159f",
+      "job_name": "nas-53103c487405159f-a2",
+      "status": "submitted",
+      "display_name": "h8-d32-n12-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8450s"
+    },
+    {
+      "fingerprint": "ead3ab125c216727",
+      "job_name": "nas-ead3ab125c216727-a2",
+      "status": "submitted",
+      "display_name": "h8-d64-n6-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8037s"
+    },
+    {
+      "fingerprint": "cc96aa5bca124967",
+      "job_name": "nas-cc96aa5bca124967-a2",
+      "status": "submitted",
+      "display_name": "h16-d64-n2-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7930s"
+    },
+    {
+      "fingerprint": "dcd1e239d7204a3f",
+      "job_name": "nas-dcd1e239d7204a3f-a2",
+      "status": "submitted",
+      "display_name": "h16-d64-n4-f3-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 11760s"
+    },
+    {
+      "fingerprint": "a474cfe0ee616f5d",
+      "job_name": "nas-a474cfe0ee616f5d-a2",
+      "status": "submitted",
+      "display_name": "h4-d128-n8-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "cca5d9fe93d09979",
+      "job_name": "nas-cca5d9fe93d09979-a2",
+      "status": "submitted",
+      "display_name": "h8-d64-n2-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "8dc8ddd3f743adcb",
+      "job_name": "nas-8dc8ddd3f743adcb-a2",
+      "status": "submitted",
+      "display_name": "h6-d128-n6-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 12318s"
+    },
+    {
+      "fingerprint": "45b2fb60b5a2f97a",
+      "job_name": "nas-45b2fb60b5a2f97a-a2",
+      "status": "submitted",
+      "display_name": "h16-d32-n8-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 9350s"
+    },
+    {
+      "fingerprint": "e266e3b139eac21f",
+      "job_name": "nas-e266e3b139eac21f-a2",
+      "status": "submitted",
+      "display_name": "h8-d32-n8-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7000s"
+    },
+    {
+      "fingerprint": "aeecf7b2dab44199",
+      "job_name": "nas-aeecf7b2dab44199-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f2-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6653s"
+    },
+    {
+      "fingerprint": "234bef275d267f87",
+      "job_name": "nas-234bef275d267f87-a1",
+      "status": "already_present",
+      "display_name": "h2-d32-n2-f2-kv2 tinystories s0",
+      "detail": "attempt 2 exists in state Completed; not resubmitted"
+    },
+    {
+      "fingerprint": "765a2f6ed4a0f47c",
+      "job_name": "nas-765a2f6ed4a0f47c-a2",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f3-kv4 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "24604a62736d87eb",
+      "job_name": "nas-24604a62736d87eb-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f2-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4667s"
+    },
+    {
+      "fingerprint": "89bcf0f03baea0e5",
+      "job_name": "nas-89bcf0f03baea0e5-a2",
+      "status": "submitted",
+      "display_name": "h8-d32-n8-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7000s"
+    },
+    {
+      "fingerprint": "5b9e64a3331de9c8",
+      "job_name": "nas-5b9e64a3331de9c8-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6179s"
+    },
+    {
+      "fingerprint": "be82c97eecde7149",
+      "job_name": "nas-be82c97eecde7149-a1",
+      "status": "already_present",
+      "display_name": "h6-d64-n4-f4-kv6 tinystories s0",
+      "detail": "attempt 2 exists in state Completed; not resubmitted"
+    },
+    {
+      "fingerprint": "5d94feb813e4d987",
+      "job_name": "nas-5d94feb813e4d987-a2",
+      "status": "submitted",
+      "display_name": "h4-d64-n4-f4-kv4 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5550s"
+    },
+    {
+      "fingerprint": "ee539ed0ca4c26a7",
+      "job_name": "nas-ee539ed0ca4c26a7-a2",
+      "status": "submitted",
+      "display_name": "h2-d128-n4-f2-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5382s"
+    },
+    {
+      "fingerprint": "678c2afe5439933b",
+      "job_name": "nas-678c2afe5439933b-a2",
+      "status": "submitted",
+      "display_name": "h12-d64-n2-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6839s"
+    },
+    {
+      "fingerprint": "cb5884e75b5cf99b",
+      "job_name": "nas-cb5884e75b5cf99b-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4951s"
+    },
+    {
+      "fingerprint": "5105f156fba51285",
+      "job_name": "nas-5105f156fba51285-a2",
+      "status": "submitted",
+      "display_name": "h16-d32-n4-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6725s"
+    },
+    {
+      "fingerprint": "693bcb64be80a478",
+      "job_name": "nas-693bcb64be80a478-a2",
+      "status": "submitted",
+      "display_name": "h2-d64-n16-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7098s"
+    },
+    {
+      "fingerprint": "3f6d072f105e1e2d",
+      "job_name": "nas-3f6d072f105e1e2d-a2",
+      "status": "submitted",
+      "display_name": "h2-d64-n16-f3-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8306s"
+    },
+    {
+      "fingerprint": "17832e08c13fb4e2",
+      "job_name": "nas-17832e08c13fb4e2-a2",
+      "status": "submitted",
+      "display_name": "h6-d128-n8-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 13546s"
+    },
+    {
+      "fingerprint": "faa77be88b82b1c1",
+      "job_name": "nas-faa77be88b82b1c1-a2",
+      "status": "submitted",
+      "display_name": "h6-d128-n2-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6839s"
+    },
+    {
+      "fingerprint": "566264bf1a01d7db",
+      "job_name": "nas-566264bf1a01d7db-a2",
+      "status": "submitted",
+      "display_name": "h12-d32-n6-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6653s"
+    },
+    {
+      "fingerprint": "1740ae2b0e9b21bc",
+      "job_name": "nas-1740ae2b0e9b21bc-a2",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f3-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "6827ed6d2d0a005b",
+      "job_name": "nas-6827ed6d2d0a005b-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4572s"
+    },
+    {
+      "fingerprint": "7ecd4e1debe960a3",
+      "job_name": "nas-7ecd4e1debe960a3-a2",
+      "status": "submitted",
+      "display_name": "h12-d64-n6-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 11185s"
+    },
+    {
+      "fingerprint": "a3b5f335c5975a55",
+      "job_name": "nas-a3b5f335c5975a55-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5139s"
+    },
+    {
+      "fingerprint": "9ba69dd8c1d8e1c0",
+      "job_name": "nas-9ba69dd8c1d8e1c0-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f3-kv6 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5990s"
+    },
+    {
+      "fingerprint": "d01a8d7eeaea3ac1",
+      "job_name": "nas-d01a8d7eeaea3ac1-a2",
+      "status": "submitted",
+      "display_name": "h8-d128-n6-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 15591s"
+    },
+    {
+      "fingerprint": "b48f5fd28bfdf940",
+      "job_name": "nas-b48f5fd28bfdf940-a2",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7061s"
+    },
+    {
+      "fingerprint": "e5ebb4cae39b817e",
+      "job_name": "nas-e5ebb4cae39b817e-a2",
+      "status": "submitted",
+      "display_name": "h2-d64-n2-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4625s"
+    },
+    {
+      "fingerprint": "fd03916ce5287da7",
+      "job_name": "nas-fd03916ce5287da7-a2",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7061s"
+    },
+    {
+      "fingerprint": "8c97c910d3baef6c",
+      "job_name": "nas-8c97c910d3baef6c-a2",
+      "status": "submitted",
+      "display_name": "h16-d64-n6-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 17605s"
+    },
+    {
+      "fingerprint": "785ad08930309d79",
+      "job_name": "nas-785ad08930309d79-a2",
+      "status": "submitted",
+      "display_name": "h8-d32-n2-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4783s"
+    },
+    {
+      "fingerprint": "be03084e44ee3ee7",
+      "job_name": "nas-be03084e44ee3ee7-a2",
+      "status": "submitted",
+      "display_name": "h16-d64-n4-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 11760s"
+    },
+    {
+      "fingerprint": "a2ec062d23e96401",
+      "job_name": "nas-a2ec062d23e96401-a2",
+      "status": "submitted",
+      "display_name": "h2-d32-n2-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4589s"
+    },
+    {
+      "fingerprint": "3895bf800db6c9e1",
+      "job_name": "nas-3895bf800db6c9e1-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f3-kv6 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5874s"
+    },
+    {
+      "fingerprint": "525edb3dae46719b",
+      "job_name": "nas-525edb3dae46719b-a2",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5172s"
+    },
+    {
+      "fingerprint": "f33f41fd6b0ad6cc",
+      "job_name": "nas-f33f41fd6b0ad6cc-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f2-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5803s"
+    },
+    {
+      "fingerprint": "8465d54d97132621",
+      "job_name": "nas-8465d54d97132621-a2",
+      "status": "submitted",
+      "display_name": "h4-d64-n2-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4741s"
+    },
+    {
+      "fingerprint": "7bb3a6da91f144c3",
+      "job_name": "nas-7bb3a6da91f144c3-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f2-kv6 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4951s"
+    },
+    {
+      "fingerprint": "6c99f88d57f40343",
+      "job_name": "nas-6c99f88d57f40343-a2",
+      "status": "submitted",
+      "display_name": "h12-d32-n2-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4951s"
+    },
+    {
+      "fingerprint": "c3c0707be2f9457b",
+      "job_name": "nas-c3c0707be2f9457b-a2",
+      "status": "submitted",
+      "display_name": "h4-d32-n16-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8306s"
+    },
+    {
+      "fingerprint": "304d9c4d74bbe9f0",
+      "job_name": "nas-304d9c4d74bbe9f0-a2",
+      "status": "submitted",
+      "display_name": "h4-d64-n4-f2-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5382s"
+    },
+    {
+      "fingerprint": "0a2978d71a743898",
+      "job_name": "nas-0a2978d71a743898-a2",
+      "status": "submitted",
+      "display_name": "h4-d64-n2-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4825s"
+    },
+    {
+      "fingerprint": "fd55e7f3cd2936ed",
+      "job_name": "nas-fd55e7f3cd2936ed-a2",
+      "status": "submitted",
+      "display_name": "h12-d128-n2-f3-kv4 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 12126s"
+    },
+    {
+      "fingerprint": "c78f7aa2ada53fcd",
+      "job_name": "nas-c78f7aa2ada53fcd-a2",
+      "status": "submitted",
+      "display_name": "h8-d32-n2-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4741s"
+    },
+    {
+      "fingerprint": "56dc1e32098ebd37",
+      "job_name": "nas-56dc1e32098ebd37-a2",
+      "status": "submitted",
+      "display_name": "h6-d128-n2-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6461s"
+    },
+    {
+      "fingerprint": "50df2a8e7e079033",
+      "job_name": "nas-50df2a8e7e079033-a2",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f2-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5130s"
+    },
+    {
+      "fingerprint": "7b390dbbc9033fa1",
+      "job_name": "nas-7b390dbbc9033fa1-a2",
+      "status": "submitted",
+      "display_name": "h12-d64-n4-f3-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8823s"
+    },
+    {
+      "fingerprint": "0454db93490c8779",
+      "job_name": "nas-0454db93490c8779-a2",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5382s"
+    },
+    {
+      "fingerprint": "c465ee24ba82fb7d",
+      "job_name": "nas-c465ee24ba82fb7d-a2",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5550s"
+    },
+    {
+      "fingerprint": "9fad42eddf57ff3c",
+      "job_name": "nas-9fad42eddf57ff3c-a2",
+      "status": "submitted",
+      "display_name": "h4-d64-n8-f3-kv4 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6832s"
+    },
+    {
+      "fingerprint": "859ead01d1765d15",
+      "job_name": "nas-859ead01d1765d15-a2",
+      "status": "submitted",
+      "display_name": "h12-d64-n4-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8823s"
+    },
+    {
+      "fingerprint": "309648a89c0c8b46",
+      "job_name": "nas-309648a89c0c8b46-a2",
+      "status": "submitted",
+      "display_name": "h2-d32-n2-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4586s"
+    },
+    {
+      "fingerprint": "4d616588385e32c1",
+      "job_name": "nas-4d616588385e32c1-a2",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "6fc1747da5120310",
+      "job_name": "nas-6fc1747da5120310-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5802s"
+    },
+    {
+      "fingerprint": "e55330f2ddb881b7",
+      "job_name": "nas-e55330f2ddb881b7-a2",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f2-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6389s"
+    },
+    {
+      "fingerprint": "853e0efcab2d9a40",
+      "job_name": "nas-853e0efcab2d9a40-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n12-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7648s"
+    },
+    {
+      "fingerprint": "e44f6ea7f3be9796",
+      "job_name": "nas-e44f6ea7f3be9796-a2",
+      "status": "submitted",
+      "display_name": "h16-d32-n4-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6389s"
+    },
+    {
+      "fingerprint": "19e583988d9ad68e",
+      "job_name": "nas-19e583988d9ad68e-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6559s"
+    },
+    {
+      "fingerprint": "6440b9b1286ef200",
+      "job_name": "nas-6440b9b1286ef200-a2",
+      "status": "submitted",
+      "display_name": "h12-d64-n6-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 10052s"
+    },
+    {
+      "fingerprint": "2c21a7f9f1ee6793",
+      "job_name": "nas-2c21a7f9f1ee6793-a2",
+      "status": "submitted",
+      "display_name": "h12-d128-n4-f2-kv6 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 16664s"
+    },
+    {
+      "fingerprint": "293b6dee5aa7252c",
+      "job_name": "nas-293b6dee5aa7252c-a2",
+      "status": "submitted",
+      "display_name": "h4-d32-n2-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4625s"
+    },
+    {
+      "fingerprint": "56857dcbe2479353",
+      "job_name": "nas-56857dcbe2479353-a2",
+      "status": "submitted",
+      "display_name": "h4-d128-n8-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "472d1681c2c8810a",
+      "job_name": "nas-472d1681c2c8810a-a2",
+      "status": "submitted",
+      "display_name": "h12-d32-n2-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5139s"
+    },
+    {
+      "fingerprint": "09bd88d5b9aa74cb",
+      "job_name": "nas-09bd88d5b9aa74cb-a2",
+      "status": "submitted",
+      "display_name": "h16-d32-n2-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5580s"
+    },
+    {
+      "fingerprint": "a9aef88f861d8bc4",
+      "job_name": "nas-a9aef88f861d8bc4-a2",
+      "status": "submitted",
+      "display_name": "h6-d128-n4-f4-kv6 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 9578s"
+    },
+    {
+      "fingerprint": "141ebdf2c93c4c9a",
+      "job_name": "nas-141ebdf2c93c4c9a-a2",
+      "status": "submitted",
+      "display_name": "h8-d64-n4-f3-kv4 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6725s"
+    },
+    {
+      "fingerprint": "bcf1851273f7f454",
+      "job_name": "nas-bcf1851273f7f454-a2",
+      "status": "submitted",
+      "display_name": "h2-d128-n6-f3-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6149s"
+    },
+    {
+      "fingerprint": "ef356c441160419c",
+      "job_name": "nas-ef356c441160419c-a2",
+      "status": "submitted",
+      "display_name": "h2-d32-n6-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5559s"
+    },
+    {
+      "fingerprint": "0267a0798dc8086f",
+      "job_name": "nas-0267a0798dc8086f-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4715s"
+    },
+    {
+      "fingerprint": "26587c92dbb8a4b6",
+      "job_name": "nas-26587c92dbb8a4b6-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f2-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4951s"
+    },
+    {
+      "fingerprint": "75c6a1e7de845d56",
+      "job_name": "nas-75c6a1e7de845d56-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5330s"
+    },
+    {
+      "fingerprint": "685ae9fbf08ea1c9",
+      "job_name": "nas-685ae9fbf08ea1c9-a2",
+      "status": "submitted",
+      "display_name": "h8-d32-n6-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6023s"
+    },
+    {
+      "fingerprint": "b1ff9378d2cc9140",
+      "job_name": "nas-b1ff9378d2cc9140-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f4-kv6 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4715s"
+    },
+    {
+      "fingerprint": "ca2d40ae7b5342b9",
+      "job_name": "nas-ca2d40ae7b5342b9-a1",
+      "status": "already_present",
+      "display_name": "h16-d64-n8-f3-kv1 tinystories s0",
+      "detail": "attempt 2 exists in state Completed; not resubmitted"
+    },
+    {
+      "fingerprint": "9e417b3721145620",
+      "job_name": "nas-9e417b3721145620-a2",
+      "status": "submitted",
+      "display_name": "h8-d128-n2-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8601s"
+    },
+    {
+      "fingerprint": "10709a0d5f986682",
+      "job_name": "nas-10709a0d5f986682-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4691s"
+    },
+    {
+      "fingerprint": "03544d35ff7de1fd",
+      "job_name": "nas-03544d35ff7de1fd-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4667s"
+    },
+    {
+      "fingerprint": "f303223ed8bf2c53",
+      "job_name": "nas-f303223ed8bf2c53-a2",
+      "status": "submitted",
+      "display_name": "h16-d32-n6-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8541s"
+    },
+    {
+      "fingerprint": "2f6df6bac0b4a354",
+      "job_name": "nas-2f6df6bac0b4a354-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f3-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5874s"
+    },
+    {
+      "fingerprint": "03d8ed8fdea906ed",
+      "job_name": "nas-03d8ed8fdea906ed-a2",
+      "status": "submitted",
+      "display_name": "h2-d32-n2-f3-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4586s"
+    },
+    {
+      "fingerprint": "9fd89671dddf5c68",
+      "job_name": "nas-9fd89671dddf5c68-a2",
+      "status": "submitted",
+      "display_name": "h16-d32-n6-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8037s"
+    },
+    {
+      "fingerprint": "144c3246597d9c0e",
+      "job_name": "nas-144c3246597d9c0e-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5235s"
+    },
+    {
+      "fingerprint": "424c8cf44db66ff3",
+      "job_name": "nas-424c8cf44db66ff3-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f3-kv6 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6465s"
+    },
+    {
+      "fingerprint": "6993aa6c722539bd",
+      "job_name": "nas-6993aa6c722539bd-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f4-kv6 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6559s"
+    },
+    {
+      "fingerprint": "b6c614b306e6b84f",
+      "job_name": "nas-b6c614b306e6b84f-a2",
+      "status": "submitted",
+      "display_name": "h16-d32-n2-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "8bc44f005f1bd53b",
+      "job_name": "nas-8bc44f005f1bd53b-a2",
+      "status": "submitted",
+      "display_name": "h8-d64-n8-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "c42b3d630271f71c",
+      "job_name": "nas-c42b3d630271f71c-a2",
+      "status": "submitted",
+      "display_name": "h8-d64-n6-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8541s"
+    },
+    {
+      "fingerprint": "0f676679b7a13260",
+      "job_name": "nas-0f676679b7a13260-a2",
+      "status": "submitted",
+      "display_name": "h4-d64-n12-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8450s"
+    },
+    {
+      "fingerprint": "cecc54109f174622",
+      "job_name": "nas-cecc54109f174622-a2",
+      "status": "submitted",
+      "display_name": "h2-d128-n2-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4741s"
+    },
+    {
+      "fingerprint": "659708403648ab54",
+      "job_name": "nas-659708403648ab54-a2",
+      "status": "submitted",
+      "display_name": "h8-d128-n6-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 17605s"
+    },
+    {
+      "fingerprint": "2097fd31d02958db",
+      "job_name": "nas-2097fd31d02958db-a2",
+      "status": "submitted",
+      "display_name": "h2-d32-n2-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 3256s"
+    },
+    {
+      "fingerprint": "185fdca7de816406",
+      "job_name": "nas-185fdca7de816406-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f3-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5990s"
+    },
+    {
+      "fingerprint": "1ebf48aa709e4d36",
+      "job_name": "nas-1ebf48aa709e4d36-a2",
+      "status": "submitted",
+      "display_name": "h2-d128-n6-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6149s"
+    },
+    {
+      "fingerprint": "42b163bf6a30c471",
+      "job_name": "nas-42b163bf6a30c471-a2",
+      "status": "submitted",
+      "display_name": "h2-d128-n8-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7000s"
+    },
+    {
+      "fingerprint": "80526b15fc1ed044",
+      "job_name": "nas-80526b15fc1ed044-a2",
+      "status": "submitted",
+      "display_name": "h8-d32-n2-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4825s"
+    },
+    {
+      "fingerprint": "c3e40f819ad31247",
+      "job_name": "nas-c3e40f819ad31247-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f2-kv6 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5802s"
+    },
+    {
+      "fingerprint": "0cc0144eaf40c67b",
+      "job_name": "nas-0cc0144eaf40c67b-a2",
+      "status": "submitted",
+      "display_name": "h12-d32-n8-f3-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7881s"
+    },
+    {
+      "fingerprint": "25e56fabbc80f0d6",
+      "job_name": "nas-25e56fabbc80f0d6-a2",
+      "status": "submitted",
+      "display_name": "h6-d128-n6-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 11185s"
+    },
+    {
+      "fingerprint": "208f203fe9013409",
+      "job_name": "nas-208f203fe9013409-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5045s"
+    },
+    {
+      "fingerprint": "41a979a77912c87b",
+      "job_name": "nas-41a979a77912c87b-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5803s"
+    },
+    {
+      "fingerprint": "3555c2930cc05694",
+      "job_name": "nas-3555c2930cc05694-a2",
+      "status": "submitted",
+      "display_name": "h12-d64-n8-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 13546s"
+    },
+    {
+      "fingerprint": "81458ca1b4664e14",
+      "job_name": "nas-81458ca1b4664e14-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n16-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8642s"
+    },
+    {
+      "fingerprint": "060d1752ad40e169",
+      "job_name": "nas-060d1752ad40e169-a2",
+      "status": "submitted",
+      "display_name": "h6-d128-n2-f3-kv6 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6461s"
+    },
+    {
+      "fingerprint": "bdaa6e9c60e93bf4",
+      "job_name": "nas-bdaa6e9c60e93bf4-a2",
+      "status": "submitted",
+      "display_name": "h8-d128-n6-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 17605s"
+    },
+    {
+      "fingerprint": "0a2938d25c697728",
+      "job_name": "nas-0a2938d25c697728-a2",
+      "status": "submitted",
+      "display_name": "h4-d64-n6-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6275s"
+    },
+    {
+      "fingerprint": "ca1db1b34f43b165",
+      "job_name": "nas-ca1db1b34f43b165-a2",
+      "status": "submitted",
+      "display_name": "h2-d32-n8-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6056s"
+    },
+    {
+      "fingerprint": "e0521064fd19a8f9",
+      "job_name": "nas-e0521064fd19a8f9-a2",
+      "status": "submitted",
+      "display_name": "h12-d32-n6-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6936s"
+    },
+    {
+      "fingerprint": "cced17d16b740297",
+      "job_name": "nas-cced17d16b740297-a2",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f4-kv4 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7061s"
+    },
+    {
+      "fingerprint": "89137406d952735d",
+      "job_name": "nas-89137406d952735d-a2",
+      "status": "submitted",
+      "display_name": "h12-d32-n4-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5990s"
+    },
+    {
+      "fingerprint": "9427c7dc153e9a67",
+      "job_name": "nas-9427c7dc153e9a67-a2",
+      "status": "submitted",
+      "display_name": "h16-d64-n4-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 10418s"
+    },
+    {
+      "fingerprint": "ed662f8d15278336",
+      "job_name": "nas-ed662f8d15278336-a2",
+      "status": "submitted",
+      "display_name": "h8-d64-n6-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7534s"
+    },
+    {
+      "fingerprint": "3bb99307b42493a4",
+      "job_name": "nas-3bb99307b42493a4-a2",
+      "status": "submitted",
+      "display_name": "h16-d32-n2-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5244s"
+    },
+    {
+      "fingerprint": "c3d0b045c193eafb",
+      "job_name": "nas-c3d0b045c193eafb-a2",
+      "status": "submitted",
+      "display_name": "h2-d128-n8-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6832s"
+    },
+    {
+      "fingerprint": "553704a209942df2",
+      "job_name": "nas-553704a209942df2-a2",
+      "status": "submitted",
+      "display_name": "h2-d64-n2-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4615s"
+    },
+    {
+      "fingerprint": "3a742616e037adaf",
+      "job_name": "nas-3a742616e037adaf-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f3-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6465s"
+    },
+    {
+      "fingerprint": "43ba4efe264f6c7b",
+      "job_name": "nas-43ba4efe264f6c7b-a2",
+      "status": "submitted",
+      "display_name": "h2-d128-n2-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4783s"
+    },
+    {
+      "fingerprint": "073f9ea7e42abbbf",
+      "job_name": "nas-073f9ea7e42abbbf-a2",
+      "status": "submitted",
+      "display_name": "h2-d64-n16-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8222s"
+    },
+    {
+      "fingerprint": "e0167b60dc9252c4",
+      "job_name": "nas-e0167b60dc9252c4-a2",
+      "status": "submitted",
+      "display_name": "h16-d32-n6-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7534s"
+    },
+    {
+      "fingerprint": "5d28f47cb0ac305e",
+      "job_name": "nas-5d28f47cb0ac305e-a2",
+      "status": "submitted",
+      "display_name": "h4-d32-n6-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5708s"
+    },
+    {
+      "fingerprint": "4b85ef81e4f90427",
+      "job_name": "nas-4b85ef81e4f90427-a2",
+      "status": "submitted",
+      "display_name": "h2-d64-n24-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 10409s"
+    },
+    {
+      "fingerprint": "0e16df9af80836f4",
+      "job_name": "nas-0e16df9af80836f4-a2",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f2-kv6 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5235s"
+    },
+    {
+      "fingerprint": "d80d9780c5d1b64f",
+      "job_name": "nas-d80d9780c5d1b64f-a2",
+      "status": "submitted",
+      "display_name": "h12-d128-n2-f4-kv4 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 13637s"
+    },
+    {
+      "fingerprint": "4fa0427950180411",
+      "job_name": "nas-4fa0427950180411-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f3-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6936s"
+    },
+    {
+      "fingerprint": "0b83eb3e4af2f307",
+      "job_name": "nas-0b83eb3e4af2f307-a2",
+      "status": "submitted",
+      "display_name": "h4-d64-n6-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6023s"
+    },
+    {
+      "fingerprint": "1ecd9ba8a99e18a1",
+      "job_name": "nas-1ecd9ba8a99e18a1-a2",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6936s"
+    },
+    {
+      "fingerprint": "4430b0e8b497de47",
+      "job_name": "nas-4430b0e8b497de47-a2",
+      "status": "submitted",
+      "display_name": "h12-d32-n4-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5802s"
+    },
+    {
+      "fingerprint": "1177b6011dd45e29",
+      "job_name": "nas-1177b6011dd45e29-a2",
+      "status": "submitted",
+      "display_name": "h12-d32-n6-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7219s"
+    },
+    {
+      "fingerprint": "6f4a98515a59d1c8",
+      "job_name": "nas-6f4a98515a59d1c8-a2",
+      "status": "submitted",
+      "display_name": "h6-d128-n4-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 9578s"
+    },
+    {
+      "fingerprint": "7d49b2403d9fd03f",
+      "job_name": "nas-7d49b2403d9fd03f-a2",
+      "status": "submitted",
+      "display_name": "h2-d32-n4-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 3366s"
+    },
+    {
+      "fingerprint": "8b531275bb9cf469",
+      "job_name": "nas-8b531275bb9cf469-a2",
+      "status": "submitted",
+      "display_name": "h8-d64-n4-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7061s"
+    },
+    {
+      "fingerprint": "4bb3aa634a7d2115",
+      "job_name": "nas-4bb3aa634a7d2115-a2",
+      "status": "submitted",
+      "display_name": "h12-d128-n2-f4-kv6 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 13637s"
+    },
+    {
+      "fingerprint": "5a98b37f4cd25d61",
+      "job_name": "nas-5a98b37f4cd25d61-a2",
+      "status": "submitted",
+      "display_name": "h4-d32-n8-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6245s"
+    },
+    {
+      "fingerprint": "67db8bc8b8723b1f",
+      "job_name": "nas-67db8bc8b8723b1f-a2",
+      "status": "submitted",
+      "display_name": "h2-d128-n2-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 4825s"
+    },
+    {
+      "fingerprint": "43c81ce9e7fa791b",
+      "job_name": "nas-43c81ce9e7fa791b-a2",
+      "status": "submitted",
+      "display_name": "h8-d128-n2-f4-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8601s"
+    },
+    {
+      "fingerprint": "6d1aa97df6ef84c6",
+      "job_name": "nas-6d1aa97df6ef84c6-a2",
+      "status": "submitted",
+      "display_name": "h12-d128-n4-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 17132s"
+    },
+    {
+      "fingerprint": "e3bd0996180f521c",
+      "job_name": "nas-e3bd0996180f521c-a2",
+      "status": "submitted",
+      "display_name": "h8-d64-n2-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5580s"
+    },
+    {
+      "fingerprint": "727bf8d507e5f219",
+      "job_name": "nas-727bf8d507e5f219-a2",
+      "status": "submitted",
+      "display_name": "h2-d32-n4-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 3275s"
+    },
+    {
+      "fingerprint": "45276b9fec8fc03f",
+      "job_name": "nas-45276b9fec8fc03f-a2",
+      "status": "submitted",
+      "display_name": "h4-d32-n6-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 5677s"
+    },
+    {
+      "fingerprint": "48825df8acff112a",
+      "job_name": "nas-48825df8acff112a-a2",
+      "status": "submitted",
+      "display_name": "h8-d64-n4-f2-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6389s"
+    },
+    {
+      "fingerprint": "702fbcd651f67a95",
+      "job_name": "nas-702fbcd651f67a95-a2",
+      "status": "submitted",
+      "display_name": "h4-d64-n6-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6149s"
+    },
+    {
+      "fingerprint": "3317e14cb8348d54",
+      "job_name": "nas-3317e14cb8348d54-a2",
+      "status": "submitted",
+      "display_name": "h16-d64-n2-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 8601s"
+    },
+    {
+      "fingerprint": "30d704a46b87f925",
+      "job_name": "nas-30d704a46b87f925-a2",
+      "status": "submitted",
+      "display_name": "h2-d64-n8-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6203s"
+    },
+    {
+      "fingerprint": "6c175945da7507da",
+      "job_name": "nas-6c175945da7507da-a2",
+      "status": "submitted",
+      "display_name": "h2-d128-n8-f2-kv2 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 6664s"
+    },
+    {
+      "fingerprint": "24f90b14b6ee6b33",
+      "job_name": "nas-24f90b14b6ee6b33-a2",
+      "status": "submitted",
+      "display_name": "h4-d128-n8-f3-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 9350s"
+    },
+    {
+      "fingerprint": "5e90aa8c9b11643c",
+      "job_name": "nas-5e90aa8c9b11643c-a2",
+      "status": "submitted",
+      "display_name": "h16-d32-n4-f4-kv1 tinystories s0",
+      "detail": "attempt 2 on sweep-spot, limit 7061s"
+    }
+  ],
+  "tally": {
+    "submitted": 217,
+    "already_present": 3
+  }
+}

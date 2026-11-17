@@ -1,0 +1,5301 @@
+{
+  "provenance": {
+    "written_at": "2026-09-14T06:58:01+00:00",
+    "git_revision": "346d5b1fd136f6612922e1ae7511db2718088414",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen characterise"
+  },
+  "matched_groups": 320,
+  "paired_observations": 1527,
+  "perplexity_per_mb_saved": -0.01817,
+  "fit_r2": 0.0071,
+  "elasticity": {
+    "median": 0.0081,
+    "quartiles": [
+      -0.0124,
+      0.0256
+    ],
+    "share_costing_quality": 0.5992,
+    "definition": "Relative perplexity increase per relative cache reduction, per matched pair. Reported as a distribution rather than a pooled slope because a pooled slope in perplexity-per-megabyte is dominated by the largest architectures: least squares weights by the square of the saving, and the same six perplexity points are one per cent of 509 and ten per cent of 60. The absolute slope is kept above for continuity and should not be read as the answer."
+  },
+  "groups": [
+    {
+      "h": 2,
+      "n": 2,
+      "e": 64,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        502.981,
+        509.169
+      ]
+    },
+    {
+      "h": 2,
+      "n": 2,
+      "e": 64,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        491.807,
+        492.016
+      ]
+    },
+    {
+      "h": 2,
+      "n": 2,
+      "e": 64,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        487.347,
+        493.466
+      ]
+    },
+    {
+      "h": 2,
+      "n": 2,
+      "e": 128,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        320.254,
+        320.752
+      ]
+    },
+    {
+      "h": 2,
+      "n": 2,
+      "e": 128,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        303.024,
+        309.833
+      ]
+    },
+    {
+      "h": 2,
+      "n": 2,
+      "e": 128,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        306.342,
+        308.454
+      ]
+    },
+    {
+      "h": 2,
+      "n": 2,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        186.488,
+        187.239
+      ]
+    },
+    {
+      "h": 2,
+      "n": 2,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        180.227,
+        180.383
+      ]
+    },
+    {
+      "h": 2,
+      "n": 2,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        177.429,
+        179.87
+      ]
+    },
+    {
+      "h": 2,
+      "n": 4,
+      "e": 64,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        484.374,
+        488.652
+      ]
+    },
+    {
+      "h": 2,
+      "n": 4,
+      "e": 64,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        477.707,
+        479.73
+      ]
+    },
+    {
+      "h": 2,
+      "n": 4,
+      "e": 64,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        470.274,
+        474.411
+      ]
+    },
+    {
+      "h": 2,
+      "n": 4,
+      "e": 128,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        294.985,
+        296.797
+      ]
+    },
+    {
+      "h": 2,
+      "n": 4,
+      "e": 128,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        291.661,
+        292.594
+      ]
+    },
+    {
+      "h": 2,
+      "n": 4,
+      "e": 128,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        281.178,
+        281.412
+      ]
+    },
+    {
+      "h": 2,
+      "n": 4,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        165.557,
+        169.841
+      ]
+    },
+    {
+      "h": 2,
+      "n": 4,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        160.842,
+        162.171
+      ]
+    },
+    {
+      "h": 2,
+      "n": 4,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        158.307,
+        162.118
+      ]
+    },
+    {
+      "h": 2,
+      "n": 6,
+      "e": 64,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        475.311,
+        480.943
+      ]
+    },
+    {
+      "h": 2,
+      "n": 6,
+      "e": 64,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        463.839,
+        472.605
+      ]
+    },
+    {
+      "h": 2,
+      "n": 6,
+      "e": 64,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        473.347,
+        475.939
+      ]
+    },
+    {
+      "h": 2,
+      "n": 6,
+      "e": 128,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        283.03,
+        285.993
+      ]
+    },
+    {
+      "h": 2,
+      "n": 6,
+      "e": 128,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        277.219,
+        282.474
+      ]
+    },
+    {
+      "h": 2,
+      "n": 6,
+      "e": 128,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        284.428,
+        285.5
+      ]
+    },
+    {
+      "h": 2,
+      "n": 6,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        159.964,
+        160.183
+      ]
+    },
+    {
+      "h": 2,
+      "n": 6,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        154.558,
+        155.476
+      ]
+    },
+    {
+      "h": 2,
+      "n": 6,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        149.987,
+        155.324
+      ]
+    },
+    {
+      "h": 2,
+      "n": 8,
+      "e": 64,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        475.647,
+        479.498
+      ]
+    },
+    {
+      "h": 2,
+      "n": 8,
+      "e": 64,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        473.432,
+        474.617
+      ]
+    },
+    {
+      "h": 2,
+      "n": 8,
+      "e": 64,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        462.454,
+        469.139
+      ]
+    },
+    {
+      "h": 2,
+      "n": 8,
+      "e": 128,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        281.767,
+        285.845
+      ]
+    },
+    {
+      "h": 2,
+      "n": 8,
+      "e": 128,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        275.046,
+        277.269
+      ]
+    },
+    {
+      "h": 2,
+      "n": 8,
+      "e": 128,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        271.002,
+        271.709
+      ]
+    },
+    {
+      "h": 2,
+      "n": 8,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        154.063,
+        156.84
+      ]
+    },
+    {
+      "h": 2,
+      "n": 8,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        150.079,
+        150.199
+      ]
+    },
+    {
+      "h": 2,
+      "n": 8,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        147.857,
+        149.036
+      ]
+    },
+    {
+      "h": 2,
+      "n": 12,
+      "e": 64,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        471.555,
+        473.606
+      ]
+    },
+    {
+      "h": 2,
+      "n": 12,
+      "e": 64,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        469.431,
+        470.956
+      ]
+    },
+    {
+      "h": 2,
+      "n": 12,
+      "e": 64,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        466.095,
+        468.763
+      ]
+    },
+    {
+      "h": 2,
+      "n": 12,
+      "e": 128,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        272.561,
+        276.48
+      ]
+    },
+    {
+      "h": 2,
+      "n": 12,
+      "e": 128,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        272.355,
+        273.013
+      ]
+    },
+    {
+      "h": 2,
+      "n": 12,
+      "e": 128,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        267.804,
+        268.413
+      ]
+    },
+    {
+      "h": 2,
+      "n": 12,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        151.646,
+        153.512
+      ]
+    },
+    {
+      "h": 2,
+      "n": 12,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        145.406,
+        149.248
+      ]
+    },
+    {
+      "h": 2,
+      "n": 12,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        144.747,
+        144.804
+      ]
+    },
+    {
+      "h": 2,
+      "n": 16,
+      "e": 64,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        465.51,
+        472.19
+      ]
+    },
+    {
+      "h": 2,
+      "n": 16,
+      "e": 64,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        473.463,
+        475.201
+      ]
+    },
+    {
+      "h": 2,
+      "n": 16,
+      "e": 64,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        475.056,
+        478.48
+      ]
+    },
+    {
+      "h": 2,
+      "n": 16,
+      "e": 128,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        269.753,
+        269.793
+      ]
+    },
+    {
+      "h": 2,
+      "n": 16,
+      "e": 128,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        262.801,
+        269.377
+      ]
+    },
+    {
+      "h": 2,
+      "n": 16,
+      "e": 128,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        260.56,
+        260.847
+      ]
+    },
+    {
+      "h": 2,
+      "n": 16,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        148.383,
+        150.344
+      ]
+    },
+    {
+      "h": 2,
+      "n": 16,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        144.621,
+        146.997
+      ]
+    },
+    {
+      "h": 2,
+      "n": 16,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        143.553,
+        144.095
+      ]
+    },
+    {
+      "h": 2,
+      "n": 24,
+      "e": 64,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        481.928,
+        482.908
+      ]
+    },
+    {
+      "h": 2,
+      "n": 24,
+      "e": 64,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        468.549,
+        472.069
+      ]
+    },
+    {
+      "h": 2,
+      "n": 24,
+      "e": 64,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        462.856,
+        467.531
+      ]
+    },
+    {
+      "h": 2,
+      "n": 24,
+      "e": 128,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        270.944,
+        275.747
+      ]
+    },
+    {
+      "h": 2,
+      "n": 24,
+      "e": 128,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        260.079,
+        260.319
+      ]
+    },
+    {
+      "h": 2,
+      "n": 24,
+      "e": 128,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        260.602,
+        261.138
+      ]
+    },
+    {
+      "h": 2,
+      "n": 24,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        147.466,
+        147.522
+      ]
+    },
+    {
+      "h": 2,
+      "n": 24,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        143.674,
+        144.065
+      ]
+    },
+    {
+      "h": 2,
+      "n": 24,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        143.488,
+        145.713
+      ]
+    },
+    {
+      "h": 4,
+      "n": 2,
+      "e": 128,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        320.823,
+        324.2
+      ]
+    },
+    {
+      "h": 4,
+      "n": 2,
+      "e": 128,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        313.534,
+        317.146
+      ]
+    },
+    {
+      "h": 4,
+      "n": 2,
+      "e": 128,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        312.039,
+        314.929
+      ]
+    },
+    {
+      "h": 4,
+      "n": 2,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        187.255,
+        188.571
+      ]
+    },
+    {
+      "h": 4,
+      "n": 2,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        182.373,
+        183.64
+      ]
+    },
+    {
+      "h": 4,
+      "n": 2,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        178.019,
+        179.41
+      ]
+    },
+    {
+      "h": 4,
+      "n": 2,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        110.144,
+        111.489
+      ]
+    },
+    {
+      "h": 4,
+      "n": 2,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        103.237,
+        105.38
+      ]
+    },
+    {
+      "h": 4,
+      "n": 2,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        100.257,
+        102.801
+      ]
+    },
+    {
+      "h": 4,
+      "n": 4,
+      "e": 128,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        299.808,
+        307.28
+      ]
+    },
+    {
+      "h": 4,
+      "n": 4,
+      "e": 128,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        293.567,
+        299.428
+      ]
+    },
+    {
+      "h": 4,
+      "n": 4,
+      "e": 128,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        282.583,
+        288.301
+      ]
+    },
+    {
+      "h": 4,
+      "n": 4,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        166.348,
+        169.872
+      ]
+    },
+    {
+      "h": 4,
+      "n": 4,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        162.505,
+        165.58
+      ]
+    },
+    {
+      "h": 4,
+      "n": 4,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        158.122,
+        163.001
+      ]
+    },
+    {
+      "h": 4,
+      "n": 4,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        98.29,
+        101.147
+      ]
+    },
+    {
+      "h": 4,
+      "n": 4,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        93.772,
+        94.488
+      ]
+    },
+    {
+      "h": 4,
+      "n": 4,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        90.677,
+        92.364
+      ]
+    },
+    {
+      "h": 4,
+      "n": 6,
+      "e": 128,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        284.202,
+        289.659
+      ]
+    },
+    {
+      "h": 4,
+      "n": 6,
+      "e": 128,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        281.756,
+        284.095
+      ]
+    },
+    {
+      "h": 4,
+      "n": 6,
+      "e": 128,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        281.336,
+        285.242
+      ]
+    },
+    {
+      "h": 4,
+      "n": 6,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        159.912,
+        160.538
+      ]
+    },
+    {
+      "h": 4,
+      "n": 6,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        156.647,
+        158.317
+      ]
+    },
+    {
+      "h": 4,
+      "n": 6,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        151.273,
+        154.409
+      ]
+    },
+    {
+      "h": 4,
+      "n": 6,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        91.914,
+        95.457
+      ]
+    },
+    {
+      "h": 4,
+      "n": 6,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        88.329,
+        89.455
+      ]
+    },
+    {
+      "h": 4,
+      "n": 6,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        85.94,
+        88.729
+      ]
+    },
+    {
+      "h": 4,
+      "n": 8,
+      "e": 128,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        285.626,
+        290.027
+      ]
+    },
+    {
+      "h": 4,
+      "n": 8,
+      "e": 128,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        280.245,
+        281.864
+      ]
+    },
+    {
+      "h": 4,
+      "n": 8,
+      "e": 128,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        271.17,
+        275.031
+      ]
+    },
+    {
+      "h": 4,
+      "n": 8,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        155.175,
+        158.5
+      ]
+    },
+    {
+      "h": 4,
+      "n": 8,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        149.129,
+        153.831
+      ]
+    },
+    {
+      "h": 4,
+      "n": 8,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        149.441,
+        152.736
+      ]
+    },
+    {
+      "h": 4,
+      "n": 8,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        89.619,
+        90.638
+      ]
+    },
+    {
+      "h": 4,
+      "n": 8,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        86.12,
+        87.339
+      ]
+    },
+    {
+      "h": 4,
+      "n": 8,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        83.544,
+        85.196
+      ]
+    },
+    {
+      "h": 4,
+      "n": 12,
+      "e": 128,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        276.068,
+        284.312
+      ]
+    },
+    {
+      "h": 4,
+      "n": 12,
+      "e": 128,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        274.948,
+        278.024
+      ]
+    },
+    {
+      "h": 4,
+      "n": 12,
+      "e": 128,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        268.751,
+        274.48
+      ]
+    },
+    {
+      "h": 4,
+      "n": 12,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        151.186,
+        153.06
+      ]
+    },
+    {
+      "h": 4,
+      "n": 12,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        147.08,
+        151.368
+      ]
+    },
+    {
+      "h": 4,
+      "n": 12,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        145.902,
+        146.741
+      ]
+    },
+    {
+      "h": 4,
+      "n": 12,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        86.541,
+        90.105
+      ]
+    },
+    {
+      "h": 4,
+      "n": 12,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        83.907,
+        84.58
+      ]
+    },
+    {
+      "h": 4,
+      "n": 12,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        81.917,
+        84.106
+      ]
+    },
+    {
+      "h": 4,
+      "n": 16,
+      "e": 128,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        270.518,
+        276.552
+      ]
+    },
+    {
+      "h": 4,
+      "n": 16,
+      "e": 128,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        265.957,
+        269.09
+      ]
+    },
+    {
+      "h": 4,
+      "n": 16,
+      "e": 128,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        266.858,
+        270.113
+      ]
+    },
+    {
+      "h": 4,
+      "n": 16,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        149.52,
+        149.932
+      ]
+    },
+    {
+      "h": 4,
+      "n": 16,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        146.464,
+        148.185
+      ]
+    },
+    {
+      "h": 4,
+      "n": 16,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        144.226,
+        149.94
+      ]
+    },
+    {
+      "h": 4,
+      "n": 16,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        87.165,
+        93.385
+      ]
+    },
+    {
+      "h": 4,
+      "n": 16,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        81.377,
+        85.541
+      ]
+    },
+    {
+      "h": 4,
+      "n": 16,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        80.156,
+        83.17
+      ]
+    },
+    {
+      "h": 4,
+      "n": 24,
+      "e": 128,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        273.494,
+        278.102
+      ]
+    },
+    {
+      "h": 4,
+      "n": 24,
+      "e": 128,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        262.256,
+        268.912
+      ]
+    },
+    {
+      "h": 4,
+      "n": 24,
+      "e": 128,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        263.956,
+        270.884
+      ]
+    },
+    {
+      "h": 4,
+      "n": 24,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        148.785,
+        149.722
+      ]
+    },
+    {
+      "h": 4,
+      "n": 24,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        142.403,
+        145.459
+      ]
+    },
+    {
+      "h": 4,
+      "n": 24,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        145.226,
+        147.821
+      ]
+    },
+    {
+      "h": 4,
+      "n": 24,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        83.758,
+        91.668
+      ]
+    },
+    {
+      "h": 4,
+      "n": 24,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        84.863,
+        88.177
+      ]
+    },
+    {
+      "h": 4,
+      "n": 24,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        80.555,
+        84.517
+      ]
+    },
+    {
+      "h": 6,
+      "n": 2,
+      "e": 192,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        235.825,
+        239.513
+      ]
+    },
+    {
+      "h": 6,
+      "n": 2,
+      "e": 192,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        228.979,
+        233.519
+      ]
+    },
+    {
+      "h": 6,
+      "n": 2,
+      "e": 192,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        224.182,
+        227.002
+      ]
+    },
+    {
+      "h": 6,
+      "n": 2,
+      "e": 384,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        137.542,
+        139.62
+      ]
+    },
+    {
+      "h": 6,
+      "n": 2,
+      "e": 384,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        131.329,
+        133.909
+      ]
+    },
+    {
+      "h": 6,
+      "n": 2,
+      "e": 384,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        129.244,
+        132.001
+      ]
+    },
+    {
+      "h": 6,
+      "n": 2,
+      "e": 768,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        97.075,
+        102.189
+      ]
+    },
+    {
+      "h": 6,
+      "n": 2,
+      "e": 768,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        84.331,
+        86.881
+      ]
+    },
+    {
+      "h": 6,
+      "n": 2,
+      "e": 768,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        80.755,
+        81.182
+      ]
+    },
+    {
+      "h": 6,
+      "n": 4,
+      "e": 192,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        213.253,
+        215.329
+      ]
+    },
+    {
+      "h": 6,
+      "n": 4,
+      "e": 192,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        208.735,
+        211.201
+      ]
+    },
+    {
+      "h": 6,
+      "n": 4,
+      "e": 192,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        206.395,
+        207.782
+      ]
+    },
+    {
+      "h": 6,
+      "n": 4,
+      "e": 384,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        119.383,
+        120.926
+      ]
+    },
+    {
+      "h": 6,
+      "n": 4,
+      "e": 384,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        116.248,
+        117.993
+      ]
+    },
+    {
+      "h": 6,
+      "n": 4,
+      "e": 384,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        114.084,
+        117.157
+      ]
+    },
+    {
+      "h": 6,
+      "n": 4,
+      "e": 768,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        83.024,
+        84.591
+      ]
+    },
+    {
+      "h": 6,
+      "n": 4,
+      "e": 768,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        73.575,
+        76.723
+      ]
+    },
+    {
+      "h": 6,
+      "n": 4,
+      "e": 768,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        70.652,
+        72.026
+      ]
+    },
+    {
+      "h": 6,
+      "n": 6,
+      "e": 192,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        204.341,
+        208.556
+      ]
+    },
+    {
+      "h": 6,
+      "n": 6,
+      "e": 192,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        199.723,
+        203.04
+      ]
+    },
+    {
+      "h": 6,
+      "n": 6,
+      "e": 192,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        198.751,
+        200.381
+      ]
+    },
+    {
+      "h": 6,
+      "n": 6,
+      "e": 384,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        114.656,
+        116.767
+      ]
+    },
+    {
+      "h": 6,
+      "n": 6,
+      "e": 384,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        111.481,
+        112.929
+      ]
+    },
+    {
+      "h": 6,
+      "n": 6,
+      "e": 384,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        109.329,
+        111.036
+      ]
+    },
+    {
+      "h": 6,
+      "n": 6,
+      "e": 768,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        76.293,
+        78.422
+      ]
+    },
+    {
+      "h": 6,
+      "n": 6,
+      "e": 768,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        70.61,
+        71.683
+      ]
+    },
+    {
+      "h": 6,
+      "n": 6,
+      "e": 768,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        68.109,
+        68.581
+      ]
+    },
+    {
+      "h": 6,
+      "n": 8,
+      "e": 192,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        201.72,
+        203.077
+      ]
+    },
+    {
+      "h": 6,
+      "n": 8,
+      "e": 192,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        195.971,
+        199.872
+      ]
+    },
+    {
+      "h": 6,
+      "n": 8,
+      "e": 192,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        193.309,
+        198.11
+      ]
+    },
+    {
+      "h": 6,
+      "n": 8,
+      "e": 384,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        113.066,
+        114.551
+      ]
+    },
+    {
+      "h": 6,
+      "n": 8,
+      "e": 384,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        108.749,
+        109.844
+      ]
+    },
+    {
+      "h": 6,
+      "n": 8,
+      "e": 384,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        106.368,
+        107.55
+      ]
+    },
+    {
+      "h": 6,
+      "n": 8,
+      "e": 768,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        72.125,
+        76.308
+      ]
+    },
+    {
+      "h": 6,
+      "n": 8,
+      "e": 768,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        65.472,
+        69.424
+      ]
+    },
+    {
+      "h": 6,
+      "n": 8,
+      "e": 768,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        65.193,
+        65.771
+      ]
+    },
+    {
+      "h": 6,
+      "n": 12,
+      "e": 192,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        195.181,
+        200.447
+      ]
+    },
+    {
+      "h": 6,
+      "n": 12,
+      "e": 192,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        191.487,
+        196.528
+      ]
+    },
+    {
+      "h": 6,
+      "n": 12,
+      "e": 192,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        187.419,
+        191.282
+      ]
+    },
+    {
+      "h": 6,
+      "n": 12,
+      "e": 384,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        109.468,
+        111.324
+      ]
+    },
+    {
+      "h": 6,
+      "n": 12,
+      "e": 384,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        104.936,
+        107.155
+      ]
+    },
+    {
+      "h": 6,
+      "n": 12,
+      "e": 384,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        103.363,
+        104.785
+      ]
+    },
+    {
+      "h": 6,
+      "n": 12,
+      "e": 768,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        72.643,
+        77.016
+      ]
+    },
+    {
+      "h": 6,
+      "n": 12,
+      "e": 768,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        64.916,
+        71.785
+      ]
+    },
+    {
+      "h": 6,
+      "n": 12,
+      "e": 768,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        62.205,
+        65.638
+      ]
+    },
+    {
+      "h": 6,
+      "n": 16,
+      "e": 192,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        191.64,
+        197.283
+      ]
+    },
+    {
+      "h": 6,
+      "n": 16,
+      "e": 192,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        191.286,
+        192.921
+      ]
+    },
+    {
+      "h": 6,
+      "n": 16,
+      "e": 192,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        183.429,
+        189.768
+      ]
+    },
+    {
+      "h": 6,
+      "n": 16,
+      "e": 384,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        108.573,
+        109.379
+      ]
+    },
+    {
+      "h": 6,
+      "n": 16,
+      "e": 384,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        105.662,
+        106.501
+      ]
+    },
+    {
+      "h": 6,
+      "n": 16,
+      "e": 384,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        102.946,
+        106.441
+      ]
+    },
+    {
+      "h": 6,
+      "n": 16,
+      "e": 768,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        70.94,
+        76.995
+      ]
+    },
+    {
+      "h": 6,
+      "n": 16,
+      "e": 768,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        65.757,
+        70.661
+      ]
+    },
+    {
+      "h": 6,
+      "n": 16,
+      "e": 768,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        62.131,
+        62.463
+      ]
+    },
+    {
+      "h": 6,
+      "n": 24,
+      "e": 192,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        189.448,
+        191.738
+      ]
+    },
+    {
+      "h": 6,
+      "n": 24,
+      "e": 192,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        185.484,
+        188.612
+      ]
+    },
+    {
+      "h": 6,
+      "n": 24,
+      "e": 192,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        186.334,
+        187.069
+      ]
+    },
+    {
+      "h": 6,
+      "n": 24,
+      "e": 384,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        107.044,
+        111.056
+      ]
+    },
+    {
+      "h": 6,
+      "n": 24,
+      "e": 384,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        105.089,
+        106.075
+      ]
+    },
+    {
+      "h": 6,
+      "n": 24,
+      "e": 384,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        6
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        102.322,
+        104.201
+      ]
+    },
+    {
+      "h": 6,
+      "n": 24,
+      "e": 768,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2
+      ],
+      "pairs": 1,
+      "perplexity_range": [
+        68.526,
+        75.987
+      ]
+    },
+    {
+      "h": 8,
+      "n": 2,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        188.081,
+        192.072
+      ]
+    },
+    {
+      "h": 8,
+      "n": 2,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        183.354,
+        187.002
+      ]
+    },
+    {
+      "h": 8,
+      "n": 2,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        179.959,
+        181.831
+      ]
+    },
+    {
+      "h": 8,
+      "n": 2,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        112.303,
+        115.442
+      ]
+    },
+    {
+      "h": 8,
+      "n": 2,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        106.77,
+        109.838
+      ]
+    },
+    {
+      "h": 8,
+      "n": 2,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        104.394,
+        107.218
+      ]
+    },
+    {
+      "h": 8,
+      "n": 2,
+      "e": 1024,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        76.586,
+        89.508
+      ]
+    },
+    {
+      "h": 8,
+      "n": 2,
+      "e": 1024,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        73.878,
+        78.635
+      ]
+    },
+    {
+      "h": 8,
+      "n": 2,
+      "e": 1024,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        70.198,
+        74.715
+      ]
+    },
+    {
+      "h": 8,
+      "n": 4,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        168.637,
+        170.012
+      ]
+    },
+    {
+      "h": 8,
+      "n": 4,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        162.812,
+        167.414
+      ]
+    },
+    {
+      "h": 8,
+      "n": 4,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        160.842,
+        163.885
+      ]
+    },
+    {
+      "h": 8,
+      "n": 4,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        99.741,
+        100.718
+      ]
+    },
+    {
+      "h": 8,
+      "n": 4,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        93.462,
+        95.862
+      ]
+    },
+    {
+      "h": 8,
+      "n": 4,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        92.566,
+        93.805
+      ]
+    },
+    {
+      "h": 8,
+      "n": 4,
+      "e": 1024,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        68.682,
+        71.439
+      ]
+    },
+    {
+      "h": 8,
+      "n": 4,
+      "e": 1024,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        64.571,
+        66.879
+      ]
+    },
+    {
+      "h": 8,
+      "n": 4,
+      "e": 1024,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        59.819,
+        63.747
+      ]
+    },
+    {
+      "h": 8,
+      "n": 6,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        160.424,
+        163.043
+      ]
+    },
+    {
+      "h": 8,
+      "n": 6,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        156.212,
+        160.294
+      ]
+    },
+    {
+      "h": 8,
+      "n": 6,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        152.352,
+        156.709
+      ]
+    },
+    {
+      "h": 8,
+      "n": 6,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        93.224,
+        96.402
+      ]
+    },
+    {
+      "h": 8,
+      "n": 6,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        90.176,
+        91.757
+      ]
+    },
+    {
+      "h": 8,
+      "n": 6,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        87.434,
+        88.834
+      ]
+    },
+    {
+      "h": 8,
+      "n": 6,
+      "e": 1024,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        63.378,
+        66.717
+      ]
+    },
+    {
+      "h": 8,
+      "n": 6,
+      "e": 1024,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        59.599,
+        63.723
+      ]
+    },
+    {
+      "h": 8,
+      "n": 6,
+      "e": 1024,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        58.586,
+        59.106
+      ]
+    },
+    {
+      "h": 8,
+      "n": 8,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        156.603,
+        162.33
+      ]
+    },
+    {
+      "h": 8,
+      "n": 8,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        150.782,
+        156.903
+      ]
+    },
+    {
+      "h": 8,
+      "n": 8,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        150.899,
+        153.461
+      ]
+    },
+    {
+      "h": 8,
+      "n": 8,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        93.244,
+        93.581
+      ]
+    },
+    {
+      "h": 8,
+      "n": 8,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        88.201,
+        89.238
+      ]
+    },
+    {
+      "h": 8,
+      "n": 8,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        85.617,
+        87.556
+      ]
+    },
+    {
+      "h": 8,
+      "n": 8,
+      "e": 1024,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        63.041,
+        65.906
+      ]
+    },
+    {
+      "h": 8,
+      "n": 8,
+      "e": 1024,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        57.93,
+        60.788
+      ]
+    },
+    {
+      "h": 8,
+      "n": 8,
+      "e": 1024,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        55.844,
+        58.649
+      ]
+    },
+    {
+      "h": 8,
+      "n": 12,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        153.892,
+        156.308
+      ]
+    },
+    {
+      "h": 8,
+      "n": 12,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        147.493,
+        152.826
+      ]
+    },
+    {
+      "h": 8,
+      "n": 12,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        146.518,
+        150.104
+      ]
+    },
+    {
+      "h": 8,
+      "n": 12,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        90.829,
+        93.114
+      ]
+    },
+    {
+      "h": 8,
+      "n": 12,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        86.248,
+        86.988
+      ]
+    },
+    {
+      "h": 8,
+      "n": 12,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        83.094,
+        84.808
+      ]
+    },
+    {
+      "h": 8,
+      "n": 12,
+      "e": 1024,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4
+      ],
+      "pairs": 3,
+      "perplexity_range": [
+        61.212,
+        62.581
+      ]
+    },
+    {
+      "h": 8,
+      "n": 16,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        150.313,
+        154.115
+      ]
+    },
+    {
+      "h": 8,
+      "n": 16,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        148.852,
+        150.546
+      ]
+    },
+    {
+      "h": 8,
+      "n": 16,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        144.363,
+        150.699
+      ]
+    },
+    {
+      "h": 8,
+      "n": 16,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        89.954,
+        91.089
+      ]
+    },
+    {
+      "h": 8,
+      "n": 16,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        84.38,
+        87.177
+      ]
+    },
+    {
+      "h": 8,
+      "n": 16,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        82.125,
+        84.331
+      ]
+    },
+    {
+      "h": 8,
+      "n": 24,
+      "e": 256,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 18,
+      "perplexity_range": [
+        148.428,
+        151.758
+      ]
+    },
+    {
+      "h": 8,
+      "n": 24,
+      "e": 256,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        145.834,
+        149.179
+      ]
+    },
+    {
+      "h": 8,
+      "n": 24,
+      "e": 256,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        146.126,
+        151.038
+      ]
+    },
+    {
+      "h": 8,
+      "n": 24,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        88.096,
+        94.981
+      ]
+    },
+    {
+      "h": 8,
+      "n": 24,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        83.131,
+        89.044
+      ]
+    },
+    {
+      "h": 8,
+      "n": 24,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        83.455,
+        85.574
+      ]
+    },
+    {
+      "h": 12,
+      "n": 2,
+      "e": 384,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        139.434,
+        141.308
+      ]
+    },
+    {
+      "h": 12,
+      "n": 2,
+      "e": 384,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        133.617,
+        137.871
+      ]
+    },
+    {
+      "h": 12,
+      "n": 2,
+      "e": 384,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        131.114,
+        136.108
+      ]
+    },
+    {
+      "h": 12,
+      "n": 2,
+      "e": 768,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        92.928,
+        101.538
+      ]
+    },
+    {
+      "h": 12,
+      "n": 2,
+      "e": 768,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        86.38,
+        92.622
+      ]
+    },
+    {
+      "h": 12,
+      "n": 2,
+      "e": 768,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        83.078,
+        86.381
+      ]
+    },
+    {
+      "h": 12,
+      "n": 2,
+      "e": 1536,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        59.728,
+        75.022
+      ]
+    },
+    {
+      "h": 12,
+      "n": 2,
+      "e": 1536,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        57.423,
+        66.326
+      ]
+    },
+    {
+      "h": 12,
+      "n": 2,
+      "e": 1536,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        55.668,
+        61.934
+      ]
+    },
+    {
+      "h": 12,
+      "n": 4,
+      "e": 384,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        121.217,
+        124.892
+      ]
+    },
+    {
+      "h": 12,
+      "n": 4,
+      "e": 384,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        116.505,
+        121.41
+      ]
+    },
+    {
+      "h": 12,
+      "n": 4,
+      "e": 384,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        115.158,
+        118.5
+      ]
+    },
+    {
+      "h": 12,
+      "n": 4,
+      "e": 768,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        81.635,
+        82.993
+      ]
+    },
+    {
+      "h": 12,
+      "n": 4,
+      "e": 768,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        76.331,
+        78.83
+      ]
+    },
+    {
+      "h": 12,
+      "n": 4,
+      "e": 768,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        73.527,
+        75.875
+      ]
+    },
+    {
+      "h": 12,
+      "n": 4,
+      "e": 1536,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        54.238,
+        58.183
+      ]
+    },
+    {
+      "h": 12,
+      "n": 6,
+      "e": 384,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        117.067,
+        120.68
+      ]
+    },
+    {
+      "h": 12,
+      "n": 6,
+      "e": 384,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        112.626,
+        115.643
+      ]
+    },
+    {
+      "h": 12,
+      "n": 6,
+      "e": 384,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        111.015,
+        114.066
+      ]
+    },
+    {
+      "h": 12,
+      "n": 6,
+      "e": 768,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        76.808,
+        78.659
+      ]
+    },
+    {
+      "h": 12,
+      "n": 6,
+      "e": 768,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        70.983,
+        72.557
+      ]
+    },
+    {
+      "h": 12,
+      "n": 6,
+      "e": 768,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        69.832,
+        70.947
+      ]
+    },
+    {
+      "h": 12,
+      "n": 8,
+      "e": 384,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        114.051,
+        117.479
+      ]
+    },
+    {
+      "h": 12,
+      "n": 8,
+      "e": 384,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        109.398,
+        111.82
+      ]
+    },
+    {
+      "h": 12,
+      "n": 8,
+      "e": 384,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        108.19,
+        111.795
+      ]
+    },
+    {
+      "h": 12,
+      "n": 8,
+      "e": 768,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        70.934,
+        76.972
+      ]
+    },
+    {
+      "h": 12,
+      "n": 8,
+      "e": 768,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        69.639,
+        72.145
+      ]
+    },
+    {
+      "h": 12,
+      "n": 8,
+      "e": 768,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        66.414,
+        69.665
+      ]
+    },
+    {
+      "h": 12,
+      "n": 12,
+      "e": 384,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        110.703,
+        112.605
+      ]
+    },
+    {
+      "h": 12,
+      "n": 12,
+      "e": 384,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        106.543,
+        110.702
+      ]
+    },
+    {
+      "h": 12,
+      "n": 12,
+      "e": 384,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        105.971,
+        107.183
+      ]
+    },
+    {
+      "h": 12,
+      "n": 12,
+      "e": 768,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        71.469,
+        75.397
+      ]
+    },
+    {
+      "h": 12,
+      "n": 12,
+      "e": 768,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        66.154,
+        71.451
+      ]
+    },
+    {
+      "h": 12,
+      "n": 12,
+      "e": 768,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        64.758,
+        68.066
+      ]
+    },
+    {
+      "h": 12,
+      "n": 16,
+      "e": 384,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        109.734,
+        112.434
+      ]
+    },
+    {
+      "h": 12,
+      "n": 16,
+      "e": 384,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        105.984,
+        109.404
+      ]
+    },
+    {
+      "h": 12,
+      "n": 16,
+      "e": 384,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        105.141,
+        107.794
+      ]
+    },
+    {
+      "h": 12,
+      "n": 16,
+      "e": 768,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        72.32,
+        74.413
+      ]
+    },
+    {
+      "h": 12,
+      "n": 16,
+      "e": 768,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        67.156,
+        70.186
+      ]
+    },
+    {
+      "h": 12,
+      "n": 16,
+      "e": 768,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        63.962,
+        68.429
+      ]
+    },
+    {
+      "h": 12,
+      "n": 24,
+      "e": 384,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        108.734,
+        112.012
+      ]
+    },
+    {
+      "h": 12,
+      "n": 24,
+      "e": 384,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        106.115,
+        109.198
+      ]
+    },
+    {
+      "h": 12,
+      "n": 24,
+      "e": 384,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        106.145,
+        108.618
+      ]
+    },
+    {
+      "h": 12,
+      "n": 24,
+      "e": 768,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        74.128,
+        77.281
+      ]
+    },
+    {
+      "h": 16,
+      "n": 2,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        115.843,
+        122.433
+      ]
+    },
+    {
+      "h": 16,
+      "n": 2,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        110.271,
+        114.656
+      ]
+    },
+    {
+      "h": 16,
+      "n": 2,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        106.79,
+        113.136
+      ]
+    },
+    {
+      "h": 16,
+      "n": 2,
+      "e": 1024,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        78.993,
+        88.497
+      ]
+    },
+    {
+      "h": 16,
+      "n": 2,
+      "e": 1024,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        75.888,
+        83.641
+      ]
+    },
+    {
+      "h": 16,
+      "n": 2,
+      "e": 1024,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        72.719,
+        80.823
+      ]
+    },
+    {
+      "h": 16,
+      "n": 4,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        101.045,
+        103.949
+      ]
+    },
+    {
+      "h": 16,
+      "n": 4,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        95.68,
+        98.638
+      ]
+    },
+    {
+      "h": 16,
+      "n": 4,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        93.681,
+        95.753
+      ]
+    },
+    {
+      "h": 16,
+      "n": 4,
+      "e": 1024,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        68.126,
+        71.822
+      ]
+    },
+    {
+      "h": 16,
+      "n": 4,
+      "e": 1024,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        63.754,
+        66.647
+      ]
+    },
+    {
+      "h": 16,
+      "n": 4,
+      "e": 1024,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        61.688,
+        65.038
+      ]
+    },
+    {
+      "h": 16,
+      "n": 6,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        95.678,
+        97.435
+      ]
+    },
+    {
+      "h": 16,
+      "n": 6,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        91.845,
+        93.193
+      ]
+    },
+    {
+      "h": 16,
+      "n": 6,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        88.689,
+        91.862
+      ]
+    },
+    {
+      "h": 16,
+      "n": 6,
+      "e": 1024,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        62.396,
+        65.254
+      ]
+    },
+    {
+      "h": 16,
+      "n": 6,
+      "e": 1024,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        59.928,
+        61.716
+      ]
+    },
+    {
+      "h": 16,
+      "n": 6,
+      "e": 1024,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        58.162,
+        59.896
+      ]
+    },
+    {
+      "h": 16,
+      "n": 8,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        94.252,
+        98.894
+      ]
+    },
+    {
+      "h": 16,
+      "n": 8,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        89.465,
+        90.747
+      ]
+    },
+    {
+      "h": 16,
+      "n": 8,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        87.264,
+        88.48
+      ]
+    },
+    {
+      "h": 16,
+      "n": 8,
+      "e": 1024,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        62.299,
+        64.644
+      ]
+    },
+    {
+      "h": 16,
+      "n": 8,
+      "e": 1024,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        57.079,
+        59.417
+      ]
+    },
+    {
+      "h": 16,
+      "n": 8,
+      "e": 1024,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        57.162,
+        58.182
+      ]
+    },
+    {
+      "h": 16,
+      "n": 12,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        91.746,
+        95.539
+      ]
+    },
+    {
+      "h": 16,
+      "n": 12,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        87.192,
+        90.175
+      ]
+    },
+    {
+      "h": 16,
+      "n": 12,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        85.151,
+        86.577
+      ]
+    },
+    {
+      "h": 16,
+      "n": 12,
+      "e": 1024,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "pairs": 6,
+      "perplexity_range": [
+        60.431,
+        60.614
+      ]
+    },
+    {
+      "h": 16,
+      "n": 16,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        90.488,
+        93.346
+      ]
+    },
+    {
+      "h": 16,
+      "n": 16,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        87.054,
+        90.224
+      ]
+    },
+    {
+      "h": 16,
+      "n": 16,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        85.45,
+        85.992
+      ]
+    },
+    {
+      "h": 16,
+      "n": 24,
+      "e": 512,
+      "ffn": 2,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        90.039,
+        95.252
+      ]
+    },
+    {
+      "h": 16,
+      "n": 24,
+      "e": 512,
+      "ffn": 3,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        87.217,
+        90.683
+      ]
+    },
+    {
+      "h": 16,
+      "n": 24,
+      "e": 512,
+      "ffn": 4,
+      "kv_values": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "pairs": 10,
+      "perplexity_range": [
+        85.58,
+        87.449
+      ]
+    }
+  ],
+  "what_the_slope_means": "Perplexity given up for each megabyte of key-value cache removed, at matched head count and depth and width. Positive means the saving costs quality; near zero means grouped-query attention is close to free, which is the claim the technique is usually adopted on.",
+  "why_matched": "kv is not independent of the rest: it must divide h, and architectures with many heads can reach cache reductions that few-headed ones cannot. Comparing across unmatched architectures measures the correlation between kv and everything kv is constrained by. Matching is on every gene but kv \u2014 leaving the feed-forward ratio free was enough to bury the effect entirely.",
+  "source_table": "table.csv",
+  "rows": 1103
+}

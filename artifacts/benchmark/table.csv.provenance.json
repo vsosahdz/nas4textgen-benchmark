@@ -1,0 +1,53 @@
+{
+  "provenance": {
+    "written_at": "2026-11-17T05:59:11+00:00",
+    "git_revision": "694fede8b391263528650123ede9e8d4b7673a8a",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen table"
+  },
+  "rows": 1103,
+  "columns": [
+    "h",
+    "d_head",
+    "n",
+    "ffn",
+    "kv",
+    "e",
+    "intermediate",
+    "params",
+    "params_non_embedding",
+    "embedding_share",
+    "kv_cache_bytes",
+    "flops_per_token",
+    "activation_width",
+    "perplexity",
+    "bits_per_byte",
+    "tokens_consumed",
+    "wall_clock_seconds",
+    "tokens_per_second",
+    "achieved_tflops",
+    "micro_batch_used",
+    "resumes",
+    "seed",
+    "precision",
+    "device",
+    "data_vintage",
+    "tokeniser_fingerprint",
+    "on_measured_front"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "provenance": {
+    "written_at": "2026-10-06T07:50:30+00:00",
+    "git_revision": "d37fa83daec56b17effa54e43ea6f0794cacabeb",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen battery --canary --submit"
+  },
+  "canary": true,
+  "architectures": 3,
+  "corpora": [
+    "wikitext103",
+    "tinystories"
+  ],
+  "runs": 6,
+  "token_budget": 100000000,
+  "blimp_pairs": 6700,
+  "source_table": "table.csv",
+  "why_retrained": "The battery was implemented in task 8.5 and never invoked by a run. Checkpoints are deleted on successful completion, so the measurements cannot be recovered from the campaign and the front has to be trained again."
+}

@@ -1,0 +1,78 @@
+cff-version: 1.2.0
+title: >-
+  An Exhaustively Measured Benchmark for Multi-Objective Neural Architecture Search in Text Generation
+message: >-
+  If you use this benchmark, the enumerated architecture table, or the measured
+  Pareto fronts, please cite this repository.
+type: software
+license: Apache-2.0
+repository-code: https://github.com/vsosahdz/NAS4TextGenerationApproach
+
+# ─────────────────────────────────────────────────────────────────────────
+# Author order is settled: Israel, Sergio, Miriam, Víctor, with Víctor as the
+# corresponding author.
+#
+# Surnames, affiliations and emails come from the prior submission's own author
+# block, so they are the names these people published under rather than a
+# reconstruction. Only the ORCIDs are still owed — the article does not carry
+# them — and they are marked TO BE CONFIRMED rather than guessed, because
+# `python -m nas4textgen.authorship` fails while any marker remains: a release
+# cannot go out on invented metadata, and an author's identifier is what a DOI
+# exists to make unambiguous.
+#
+# Note that the corresponding author has changed. On the prior submission it was
+# Miriam Pescador-Rojas; on this one it is Víctor Adrián Sosa Hernández, which
+# is why `contact` is data here rather than something inferred from the order.
+#
+# Only human researchers appear here. AI tools are never listed as authors or
+# contributors in this project — see openspec/config.yaml. The same check
+# refuses them by name.
+# ─────────────────────────────────────────────────────────────────────────
+authors:
+  - given-names: Israel
+    family-names: Sánchez Miranda
+    email: a01378705@exatec.tec.mx
+    affiliation: >-
+      Tecnológico de Monterrey, School of Engineering and Sciences
+    # This author does not hold an ORCID. Recorded as such rather than left blank:
+    # "none" and "nobody has filled this in" are different facts, and only the second
+    # should hold up a release.
+    orcid: NONE
+
+  - given-names: Sergio
+    family-names: Sarmiento-Rosales
+    email: a01801059@tec.mx
+    affiliation: >-
+      Tecnológico de Monterrey, School of Engineering and Sciences
+    orcid: https://orcid.org/0000-0001-9219-7223
+
+  - given-names: Miriam
+    family-names: Pescador-Rojas
+    email: mpescadorr@ipn.mx
+    affiliation: >-
+      Escuela Superior de Cómputo, Instituto Politécnico Nacional
+    orcid: NONE
+
+  - given-names: Víctor Adrián
+    family-names: Sosa Hernández
+    email: vsosa@tec.mx
+    affiliation: >-
+      Tecnológico de Monterrey, School of Engineering and Sciences
+    orcid: https://orcid.org/0000-0002-1099-8148
+
+# The corresponding author, as a CFF `contact` entry. Listed last among the
+# authors and first for correspondence, which the author order alone cannot say.
+contact:
+  - given-names: Víctor Adrián
+    family-names: Sosa Hernández
+    email: vsosa@tec.mx
+    affiliation: >-
+      Tecnológico de Monterrey, School of Engineering and Sciences
+
+keywords:
+  - neural architecture search
+  - multi-objective optimization
+  - text generation
+  - language models
+  - benchmark
+  - reproducibility

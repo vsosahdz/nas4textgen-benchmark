@@ -1,0 +1,92 @@
+{
+  "provenance": {
+    "written_at": "2026-10-12T06:40:16+00:00",
+    "git_revision": "d37fa83daec56b17effa54e43ea6f0794cacabeb",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen battery-analysis"
+  },
+  "redundant_above": 0.9,
+  "metrics": [
+    {
+      "metric": "blimp",
+      "key": "macro_accuracy",
+      "corpus": "tinystories",
+      "architectures": 220,
+      "kendall_tau_against_perplexity": -0.688,
+      "p_value": 5.6565919696474914e-52,
+      "spread": 0.097014,
+      "redundant": false
+    },
+    {
+      "metric": "calibration",
+      "key": "expected_calibration_error",
+      "corpus": "tinystories",
+      "architectures": 220,
+      "kendall_tau_against_perplexity": 0.9104,
+      "p_value": 8.062581948069268e-90,
+      "spread": 0.060493,
+      "redundant": true
+    },
+    {
+      "metric": "distinct_n",
+      "key": "distinct_1",
+      "corpus": "tinystories",
+      "architectures": 220,
+      "kendall_tau_against_perplexity": -0.8406,
+      "p_value": 9.964708026903786e-77,
+      "spread": 0.575684,
+      "redundant": false
+    },
+    {
+      "metric": "repetition_rate",
+      "key": "repetition_rate_4",
+      "corpus": "tinystories",
+      "architectures": 220,
+      "kendall_tau_against_perplexity": 0.7935,
+      "p_value": 1.3627934060778878e-68,
+      "spread": 0.892418,
+      "redundant": false
+    },
+    {
+      "metric": "blimp",
+      "key": "macro_accuracy",
+      "corpus": "wikitext103",
+      "architectures": 220,
+      "kendall_tau_against_perplexity": -0.4896,
+      "p_value": 3.8232406904904e-27,
+      "spread": 0.066119,
+      "redundant": false
+    },
+    {
+      "metric": "calibration",
+      "key": "expected_calibration_error",
+      "corpus": "wikitext103",
+      "architectures": 220,
+      "kendall_tau_against_perplexity": 0.3591,
+      "p_value": 2.2846454270696758e-15,
+      "spread": 0.026322,
+      "redundant": false
+    }
+  ],
+  "metrics_adding_information": 5,
+  "metrics_measured": 6,
+  "minimum_architectures": 30,
+  "measured_but_underpowered": [],
+  "how_to_read_this": "A rank correlation near one means the metric orders architectures the way perplexity already does, so reporting it adds a column and not a fact. A moderate correlation is the case for the battery: the metric and the objective disagree about which architectures are better, and the disagreement is what a single-metric evaluation cannot see.",
+  "why_sign_is_not_interpreted_as_quality": "Each metric has its own direction \u2014 higher BLiMP is better, lower calibration error is better \u2014 so the sign of a correlation with perplexity follows from that direction and carries no separate meaning. Only the magnitude is read."
+}

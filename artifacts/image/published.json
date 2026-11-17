@@ -1,0 +1,12 @@
+{
+  "registry": "nas4tgacrk5mlla.azurecr.io",
+  "repository": "nas4textgen-train",
+  "tag": "lock-795aaaae52cc",
+  "digest": "sha256:b3a8acd3c16ed11a6c79988c1ff04a8d68a6951bdd466ab46d2f1a1d6fdd4a09",
+  "lock_file": "requirements/train-linux-x86_64-cu121.txt",
+  "lock_sha256_prefix": "795aaaae52cc",
+  "git_revision": "d37fa83daec56b17effa54e43ea6f0794cacabeb",
+  "git_dirty": true,
+  "input_hash": "61704cd1f61a8570",
+  "platform": "linux/amd64"
+}

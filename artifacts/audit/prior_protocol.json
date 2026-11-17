@@ -1,0 +1,251 @@
+{
+  "provenance": {
+    "written_at": "2026-10-04T03:03:44+00:00",
+    "git_revision": "d37fa83daec56b17effa54e43ea6f0794cacabeb",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen audit"
+  },
+  "corpus": {
+    "identifier": "Salesforce/wikitext",
+    "config": "wikitext-2-raw-v1",
+    "split": "test",
+    "rows_evaluated": 2885
+  },
+  "protocols": {
+    "prior": "the row is cut at 70% of its characters and the hypothesis is the prompt and the continuation concatenated, scored over every non-empty row including markup \u2014 what the prior work ran",
+    "prompt_removed": "the same cut, with the hypothesis being the continuation alone; the only difference from `prior` is the defect itself",
+    "corrected": "cut on token boundaries with 30% to predict, hypothesis is the continuation alone, scored over prose rows whose reference is long enough to carry a score",
+    "documented_by": "the prior work's Figure B.1: 70% of a reference sentence as a prompt and must predict the remaining 30%"
+  },
+  "markup_share": 0.2454,
+  "scores": [
+    {
+      "hypothesis": "empty",
+      "protocol": "prior",
+      "rows": 2885,
+      "meteor": 0.3088,
+      "by_kind": {
+        "markup": 0.6712,
+        "prose": 0.2189,
+        "short": 0.0212
+      },
+      "rows_by_kind": {
+        "markup": 708,
+        "prose": 1869,
+        "short": 308
+      }
+    },
+    {
+      "hypothesis": "copy_prompt_tail",
+      "protocol": "prior",
+      "rows": 2885,
+      "meteor": 0.2599,
+      "by_kind": {
+        "markup": 0.5051,
+        "prose": 0.2067,
+        "short": 0.0197
+      },
+      "rows_by_kind": {
+        "markup": 708,
+        "prose": 1869,
+        "short": 308
+      }
+    },
+    {
+      "hypothesis": "frequent_tokens",
+      "protocol": "prior",
+      "rows": 2885,
+      "meteor": 0.2952,
+      "by_kind": {
+        "markup": 0.6136,
+        "prose": 0.2195,
+        "short": 0.0221
+      },
+      "rows_by_kind": {
+        "markup": 708,
+        "prose": 1869,
+        "short": 308
+      }
+    },
+    {
+      "hypothesis": "unrelated_prose",
+      "protocol": "prior",
+      "rows": 2885,
+      "meteor": 0.2267,
+      "by_kind": {
+        "markup": 0.3472,
+        "prose": 0.2145,
+        "short": 0.0236
+      },
+      "rows_by_kind": {
+        "markup": 708,
+        "prose": 1869,
+        "short": 308
+      }
+    },
+    {
+      "hypothesis": "empty",
+      "protocol": "prompt_removed",
+      "rows": 2885,
+      "meteor": 0.0,
+      "by_kind": {
+        "markup": 0.0,
+        "prose": 0.0,
+        "short": 0.0
+      },
+      "rows_by_kind": {
+        "markup": 708,
+        "prose": 1869,
+        "short": 308
+      }
+    },
+    {
+      "hypothesis": "copy_prompt_tail",
+      "protocol": "prompt_removed",
+      "rows": 2885,
+      "meteor": 0.164,
+      "by_kind": {
+        "markup": 0.2537,
+        "prose": 0.1558,
+        "short": 0.0074
+      },
+      "rows_by_kind": {
+        "markup": 708,
+        "prose": 1869,
+        "short": 308
+      }
+    },
+    {
+      "hypothesis": "frequent_tokens",
+      "protocol": "prompt_removed",
+      "rows": 2885,
+      "meteor": 0.0741,
+      "by_kind": {
+        "markup": 0.0009,
+        "prose": 0.1131,
+        "short": 0.0058
+      },
+      "rows_by_kind": {
+        "markup": 708,
+        "prose": 1869,
+        "short": 308
+      }
+    },
+    {
+      "hypothesis": "unrelated_prose",
+      "protocol": "prompt_removed",
+      "rows": 2885,
+      "meteor": 0.0624,
+      "by_kind": {
+        "markup": 0.0023,
+        "prose": 0.093,
+        "short": 0.0147
+      },
+      "rows_by_kind": {
+        "markup": 708,
+        "prose": 1869,
+        "short": 308
+      }
+    },
+    {
+      "hypothesis": "empty",
+      "protocol": "corrected",
+      "rows": 1842,
+      "meteor": 0.0,
+      "by_kind": {
+        "prose": 0.0
+      },
+      "rows_by_kind": {
+        "prose": 1842
+      }
+    },
+    {
+      "hypothesis": "copy_prompt_tail",
+      "protocol": "corrected",
+      "rows": 1842,
+      "meteor": 0.1429,
+      "by_kind": {
+        "prose": 0.1429
+      },
+      "rows_by_kind": {
+        "prose": 1842
+      }
+    },
+    {
+      "hypothesis": "frequent_tokens",
+      "protocol": "corrected",
+      "rows": 1842,
+      "meteor": 0.1116,
+      "by_kind": {
+        "prose": 0.1116
+      },
+      "rows_by_kind": {
+        "prose": 1842
+      }
+    },
+    {
+      "hypothesis": "unrelated_prose",
+      "protocol": "corrected",
+      "rows": 1842,
+      "meteor": 0.0861,
+      "by_kind": {
+        "prose": 0.0861
+      },
+      "rows_by_kind": {
+        "prose": 1842
+      }
+    }
+  ],
+  "sensitivity": [
+    {
+      "prompt_fraction": 0.5,
+      "rows": 2890,
+      "empty_generation": 0.2621,
+      "on_markup_rows": 0.5713
+    },
+    {
+      "prompt_fraction": 0.6,
+      "rows": 2889,
+      "empty_generation": 0.2869,
+      "on_markup_rows": 0.6042
+    },
+    {
+      "prompt_fraction": 0.7,
+      "rows": 2885,
+      "empty_generation": 0.3088,
+      "on_markup_rows": 0.6712
+    },
+    {
+      "prompt_fraction": 0.8,
+      "rows": 2880,
+      "empty_generation": 0.286,
+      "on_markup_rows": 0.609
+    }
+  ],
+  "finding": {
+    "empty_generation_under_prior_protocol": 0.3088,
+    "empty_generation_on_markup_rows": 0.6712,
+    "empty_generation_with_the_prompt_removed": 0.0,
+    "empty_generation_under_corrected_protocol": 0.0,
+    "prompt_defect_contribution": 0.3088,
+    "floor_spread": 0.0821,
+    "claimed_improvement": 0.024,
+    "improvement_exceeds_floor_spread": false
+  },
+  "why_this_exists": "The manuscript's section 5 reports these figures. Before this module they appeared only as constants in a regression fixture, so the paper's central measurement was the one number in it that no command re-derived."
+}

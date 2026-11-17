@@ -1,0 +1,61 @@
+{
+  "provenance": {
+    "written_at": "2026-10-12T07:11:19+00:00",
+    "git_revision": "d37fa83daec56b17effa54e43ea6f0794cacabeb",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen cost"
+  },
+  "window": {
+    "from": "2026-08-13",
+    "to": "2026-10-12"
+  },
+  "clusters": [
+    {
+      "cluster": "measure-dedicated",
+      "active_node_hours": 0.0,
+      "idle_node_hours": 0.0,
+      "allocated_node_hours": 0.0,
+      "usd_per_node_hour": 0.631,
+      "usd": 0.0,
+      "idle_share_of_active": 0.0
+    },
+    {
+      "cluster": "sweep-spot",
+      "active_node_hours": 4102.0,
+      "idle_node_hours": 583.0,
+      "allocated_node_hours": 4685.0,
+      "usd_per_node_hour": 0.126,
+      "usd": 590.31,
+      "idle_share_of_active": 0.1421
+    }
+  ],
+  "allocated_node_hours": 4685.0,
+  "process_node_hours": 3015.76,
+  "usd": 590.31,
+  "runs_in_window": 3563,
+  "allocation_overhead_active": 0.3602,
+  "allocation_overhead_allocated": 0.5535,
+  "node_hours_per_run": {
+    "process_time": 0.8464,
+    "allocated": 1.3149,
+    "counted_over": "every run that consumed node time in the window \u2014 the census, the 4x-budget study and the transfer \u2014 not the census alone. Dividing by the census charges the whole campaign to it."
+  },
+  "why_allocation_not_process_time": "Azure bills a node from allocation to release, which includes pulling the training image, mounting the corpus, and the scale-down window. None of that appears in wall_clock_seconds, and across thousands of short jobs it is a forty per cent difference. Every quote this project made before this measurement was low by it.",
+  "why_not_from_the_bill": "Cost Management returns zero cost and zero usage for this subscription. It is sponsored and the consumption data sits at the billing-account scope, so no billed figure was available to reconcile against.",
+  "measured_until": "Platform metrics are retained 93 days, after which this cannot be recomputed from any source. That is why it is an artifact."
+}

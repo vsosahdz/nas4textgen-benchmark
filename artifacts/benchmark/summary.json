@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "written_at": "2026-11-17T05:59:11+00:00",
+    "git_revision": "694fede8b391263528650123ede9e8d4b7673a8a",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen table"
+  },
+  "rows": 1103,
+  "architectures": 1099,
+  "replicated_architectures": 1,
+  "replicate_rows": 4,
+  "space_size": 1099,
+  "coverage": 1.0,
+  "front_size": 220,
+  "front_rows": 220,
+  "front_is": "exact over the whole space",
+  "front_is_over": "one point per architecture, the median perplexity across its replicates. Computed per run instead, a lucky seed could put an architecture on the front while its own replicates sit off it, and membership would describe a seed rather than a design.",
+  "excluded": {
+    "duplicate_fingerprint": 220,
+    "other_configuration": 2240
+  },
+  "held_constant": {
+    "corpus": "wikitext103",
+    "precision": "float16",
+    "data_vintage": "2026-08-13",
+    "token_budget": "100000000",
+    "tokeniser_fingerprint": "855ec41a9d90094e"
+  },
+  "selected": {
+    "corpus": "wikitext103",
+    "token_budget": "100000000"
+  },
+  "objectives": [
+    "params",
+    "kv_cache_bytes",
+    "perplexity"
+  ],
+  "why_excluded": {
+    "other_configuration": "measured under a different corpus or token budget. Perplexity on different text, or after four times the training, is not the same quantity \u2014 so each configuration gets its own table and its own front.",
+    "not_usable_for_benchmark": "the run did not meet its token budget, so its perplexity answers a different question than a complete row's",
+    "duplicate_fingerprint": "the same measurement completed more than once; the latest is kept"
+  }
+}

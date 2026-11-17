@@ -1,0 +1,262 @@
+{
+  "provenance": {
+    "written_at": "2026-09-14T06:58:01+00:00",
+    "git_revision": "346d5b1fd136f6612922e1ae7511db2718088414",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen characterise"
+  },
+  "iso_parameter": {
+    "bands": 10,
+    "band_edges_params": [
+      [
+        3340736,
+        8364416
+      ],
+      [
+        8364416,
+        14735308
+      ],
+      [
+        14735308,
+        19983104
+      ],
+      [
+        19983104,
+        26790528
+      ],
+      [
+        26790528,
+        33899136
+      ],
+      [
+        33899136,
+        43596288
+      ],
+      [
+        43596288,
+        57644518
+      ],
+      [
+        57644518,
+        74347520
+      ],
+      [
+        74347520,
+        101914112
+      ],
+      [
+        101914112,
+        144892416
+      ]
+    ],
+    "band_counts": [
+      111,
+      110,
+      111,
+      112,
+      112,
+      112,
+      110,
+      110,
+      112,
+      112
+    ],
+    "deep_mean_perplexity": [
+      427.269,
+      262.576,
+      162.698,
+      149.448,
+      122.308,
+      108.012,
+      97.448,
+      87.522,
+      81.397,
+      70.36
+    ],
+    "wide_mean_perplexity": [
+      320.67,
+      198.578,
+      161.081,
+      127.049,
+      108.319,
+      93.39,
+      88.027,
+      78.485,
+      66.778,
+      60.653
+    ],
+    "delta_deep_minus_wide": [
+      106.599,
+      63.997,
+      1.617,
+      22.399,
+      13.989,
+      14.622,
+      9.421,
+      9.037,
+      14.619,
+      9.706
+    ],
+    "bands_won_by_width": 10,
+    "claim_under_test": "The prior work reports that deep-and-thin architectures win. Within bands of equal parameter count, positive deltas mean the widest third reached lower perplexity than the deepest third."
+  },
+  "bayesian": {
+    "declaration": {
+      "question": "At a fixed parameter budget, does depth or width reach lower perplexity?",
+      "treatments": [
+        "deep",
+        "wide"
+      ],
+      "blocks": [
+        "band1",
+        "band2",
+        "band3",
+        "band4",
+        "band5",
+        "band6",
+        "band7",
+        "band8",
+        "band9",
+        "band10"
+      ],
+      "n_treatments": 2,
+      "n_blocks": 10,
+      "metric": "perplexity",
+      "direction": "lower is better",
+      "rope": 0.3256361874040581,
+      "rope_source": "h=8 d_head=32 n=24 ffn=2 kv=4 (e=256) at 5 seeds on WikiText-103, 100M tokens",
+      "notes": "Banded by parameter count so the contrast is shape rather than size. In this space depth adds only block parameters while the embedding dominates the total, so an unbanded comparison of deep against wide is mostly small against large."
+    },
+    "mean_ranks": {
+      "deep": 2.0,
+      "wide": 1.0
+    },
+    "bayesian": {
+      "a": "deep",
+      "b": "wide",
+      "rope": 0.3256361874040581,
+      "p(deep better)": 0.0,
+      "p(equivalent)": 0.001,
+      "p(wide better)": 0.999,
+      "verdict": "wide is practically better",
+      "draws": 50000,
+      "seed": 20260101
+    },
+    "probability_best": {
+      "deep": 0.0,
+      "wide": 1.0
+    },
+    "iso_parameter": {
+      "bands": 10,
+      "band_edges_params": [
+        [
+          3340736,
+          8364416
+        ],
+        [
+          8364416,
+          14735308
+        ],
+        [
+          14735308,
+          19983104
+        ],
+        [
+          19983104,
+          26790528
+        ],
+        [
+          26790528,
+          33899136
+        ],
+        [
+          33899136,
+          43596288
+        ],
+        [
+          43596288,
+          57644518
+        ],
+        [
+          57644518,
+          74347520
+        ],
+        [
+          74347520,
+          101914112
+        ],
+        [
+          101914112,
+          144892416
+        ]
+      ],
+      "band_counts": [
+        111,
+        110,
+        111,
+        112,
+        112,
+        112,
+        110,
+        110,
+        112,
+        112
+      ],
+      "deep_mean_perplexity": [
+        427.269,
+        262.576,
+        162.698,
+        149.448,
+        122.308,
+        108.012,
+        97.448,
+        87.522,
+        81.397,
+        70.36
+      ],
+      "wide_mean_perplexity": [
+        320.67,
+        198.578,
+        161.081,
+        127.049,
+        108.319,
+        93.39,
+        88.027,
+        78.485,
+        66.778,
+        60.653
+      ],
+      "delta_deep_minus_wide": [
+        106.599,
+        63.997,
+        1.617,
+        22.399,
+        13.989,
+        14.622,
+        9.421,
+        9.037,
+        14.619,
+        9.706
+      ],
+      "bands_won_by_width": 10,
+      "claim_under_test": "The prior work reports that deep-and-thin architectures win. Within bands of equal parameter count, positive deltas mean the widest third reached lower perplexity than the deepest third."
+    }
+  },
+  "source_table": "table.csv",
+  "rows": 1103
+}

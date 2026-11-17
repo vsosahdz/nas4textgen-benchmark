@@ -1,0 +1,48 @@
+{
+  "provenance": {
+    "written_at": "2026-09-14T06:58:01+00:00",
+    "git_revision": "346d5b1fd136f6612922e1ae7511db2718088414",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen characterise"
+  },
+  "fronts": {
+    "architectures": 1103,
+    "params_vs_quality_front": 152,
+    "memory_vs_quality_front": 6,
+    "in_both": 4,
+    "jaccard": 0.026,
+    "joint_front": 220,
+    "only_params_optimal": 148,
+    "only_memory_optimal": 2,
+    "why_it_matters": "If the two fronts were the same set, the KV-cache objective would be decoration and the problem would be single-objective with a relabelled axis. The project's premise is that they differ, and a premise is worth checking rather than asserting."
+  },
+  "gene_effects": {
+    "first_order_indices": {
+      "h": 0.5167,
+      "d_head": 0.1876,
+      "kv": 0.0754,
+      "n": 0.0048,
+      "ffn": 0.0002
+    },
+    "sum_of_first_order": 0.7847,
+    "estimator": "Variance of the conditional means over measured rows, normalised by the total variance. A designed Sobol sample would give interaction terms too; the sweep is a space-filling sample rather than a Sobol design, so only first-order effects are estimable and the shortfall from one is where interactions live.",
+    "distinct_from_the_gate": "The structural gate measured each gene's effect on cost, which is closed-form. This is the effect on measured quality. A gene can be nearly inert in cost and dominant in quality, and the gate's ffn finding is exactly that case."
+  },
+  "source_table": "table.csv",
+  "rows": 1103
+}

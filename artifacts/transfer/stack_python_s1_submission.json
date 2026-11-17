@@ -1,0 +1,1568 @@
+{
+  "provenance": {
+    "written_at": "2026-09-09T04:30:35+00:00",
+    "git_revision": "ffbc0c3635069bd1eebe0ddde20c58669ee78e18",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen transfer --submit"
+  },
+  "outcomes": [
+    {
+      "fingerprint": "9f0f4634b9442ac1",
+      "job_name": "nas-9f0f4634b9442ac1-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n12-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7317s"
+    },
+    {
+      "fingerprint": "1e9ddcd01c72b40b",
+      "job_name": "nas-1e9ddcd01c72b40b-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5466s"
+    },
+    {
+      "fingerprint": "75c102146619e20b",
+      "job_name": "nas-75c102146619e20b-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n8-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7881s"
+    },
+    {
+      "fingerprint": "779b9053953c1ef8",
+      "job_name": "nas-779b9053953c1ef8-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6725s"
+    },
+    {
+      "fingerprint": "22218e37e3e9194c",
+      "job_name": "nas-22218e37e3e9194c-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n2-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6839s"
+    },
+    {
+      "fingerprint": "eb45a70bb7578654",
+      "job_name": "nas-eb45a70bb7578654-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n8-f3-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7881s"
+    },
+    {
+      "fingerprint": "5a639c4de554350c",
+      "job_name": "nas-5a639c4de554350c-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n4-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5151s"
+    },
+    {
+      "fingerprint": "550c56811bd0f0de",
+      "job_name": "nas-550c56811bd0f0de-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n12-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8199s"
+    },
+    {
+      "fingerprint": "72ee91c971912ad4",
+      "job_name": "nas-72ee91c971912ad4-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n2-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5244s"
+    },
+    {
+      "fingerprint": "479df4b7e32138b1",
+      "job_name": "nas-479df4b7e32138b1-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n12-f3-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8199s"
+    },
+    {
+      "fingerprint": "252eb0730e23a0e2",
+      "job_name": "nas-252eb0730e23a0e2-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n2-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4783s"
+    },
+    {
+      "fingerprint": "5b85afad3179da46",
+      "job_name": "nas-5b85afad3179da46-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n12-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7317s"
+    },
+    {
+      "fingerprint": "1ba364aa7b7ea89c",
+      "job_name": "nas-1ba364aa7b7ea89c-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n8-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6245s"
+    },
+    {
+      "fingerprint": "a0afbc75a21f5162",
+      "job_name": "nas-a0afbc75a21f5162-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n8-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6832s"
+    },
+    {
+      "fingerprint": "ea49822ac217c9dd",
+      "job_name": "nas-ea49822ac217c9dd-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5550s"
+    },
+    {
+      "fingerprint": "d2e01e139ec8fa10",
+      "job_name": "nas-d2e01e139ec8fa10-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n6-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6149s"
+    },
+    {
+      "fingerprint": "2a479faaa5cae0c4",
+      "job_name": "nas-2a479faaa5cae0c4-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5130s"
+    },
+    {
+      "fingerprint": "de715647d6a84542",
+      "job_name": "nas-de715647d6a84542-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n2-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6461s"
+    },
+    {
+      "fingerprint": "c21425fb4ea22060",
+      "job_name": "nas-c21425fb4ea22060-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f4-kv6 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5139s"
+    },
+    {
+      "fingerprint": "720ce91825e156f2",
+      "job_name": "nas-720ce91825e156f2-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n6-f3-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8037s"
+    },
+    {
+      "fingerprint": "256236f55887ef3e",
+      "job_name": "nas-256236f55887ef3e-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n6-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6275s"
+    },
+    {
+      "fingerprint": "bb1ca0d36975d85f",
+      "job_name": "nas-bb1ca0d36975d85f-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n6-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5645s"
+    },
+    {
+      "fingerprint": "077c31e7b218e878",
+      "job_name": "nas-077c31e7b218e878-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n2-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4615s"
+    },
+    {
+      "fingerprint": "02bcb14f4bc08ce7",
+      "job_name": "nas-02bcb14f4bc08ce7-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n4-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5172s"
+    },
+    {
+      "fingerprint": "868c408116a077d1",
+      "job_name": "nas-868c408116a077d1-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n6-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8541s"
+    },
+    {
+      "fingerprint": "7d55204169cbc2fa",
+      "job_name": "nas-7d55204169cbc2fa-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n6-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5677s"
+    },
+    {
+      "fingerprint": "c789ccfcad257168",
+      "job_name": "nas-c789ccfcad257168-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n4-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6725s"
+    },
+    {
+      "fingerprint": "91367c136d82cdf1",
+      "job_name": "nas-91367c136d82cdf1-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n4-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5466s"
+    },
+    {
+      "fingerprint": "e1d1eacf92737a2c",
+      "job_name": "nas-e1d1eacf92737a2c-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n4-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 9578s"
+    },
+    {
+      "fingerprint": "e29760ef872c94cb",
+      "job_name": "nas-e29760ef872c94cb-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n6-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 10052s"
+    },
+    {
+      "fingerprint": "d7d7bbe3a2c5aa4a",
+      "job_name": "nas-d7d7bbe3a2c5aa4a-a1",
+      "status": "submitted",
+      "display_name": "h8-d128-n4-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 13103s"
+    },
+    {
+      "fingerprint": "c74849314bc88f4a",
+      "job_name": "nas-c74849314bc88f4a-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n4-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6179s"
+    },
+    {
+      "fingerprint": "60f873dbbd6a9e6b",
+      "job_name": "nas-60f873dbbd6a9e6b-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5944s"
+    },
+    {
+      "fingerprint": "ffd722c4e2736653",
+      "job_name": "nas-ffd722c4e2736653-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n6-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6275s"
+    },
+    {
+      "fingerprint": "3536b9b255b3a46a",
+      "job_name": "nas-3536b9b255b3a46a-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n6-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 12318s"
+    },
+    {
+      "fingerprint": "233e318a2e4c938c",
+      "job_name": "nas-233e318a2e4c938c-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n8-f4-kv4 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "e3b8aa2d449de028",
+      "job_name": "nas-e3b8aa2d449de028-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6653s"
+    },
+    {
+      "fingerprint": "4e0710f0eaeff903",
+      "job_name": "nas-4e0710f0eaeff903-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5580s"
+    },
+    {
+      "fingerprint": "a43094d8321ce5e4",
+      "job_name": "nas-a43094d8321ce5e4-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5330s"
+    },
+    {
+      "fingerprint": "17d5a1237143f3bb",
+      "job_name": "nas-17d5a1237143f3bb-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5172s"
+    },
+    {
+      "fingerprint": "c6c6872668c76d25",
+      "job_name": "nas-c6c6872668c76d25-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n4-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5072s"
+    },
+    {
+      "fingerprint": "3bb614be8f62d0a0",
+      "job_name": "nas-3bb614be8f62d0a0-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n12-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7947s"
+    },
+    {
+      "fingerprint": "c9e3f121cbf90e49",
+      "job_name": "nas-c9e3f121cbf90e49-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5151s"
+    },
+    {
+      "fingerprint": "32b2e6a3fe65b1bd",
+      "job_name": "nas-32b2e6a3fe65b1bd-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f2-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5382s"
+    },
+    {
+      "fingerprint": "11602cf46bcf87d2",
+      "job_name": "nas-11602cf46bcf87d2-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n6-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8541s"
+    },
+    {
+      "fingerprint": "ef0ab76d456735ff",
+      "job_name": "nas-ef0ab76d456735ff-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7219s"
+    },
+    {
+      "fingerprint": "acc2fe04d17f5a73",
+      "job_name": "nas-acc2fe04d17f5a73-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f2-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5802s"
+    },
+    {
+      "fingerprint": "a65bda0209323181",
+      "job_name": "nas-a65bda0209323181-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n2-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4825s"
+    },
+    {
+      "fingerprint": "a07aec29f14a0bb8",
+      "job_name": "nas-a07aec29f14a0bb8-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n6-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 12318s"
+    },
+    {
+      "fingerprint": "bce2e3add2a28164",
+      "job_name": "nas-bce2e3add2a28164-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n4-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 13103s"
+    },
+    {
+      "fingerprint": "c7a5aa8da48a4502",
+      "job_name": "nas-c7a5aa8da48a4502-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n6-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8037s"
+    },
+    {
+      "fingerprint": "e6b6b29cc5f9cba4",
+      "job_name": "nas-e6b6b29cc5f9cba4-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n6-f3-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5559s"
+    },
+    {
+      "fingerprint": "9f166c5e5ee01869",
+      "job_name": "nas-9f166c5e5ee01869-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n6-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6275s"
+    },
+    {
+      "fingerprint": "829747bafe436471",
+      "job_name": "nas-829747bafe436471-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n6-f2-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7534s"
+    },
+    {
+      "fingerprint": "52709f729fc7fdce",
+      "job_name": "nas-52709f729fc7fdce-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5244s"
+    },
+    {
+      "fingerprint": "0234e855efb7d9e5",
+      "job_name": "nas-0234e855efb7d9e5-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5580s"
+    },
+    {
+      "fingerprint": "62c3197a4133d839",
+      "job_name": "nas-62c3197a4133d839-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n6-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 13577s"
+    },
+    {
+      "fingerprint": "f8a06cb3229ee92a",
+      "job_name": "nas-f8a06cb3229ee92a-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5990s"
+    },
+    {
+      "fingerprint": "5167918ca61f06d9",
+      "job_name": "nas-5167918ca61f06d9-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n4-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5078s"
+    },
+    {
+      "fingerprint": "ee1806b69fdeb640",
+      "job_name": "nas-ee1806b69fdeb640-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n4-f3-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8823s"
+    },
+    {
+      "fingerprint": "7ab879394d529b95",
+      "job_name": "nas-7ab879394d529b95-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n2-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5045s"
+    },
+    {
+      "fingerprint": "e24f966fcbc5241e",
+      "job_name": "nas-e24f966fcbc5241e-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n4-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5466s"
+    },
+    {
+      "fingerprint": "58df2a4fa49f1003",
+      "job_name": "nas-58df2a4fa49f1003-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n8-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6056s"
+    },
+    {
+      "fingerprint": "c4654d94360b625b",
+      "job_name": "nas-c4654d94360b625b-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6559s"
+    },
+    {
+      "fingerprint": "74728c532657616b",
+      "job_name": "nas-74728c532657616b-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n8-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "b969a3df404fc9a7",
+      "job_name": "nas-b969a3df404fc9a7-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n12-f3-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8199s"
+    },
+    {
+      "fingerprint": "2e7439e4ef51a0ab",
+      "job_name": "nas-2e7439e4ef51a0ab-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4253s"
+    },
+    {
+      "fingerprint": "9539602ea8ac8822",
+      "job_name": "nas-9539602ea8ac8822-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7219s"
+    },
+    {
+      "fingerprint": "05fd5add47d09411",
+      "job_name": "nas-05fd5add47d09411-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n6-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5645s"
+    },
+    {
+      "fingerprint": "604e577096883429",
+      "job_name": "nas-604e577096883429-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n12-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8450s"
+    },
+    {
+      "fingerprint": "46542cb1ce7aeb9d",
+      "job_name": "nas-46542cb1ce7aeb9d-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n6-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8037s"
+    },
+    {
+      "fingerprint": "269b27b7ae626e5c",
+      "job_name": "nas-269b27b7ae626e5c-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n2-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7930s"
+    },
+    {
+      "fingerprint": "20d405a0faabe305",
+      "job_name": "nas-20d405a0faabe305-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n4-f3-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 11760s"
+    },
+    {
+      "fingerprint": "2666935e7ea369a2",
+      "job_name": "nas-2666935e7ea369a2-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n8-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "5495d916ed61b11c",
+      "job_name": "nas-5495d916ed61b11c-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n2-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "4cbd2eeea756eb41",
+      "job_name": "nas-4cbd2eeea756eb41-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n6-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 12318s"
+    },
+    {
+      "fingerprint": "d702be89e1a01277",
+      "job_name": "nas-d702be89e1a01277-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n8-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 9350s"
+    },
+    {
+      "fingerprint": "ad02b9ee6e36a339",
+      "job_name": "nas-ad02b9ee6e36a339-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n8-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7000s"
+    },
+    {
+      "fingerprint": "e1ff4f2a3a207525",
+      "job_name": "nas-e1ff4f2a3a207525-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f2-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6653s"
+    },
+    {
+      "fingerprint": "cf3e654cd76b7a66",
+      "job_name": "nas-cf3e654cd76b7a66-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n2-f2-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4583s"
+    },
+    {
+      "fingerprint": "2cd45a76036439eb",
+      "job_name": "nas-2cd45a76036439eb-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f3-kv4 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "ea8b0db3332996be",
+      "job_name": "nas-ea8b0db3332996be-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f2-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4667s"
+    },
+    {
+      "fingerprint": "44dcf7be4728e5b3",
+      "job_name": "nas-44dcf7be4728e5b3-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n8-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7000s"
+    },
+    {
+      "fingerprint": "60116e34f94524db",
+      "job_name": "nas-60116e34f94524db-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6179s"
+    },
+    {
+      "fingerprint": "23c2a7e249e2c047",
+      "job_name": "nas-23c2a7e249e2c047-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f4-kv6 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6179s"
+    },
+    {
+      "fingerprint": "4ecc0d7dee378c1c",
+      "job_name": "nas-4ecc0d7dee378c1c-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n4-f4-kv4 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5550s"
+    },
+    {
+      "fingerprint": "9ecf0433dbf34268",
+      "job_name": "nas-9ecf0433dbf34268-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n4-f2-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5382s"
+    },
+    {
+      "fingerprint": "0afdd8f82e6ebddd",
+      "job_name": "nas-0afdd8f82e6ebddd-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n2-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6839s"
+    },
+    {
+      "fingerprint": "79cedfa822eef4ee",
+      "job_name": "nas-79cedfa822eef4ee-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4951s"
+    },
+    {
+      "fingerprint": "4713a21482423db9",
+      "job_name": "nas-4713a21482423db9-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n4-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6725s"
+    },
+    {
+      "fingerprint": "e5adfa9eb6c9c7a2",
+      "job_name": "nas-e5adfa9eb6c9c7a2-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n16-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7098s"
+    },
+    {
+      "fingerprint": "4cc0d6c5650de5ba",
+      "job_name": "nas-4cc0d6c5650de5ba-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n16-f3-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8306s"
+    },
+    {
+      "fingerprint": "c8e878677eb77612",
+      "job_name": "nas-c8e878677eb77612-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n8-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 13546s"
+    },
+    {
+      "fingerprint": "d2877e4ca2310ea6",
+      "job_name": "nas-d2877e4ca2310ea6-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n2-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6839s"
+    },
+    {
+      "fingerprint": "4b723afef88d77a2",
+      "job_name": "nas-4b723afef88d77a2-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n6-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6653s"
+    },
+    {
+      "fingerprint": "33197aa6af0e9993",
+      "job_name": "nas-33197aa6af0e9993-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f3-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "632525c9d27b1441",
+      "job_name": "nas-632525c9d27b1441-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4572s"
+    },
+    {
+      "fingerprint": "0a69ee689eb02e2c",
+      "job_name": "nas-0a69ee689eb02e2c-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n6-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 11185s"
+    },
+    {
+      "fingerprint": "8607f0b119eb52ce",
+      "job_name": "nas-8607f0b119eb52ce-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5139s"
+    },
+    {
+      "fingerprint": "e97fdde71f3e4dcd",
+      "job_name": "nas-e97fdde71f3e4dcd-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f3-kv6 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5990s"
+    },
+    {
+      "fingerprint": "e890b6b3a4641512",
+      "job_name": "nas-e890b6b3a4641512-a1",
+      "status": "submitted",
+      "display_name": "h8-d128-n6-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 15591s"
+    },
+    {
+      "fingerprint": "6ae334201a823dc6",
+      "job_name": "nas-6ae334201a823dc6-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7061s"
+    },
+    {
+      "fingerprint": "38a2a0cec5e07658",
+      "job_name": "nas-38a2a0cec5e07658-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n2-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4625s"
+    },
+    {
+      "fingerprint": "45ba43d7976658b3",
+      "job_name": "nas-45ba43d7976658b3-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7061s"
+    },
+    {
+      "fingerprint": "73fe294b068671e9",
+      "job_name": "nas-73fe294b068671e9-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n6-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 17605s"
+    },
+    {
+      "fingerprint": "54aa0331587954fd",
+      "job_name": "nas-54aa0331587954fd-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n2-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4783s"
+    },
+    {
+      "fingerprint": "0cd87853f0f33032",
+      "job_name": "nas-0cd87853f0f33032-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n4-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 11760s"
+    },
+    {
+      "fingerprint": "cdf35425e7091c0f",
+      "job_name": "nas-cdf35425e7091c0f-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n2-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4589s"
+    },
+    {
+      "fingerprint": "d5b1411f36253feb",
+      "job_name": "nas-d5b1411f36253feb-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f3-kv6 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5874s"
+    },
+    {
+      "fingerprint": "e935cff4d8d74b91",
+      "job_name": "nas-e935cff4d8d74b91-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5172s"
+    },
+    {
+      "fingerprint": "745d077f6008f7e1",
+      "job_name": "nas-745d077f6008f7e1-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f2-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5803s"
+    },
+    {
+      "fingerprint": "20cdedd97d07cea9",
+      "job_name": "nas-20cdedd97d07cea9-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n2-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4741s"
+    },
+    {
+      "fingerprint": "233a475870be6789",
+      "job_name": "nas-233a475870be6789-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f2-kv6 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4951s"
+    },
+    {
+      "fingerprint": "c1810c3a43a31511",
+      "job_name": "nas-c1810c3a43a31511-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n2-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4951s"
+    },
+    {
+      "fingerprint": "1596815fc57172e9",
+      "job_name": "nas-1596815fc57172e9-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n16-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8306s"
+    },
+    {
+      "fingerprint": "8308ee49cf829e70",
+      "job_name": "nas-8308ee49cf829e70-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n4-f2-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5382s"
+    },
+    {
+      "fingerprint": "a1919a65707f7302",
+      "job_name": "nas-a1919a65707f7302-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n2-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4825s"
+    },
+    {
+      "fingerprint": "1a949939a600765c",
+      "job_name": "nas-1a949939a600765c-a1",
+      "status": "submitted",
+      "display_name": "h12-d128-n2-f3-kv4 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 12126s"
+    },
+    {
+      "fingerprint": "2a0db0dde6b26667",
+      "job_name": "nas-2a0db0dde6b26667-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n2-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4741s"
+    },
+    {
+      "fingerprint": "0df10977ec6b835f",
+      "job_name": "nas-0df10977ec6b835f-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n2-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6461s"
+    },
+    {
+      "fingerprint": "462cc680ce38885a",
+      "job_name": "nas-462cc680ce38885a-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f2-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5130s"
+    },
+    {
+      "fingerprint": "a7f3f3ddfe0acec2",
+      "job_name": "nas-a7f3f3ddfe0acec2-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n4-f3-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8823s"
+    },
+    {
+      "fingerprint": "b545e52d96863995",
+      "job_name": "nas-b545e52d96863995-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5382s"
+    },
+    {
+      "fingerprint": "26b09743974282ef",
+      "job_name": "nas-26b09743974282ef-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5550s"
+    },
+    {
+      "fingerprint": "7f3ee9f92cbf6bf0",
+      "job_name": "nas-7f3ee9f92cbf6bf0-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n8-f3-kv4 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6832s"
+    },
+    {
+      "fingerprint": "945a44eb4017526f",
+      "job_name": "nas-945a44eb4017526f-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n4-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8823s"
+    },
+    {
+      "fingerprint": "cd58ae4e6f0c61a6",
+      "job_name": "nas-cd58ae4e6f0c61a6-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n2-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4586s"
+    },
+    {
+      "fingerprint": "cce671fcd30d2406",
+      "job_name": "nas-cce671fcd30d2406-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "15bfa4c5d0270cd4",
+      "job_name": "nas-15bfa4c5d0270cd4-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5802s"
+    },
+    {
+      "fingerprint": "ebd871e88a39a18f",
+      "job_name": "nas-ebd871e88a39a18f-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f2-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6389s"
+    },
+    {
+      "fingerprint": "8045cde0853aa6de",
+      "job_name": "nas-8045cde0853aa6de-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n12-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7648s"
+    },
+    {
+      "fingerprint": "538d77fd3ee6f3f8",
+      "job_name": "nas-538d77fd3ee6f3f8-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n4-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6389s"
+    },
+    {
+      "fingerprint": "589a06069ccfbe9e",
+      "job_name": "nas-589a06069ccfbe9e-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6559s"
+    },
+    {
+      "fingerprint": "9d9e886ebd428f87",
+      "job_name": "nas-9d9e886ebd428f87-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n6-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 10052s"
+    },
+    {
+      "fingerprint": "d3ba72cf39efb269",
+      "job_name": "nas-d3ba72cf39efb269-a1",
+      "status": "submitted",
+      "display_name": "h12-d128-n4-f2-kv6 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 16664s"
+    },
+    {
+      "fingerprint": "ab741345a9c2e356",
+      "job_name": "nas-ab741345a9c2e356-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n2-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4625s"
+    },
+    {
+      "fingerprint": "db0196f00cde829a",
+      "job_name": "nas-db0196f00cde829a-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n8-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "c99e09662152e8e2",
+      "job_name": "nas-c99e09662152e8e2-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n2-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5139s"
+    },
+    {
+      "fingerprint": "207bffc9a270110c",
+      "job_name": "nas-207bffc9a270110c-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n2-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5580s"
+    },
+    {
+      "fingerprint": "fd5d77bbc019d8f7",
+      "job_name": "nas-fd5d77bbc019d8f7-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n4-f4-kv6 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 9578s"
+    },
+    {
+      "fingerprint": "8f0cc06a3105b153",
+      "job_name": "nas-8f0cc06a3105b153-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n4-f3-kv4 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6725s"
+    },
+    {
+      "fingerprint": "1df5bdca89311971",
+      "job_name": "nas-1df5bdca89311971-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n6-f3-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6149s"
+    },
+    {
+      "fingerprint": "08169d95d9d2ae80",
+      "job_name": "nas-08169d95d9d2ae80-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n6-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5559s"
+    },
+    {
+      "fingerprint": "f9b6c582c08bdfbb",
+      "job_name": "nas-f9b6c582c08bdfbb-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4715s"
+    },
+    {
+      "fingerprint": "9c003ee67ccaabef",
+      "job_name": "nas-9c003ee67ccaabef-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f2-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4951s"
+    },
+    {
+      "fingerprint": "c99fae9da8cefb29",
+      "job_name": "nas-c99fae9da8cefb29-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5330s"
+    },
+    {
+      "fingerprint": "91cb4a877c3fa7e0",
+      "job_name": "nas-91cb4a877c3fa7e0-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n6-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6023s"
+    },
+    {
+      "fingerprint": "485f0122c9fd53f4",
+      "job_name": "nas-485f0122c9fd53f4-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f4-kv6 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4715s"
+    },
+    {
+      "fingerprint": "36c2d8ca8fd23144",
+      "job_name": "nas-36c2d8ca8fd23144-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n8-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 19421s"
+    },
+    {
+      "fingerprint": "7bed25b8ec377d19",
+      "job_name": "nas-7bed25b8ec377d19-a1",
+      "status": "submitted",
+      "display_name": "h8-d128-n2-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8601s"
+    },
+    {
+      "fingerprint": "6f93a4870644db72",
+      "job_name": "nas-6f93a4870644db72-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4691s"
+    },
+    {
+      "fingerprint": "42f39932be5fa019",
+      "job_name": "nas-42f39932be5fa019-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4667s"
+    },
+    {
+      "fingerprint": "1e93c72f1486f606",
+      "job_name": "nas-1e93c72f1486f606-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n6-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8541s"
+    },
+    {
+      "fingerprint": "c341b49718581975",
+      "job_name": "nas-c341b49718581975-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f3-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5874s"
+    },
+    {
+      "fingerprint": "5711b07d6b9f4ef0",
+      "job_name": "nas-5711b07d6b9f4ef0-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n2-f3-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4586s"
+    },
+    {
+      "fingerprint": "4225389d6c09ea00",
+      "job_name": "nas-4225389d6c09ea00-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n6-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8037s"
+    },
+    {
+      "fingerprint": "41809cb593f66069",
+      "job_name": "nas-41809cb593f66069-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5235s"
+    },
+    {
+      "fingerprint": "87cfd137666c695e",
+      "job_name": "nas-87cfd137666c695e-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f3-kv6 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6465s"
+    },
+    {
+      "fingerprint": "7db07165c4a8c31d",
+      "job_name": "nas-7db07165c4a8c31d-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f4-kv6 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6559s"
+    },
+    {
+      "fingerprint": "0c6dd1e47a8e64aa",
+      "job_name": "nas-0c6dd1e47a8e64aa-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n2-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "0075f4421637777b",
+      "job_name": "nas-0075f4421637777b-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n8-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "3a657b7558a5c14c",
+      "job_name": "nas-3a657b7558a5c14c-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n6-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8541s"
+    },
+    {
+      "fingerprint": "5d8b6413f04728da",
+      "job_name": "nas-5d8b6413f04728da-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n12-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8450s"
+    },
+    {
+      "fingerprint": "1a79328de4faa952",
+      "job_name": "nas-1a79328de4faa952-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n2-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4741s"
+    },
+    {
+      "fingerprint": "7a1c7a235a819350",
+      "job_name": "nas-7a1c7a235a819350-a1",
+      "status": "submitted",
+      "display_name": "h8-d128-n6-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 17605s"
+    },
+    {
+      "fingerprint": "f384abbc9dc2c4f3",
+      "job_name": "nas-f384abbc9dc2c4f3-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n2-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 3256s"
+    },
+    {
+      "fingerprint": "e98787a40fb35489",
+      "job_name": "nas-e98787a40fb35489-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f3-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5990s"
+    },
+    {
+      "fingerprint": "431d2583934b637d",
+      "job_name": "nas-431d2583934b637d-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n6-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6149s"
+    },
+    {
+      "fingerprint": "ea52eeca60683687",
+      "job_name": "nas-ea52eeca60683687-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n8-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7000s"
+    },
+    {
+      "fingerprint": "52b68008dc08193c",
+      "job_name": "nas-52b68008dc08193c-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n2-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4825s"
+    },
+    {
+      "fingerprint": "384d7464596b3b8c",
+      "job_name": "nas-384d7464596b3b8c-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f2-kv6 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5802s"
+    },
+    {
+      "fingerprint": "489b4b10b4c10578",
+      "job_name": "nas-489b4b10b4c10578-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n8-f3-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7881s"
+    },
+    {
+      "fingerprint": "34daa89c6ff73d12",
+      "job_name": "nas-34daa89c6ff73d12-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n6-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 11185s"
+    },
+    {
+      "fingerprint": "75b2dc6d60c33616",
+      "job_name": "nas-75b2dc6d60c33616-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5045s"
+    },
+    {
+      "fingerprint": "19e7a8bde47f15b9",
+      "job_name": "nas-19e7a8bde47f15b9-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5803s"
+    },
+    {
+      "fingerprint": "7af6d8e082ee57d9",
+      "job_name": "nas-7af6d8e082ee57d9-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n8-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 13546s"
+    },
+    {
+      "fingerprint": "8c9db9db34febe90",
+      "job_name": "nas-8c9db9db34febe90-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n16-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8642s"
+    },
+    {
+      "fingerprint": "de6f10e0e970d84d",
+      "job_name": "nas-de6f10e0e970d84d-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n2-f3-kv6 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6461s"
+    },
+    {
+      "fingerprint": "a5b984d81aa0134c",
+      "job_name": "nas-a5b984d81aa0134c-a1",
+      "status": "submitted",
+      "display_name": "h8-d128-n6-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 17605s"
+    },
+    {
+      "fingerprint": "28547c7458581a76",
+      "job_name": "nas-28547c7458581a76-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n6-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6275s"
+    },
+    {
+      "fingerprint": "a9eedca35873c7c4",
+      "job_name": "nas-a9eedca35873c7c4-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n8-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6056s"
+    },
+    {
+      "fingerprint": "d7071af81f3a8ad2",
+      "job_name": "nas-d7071af81f3a8ad2-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n6-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6936s"
+    },
+    {
+      "fingerprint": "99d7f2e0a7114bfb",
+      "job_name": "nas-99d7f2e0a7114bfb-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f4-kv4 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7061s"
+    },
+    {
+      "fingerprint": "ab8cf848476d2761",
+      "job_name": "nas-ab8cf848476d2761-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n4-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5990s"
+    },
+    {
+      "fingerprint": "237b5070c07e972e",
+      "job_name": "nas-237b5070c07e972e-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n4-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 10418s"
+    },
+    {
+      "fingerprint": "c24431e37310b368",
+      "job_name": "nas-c24431e37310b368-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n6-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7534s"
+    },
+    {
+      "fingerprint": "0a17529bf0da500b",
+      "job_name": "nas-0a17529bf0da500b-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n2-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5244s"
+    },
+    {
+      "fingerprint": "58ef1c945955e994",
+      "job_name": "nas-58ef1c945955e994-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n8-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6832s"
+    },
+    {
+      "fingerprint": "7c67bada6aee23ae",
+      "job_name": "nas-7c67bada6aee23ae-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n2-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4615s"
+    },
+    {
+      "fingerprint": "f164cc27d095ea11",
+      "job_name": "nas-f164cc27d095ea11-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f3-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6465s"
+    },
+    {
+      "fingerprint": "73e3c102b6ceb0eb",
+      "job_name": "nas-73e3c102b6ceb0eb-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n2-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4783s"
+    },
+    {
+      "fingerprint": "865476369ee70e81",
+      "job_name": "nas-865476369ee70e81-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n16-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8222s"
+    },
+    {
+      "fingerprint": "6f44af46c1daea98",
+      "job_name": "nas-6f44af46c1daea98-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n6-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7534s"
+    },
+    {
+      "fingerprint": "a10eb32d63cb4543",
+      "job_name": "nas-a10eb32d63cb4543-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n6-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5708s"
+    },
+    {
+      "fingerprint": "7bfc761b451cb6ee",
+      "job_name": "nas-7bfc761b451cb6ee-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n24-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 10409s"
+    },
+    {
+      "fingerprint": "1d2d2c3aceba11fa",
+      "job_name": "nas-1d2d2c3aceba11fa-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f2-kv6 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5235s"
+    },
+    {
+      "fingerprint": "da21485198f6658f",
+      "job_name": "nas-da21485198f6658f-a1",
+      "status": "submitted",
+      "display_name": "h12-d128-n2-f4-kv4 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 13637s"
+    },
+    {
+      "fingerprint": "096b8bab8e0af473",
+      "job_name": "nas-096b8bab8e0af473-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f3-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6936s"
+    },
+    {
+      "fingerprint": "f1c70212e639df4d",
+      "job_name": "nas-f1c70212e639df4d-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n6-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6023s"
+    },
+    {
+      "fingerprint": "731e04cc66b76c6a",
+      "job_name": "nas-731e04cc66b76c6a-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6936s"
+    },
+    {
+      "fingerprint": "319044bcda98df96",
+      "job_name": "nas-319044bcda98df96-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n4-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5802s"
+    },
+    {
+      "fingerprint": "d95de8210f805175",
+      "job_name": "nas-d95de8210f805175-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n6-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7219s"
+    },
+    {
+      "fingerprint": "55e01e5cb02eb5d3",
+      "job_name": "nas-55e01e5cb02eb5d3-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n4-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 9578s"
+    },
+    {
+      "fingerprint": "7c05bcdc64cdd39b",
+      "job_name": "nas-7c05bcdc64cdd39b-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n4-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 3366s"
+    },
+    {
+      "fingerprint": "c7c29436f19e3af5",
+      "job_name": "nas-c7c29436f19e3af5-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n4-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7061s"
+    },
+    {
+      "fingerprint": "82649195a95bdf70",
+      "job_name": "nas-82649195a95bdf70-a1",
+      "status": "submitted",
+      "display_name": "h12-d128-n2-f4-kv6 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 13637s"
+    },
+    {
+      "fingerprint": "8f4904b55fa8d9b4",
+      "job_name": "nas-8f4904b55fa8d9b4-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n8-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6245s"
+    },
+    {
+      "fingerprint": "29772d9f5c48c5fa",
+      "job_name": "nas-29772d9f5c48c5fa-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n2-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 4825s"
+    },
+    {
+      "fingerprint": "42ff6a1fcc89858a",
+      "job_name": "nas-42ff6a1fcc89858a-a1",
+      "status": "submitted",
+      "display_name": "h8-d128-n2-f4-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8601s"
+    },
+    {
+      "fingerprint": "f9533d5b0523edb2",
+      "job_name": "nas-f9533d5b0523edb2-a1",
+      "status": "submitted",
+      "display_name": "h12-d128-n4-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 17132s"
+    },
+    {
+      "fingerprint": "c2cf336c4d2b4996",
+      "job_name": "nas-c2cf336c4d2b4996-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n2-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5580s"
+    },
+    {
+      "fingerprint": "7597974dba1be304",
+      "job_name": "nas-7597974dba1be304-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n4-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 3275s"
+    },
+    {
+      "fingerprint": "b66f9b6e2719ed53",
+      "job_name": "nas-b66f9b6e2719ed53-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n6-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 5677s"
+    },
+    {
+      "fingerprint": "ed0044f5e6fe3726",
+      "job_name": "nas-ed0044f5e6fe3726-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n4-f2-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6389s"
+    },
+    {
+      "fingerprint": "83c47b90ce89d220",
+      "job_name": "nas-83c47b90ce89d220-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n6-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6149s"
+    },
+    {
+      "fingerprint": "0f480633755c02ab",
+      "job_name": "nas-0f480633755c02ab-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n2-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 8601s"
+    },
+    {
+      "fingerprint": "74d5c4763739c76f",
+      "job_name": "nas-74d5c4763739c76f-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n8-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6203s"
+    },
+    {
+      "fingerprint": "8267a2bf731bf8eb",
+      "job_name": "nas-8267a2bf731bf8eb-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n8-f2-kv2 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 6664s"
+    },
+    {
+      "fingerprint": "8bea2e5b6dd96ff5",
+      "job_name": "nas-8bea2e5b6dd96ff5-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n8-f3-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 9350s"
+    },
+    {
+      "fingerprint": "5fe6222ecafea122",
+      "job_name": "nas-5fe6222ecafea122-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n4-f4-kv1 stack_python s1",
+      "detail": "attempt 1 on sweep-spot, limit 7061s"
+    }
+  ],
+  "tally": {
+    "submitted": 220
+  }
+}

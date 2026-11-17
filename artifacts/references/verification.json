@@ -1,0 +1,1409 @@
+{
+  "provenance": {
+    "written_at": "2026-10-27T16:32:14+00:00",
+    "git_revision": "1ccebc6655700a3b096f174c390c7bc8ed101ae2",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen references"
+  },
+  "entries": 59,
+  "by_status": {
+    "matched": 28,
+    "needs a human": 2,
+    "conflict": 24,
+    "not found": 5
+  },
+  "confident_threshold": 0.92,
+  "plausible_threshold": 0.75,
+  "findings": [
+    {
+      "key": "ThessenCuiMozzherin2012",
+      "title": "Applications of {Natural} {Language} {Processing} in {Biodiversity} {Science}",
+      "status": "matched",
+      "candidate": {
+        "source": "crossref",
+        "title": "Applications of Natural Language Processing in Biodiversity Science",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Thessen, Anne E. and Cui, Hong and Mozzherin, Dmitry",
+          "doi": "10.1155/2012/391574",
+          "journal": "Advances in Bioinformatics",
+          "volume": "2012",
+          "pages": "1--17",
+          "year": "2012",
+          "publisher": "Wiley"
+        }
+      },
+      "additions": {
+        "doi": "10.1155/2012/391574",
+        "volume": "2012",
+        "pages": "1--17",
+        "publisher": "Wiley"
+      },
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "UzunerStubbs2015",
+      "title": "Practical {Applications} for {Natural} {Language} {Processing} in {Clinical} {Research}",
+      "status": "needs a human",
+      "candidate": {
+        "source": "crossref",
+        "title": "Practical applications for natural language processing in clinical research: The 2014 i2b2/UTHealth shared tasks",
+        "similarity": 0.8065,
+        "fields": {
+          "author": "Uzuner, \u00d6zlem and Stubbs, Amber",
+          "doi": "10.1016/j.jbi.2015.10.007",
+          "journal": "Journal of Biomedical Informatics",
+          "volume": "58",
+          "pages": "S1--S5",
+          "year": "2015",
+          "publisher": "Elsevier BV"
+        }
+      },
+      "additions": {},
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "DingMaLuo2022",
+      "title": "Applications of {Natural} {Language} {Processing} in construction",
+      "status": "matched",
+      "candidate": {
+        "source": "crossref",
+        "title": "Applications of natural language processing in construction",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Ding, Yuexiong and Ma, Jie and Luo, Xiaowei",
+          "doi": "10.1016/j.autcon.2022.104169",
+          "journal": "Automation in Construction",
+          "volume": "136",
+          "pages": "104169",
+          "year": "2022",
+          "publisher": "Elsevier BV"
+        }
+      },
+      "additions": {
+        "doi": "10.1016/j.autcon.2022.104169",
+        "volume": "136",
+        "pages": "104169",
+        "publisher": "Elsevier BV"
+      },
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "ChurchRau1995",
+      "title": "Commercial {Applications} of {Natural} {Language} {Processing}",
+      "status": "conflict",
+      "candidate": {
+        "source": "crossref",
+        "title": "Commercial applications of natural language processing",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Church, Kenneth W. and Rau, Lisa F.",
+          "doi": "10.1145/219717.219778",
+          "journal": "Communications of the ACM",
+          "volume": "38",
+          "pages": "71--79",
+          "year": "1995",
+          "publisher": "Association for Computing Machinery (ACM)"
+        }
+      },
+      "additions": {
+        "doi": "10.1145/219717.219778",
+        "volume": "38",
+        "pages": "71--79",
+        "publisher": "Association for Computing Machinery (ACM)"
+      },
+      "conflicts": {
+        "journal": {
+          "ours": "Advances in Traditional AI",
+          "registry": "Communications of the ACM"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "MontejoJimenez2022",
+      "title": "Current {Approaches} and {Applications} in {Natural} {Language} {Processing}",
+      "status": "matched",
+      "candidate": {
+        "source": "crossref",
+        "title": "Current Approaches and Applications in Natural Language Processing",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Montejo-R\u00e1ez, Arturo and Jim\u00e9nez-Zafra, Salud Mar\u00eda",
+          "doi": "10.3390/app12104859",
+          "journal": "Applied Sciences",
+          "volume": "12",
+          "pages": "4859",
+          "year": "2022",
+          "publisher": "MDPI AG"
+        }
+      },
+      "additions": {
+        "doi": "10.3390/app12104859",
+        "volume": "12",
+        "pages": "4859",
+        "publisher": "MDPI AG"
+      },
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "XuLiChenWangGaoCaiLing2024",
+      "title": "On-{Device} {Language} {Models}: {A} {Comprehensive} {Review}",
+      "status": "matched",
+      "candidate": {
+        "source": "arxiv",
+        "title": "On-Device Language Models: A Comprehensive Review",
+        "similarity": 1.0,
+        "fields": {
+          "eprint": "2409.00088v2",
+          "archiveprefix": "arXiv",
+          "year": "2024"
+        }
+      },
+      "additions": {},
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "Ramachandran2024",
+      "title": "Empowering {Edge} {AI} with {Small} {Language} {Models} {Architectures}, {Challenges} and {Transformative} {Enterprise} {Applications}",
+      "status": "not found",
+      "candidate": null,
+      "additions": {},
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "LiuSunXueZhangYenTan",
+      "title": "A {Survey} on {Evolutionary} {Neural} {Architecture} {Search}",
+      "status": "conflict",
+      "candidate": {
+        "source": "arxiv",
+        "title": "A Survey on Evolutionary Neural Architecture Search",
+        "similarity": 1.0,
+        "fields": {
+          "eprint": "2008.10937v4",
+          "archiveprefix": "arXiv",
+          "year": "2020"
+        }
+      },
+      "additions": {},
+      "conflicts": {
+        "year": {
+          "ours": "2023",
+          "registry": "2020"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "WangYangChenBaiZhangSuKouTongYangZhou2020",
+      "title": "{TextNAS}: {A} {Neural} {Architecture} {Search} {Space} {Tailored} for {Text} {Representation}",
+      "status": "conflict",
+      "candidate": {
+        "source": "crossref",
+        "title": "TextNAS: A Neural Architecture Search Space Tailored for Text Representation",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Wang, Yujing and Yang, Yaming and Chen, Yiren and Bai, Jing and Zhang, Ce and Su, Guinan and Kou, Xiaoyu and Tong, Yunhai and Yang, Mao and Zhou, Lidong",
+          "doi": "10.1609/aaai.v34i05.6462",
+          "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "volume": "34",
+          "pages": "9242--9249",
+          "year": "2020",
+          "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)"
+        }
+      },
+      "additions": {
+        "doi": "10.1609/aaai.v34i05.6462",
+        "volume": "34",
+        "pages": "9242--9249",
+        "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)"
+      },
+      "conflicts": {
+        "journal": {
+          "ours": "The Thirty-Fourth AAAI Conference on Artificial Intelligence",
+          "registry": "Proceedings of the AAAI Conference on Artificial Intelligence"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "YuLiuWangLiuFengXiongTangLv2025",
+      "title": "{GPT}-{NAS}: {Evolutionary} {Neural} {Architecture} {Search} with the {Generative} {Pre}-{Trained} {Model}",
+      "status": "conflict",
+      "candidate": {
+        "source": "arxiv",
+        "title": "GPT-NAS: Evolutionary Neural Architecture Search with the Generative Pre-Trained Model",
+        "similarity": 1.0,
+        "fields": {
+          "eprint": "2305.05351v4",
+          "archiveprefix": "arXiv",
+          "year": "2023"
+        }
+      },
+      "additions": {},
+      "conflicts": {
+        "year": {
+          "ours": "2025",
+          "registry": "2023"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "Schr\u00f6derHammer2024",
+      "title": "Neural {Architecture} {Search} for {Sentence} {Classification} with {BERT}",
+      "status": "matched",
+      "candidate": {
+        "source": "arxiv",
+        "title": "Neural Architecture Search for Sentence Classification with BERT",
+        "similarity": 1.0,
+        "fields": {
+          "eprint": "2403.18547v1",
+          "archiveprefix": "arXiv",
+          "year": "2024"
+        }
+      },
+      "additions": {},
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "ElksenHendrikHutter2019",
+      "title": "Neural {Architecture} {Search}: {A} survey",
+      "status": "conflict",
+      "candidate": {
+        "source": "arxiv",
+        "title": "Neural Architecture Search: A Survey",
+        "similarity": 1.0,
+        "fields": {
+          "eprint": "1808.05377v3",
+          "archiveprefix": "arXiv",
+          "year": "2018"
+        }
+      },
+      "additions": {},
+      "conflicts": {
+        "year": {
+          "ours": "2019",
+          "registry": "2018"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "TejaEmaniVishwanathSomani2022",
+      "title": "Neural {Architecture} {Search} for {Transformers}: {A} survey",
+      "status": "matched",
+      "candidate": {
+        "source": "crossref",
+        "title": "Neural Architecture Search for Transformers: A Survey",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Chitty-Venkata, Krishna Teja and Emani, Murali and Vishwanath, Venkatram and Somani, Arun K.",
+          "doi": "10.1109/access.2022.3212767",
+          "journal": "IEEE Access",
+          "volume": "10",
+          "pages": "108374--108412",
+          "year": "2022",
+          "publisher": "Institute of Electrical and Electronics Engineers (IEEE)"
+        }
+      },
+      "additions": {
+        "doi": "10.1109/access.2022.3212767",
+        "volume": "10",
+        "pages": "108374--108412",
+        "publisher": "Institute of Electrical and Electronics Engineers (IEEE)"
+      },
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "BenmezaineElMaghraouiOuarnoughiNiarWitsubaWang2021",
+      "title": "A comprehensive survey on {Hardware}-{Aware} {Neural} {Architecture} {Search}",
+      "status": "matched",
+      "candidate": {
+        "source": "arxiv",
+        "title": "A Comprehensive Survey on Hardware-Aware Neural Architecture Search",
+        "similarity": 1.0,
+        "fields": {
+          "eprint": "2101.09336v1",
+          "archiveprefix": "arXiv",
+          "year": "2021"
+        }
+      },
+      "additions": {},
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "white2021powerful",
+      "title": "How powerful are performance predictors in neural architecture search?",
+      "status": "matched",
+      "candidate": {
+        "source": "arxiv",
+        "title": "How Powerful are Performance Predictors in Neural Architecture Search?",
+        "similarity": 1.0,
+        "fields": {
+          "eprint": "2104.01177v2",
+          "archiveprefix": "arXiv",
+          "year": "2021"
+        }
+      },
+      "additions": {},
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "Kinde2019",
+      "title": "Testing {AI}-democratization: {What} are the lower limits of textgeneration using artificial neural networks?",
+      "status": "conflict",
+      "candidate": {
+        "source": "openalex",
+        "title": "Testing AI-democratization : What are the lower limits of textgeneration using artificial neural networks?",
+        "similarity": 1.0,
+        "fields": {
+          "journal": "Diva portal (Dalarna University Library)",
+          "year": "2019",
+          "author": "Lorentz Kinde"
+        }
+      },
+      "additions": {},
+      "conflicts": {
+        "journal": {
+          "ours": "Lule\u00e5 University of Technology Department of Computer Science, Electrical and Space Engineering",
+          "registry": "Diva portal (Dalarna University Library)"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "RenXiaoChangHuangLiChenWang2021",
+      "title": "A {Comprehensive} {Survey} of {Neural} {Architecture} {Search}: {Challenges} and {Solutions}",
+      "status": "conflict",
+      "candidate": {
+        "source": "arxiv",
+        "title": "A Comprehensive Survey of Neural Architecture Search: Challenges and Solutions",
+        "similarity": 1.0,
+        "fields": {
+          "eprint": "2006.02903v3",
+          "archiveprefix": "arXiv",
+          "year": "2020"
+        }
+      },
+      "additions": {},
+      "conflicts": {
+        "year": {
+          "ours": "2021",
+          "registry": "2020"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "BinithaSathya2012",
+      "title": "A {Survey} of {Bio} inspired {Optimization} {Algorithms}",
+      "status": "matched",
+      "candidate": {
+        "source": "openalex",
+        "title": "A Survey of Bio inspired Optimization Algorithms",
+        "similarity": 1.0,
+        "fields": {
+          "year": "2012",
+          "author": "S Binitha and S. Siva Sathya"
+        }
+      },
+      "additions": {},
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "AbedGyires-Toth2021",
+      "title": "International {Conference} on {Learning} {Representations}",
+      "status": "not found",
+      "candidate": null,
+      "additions": {},
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "ReddyTyagiMundraMukherjeeRajGarimellaChhaya2021",
+      "title": "Auto{Summ}: {Automatic} {Model} {Creation} for {Text} {Summarization}",
+      "status": "matched",
+      "candidate": {
+        "source": "crossref",
+        "title": "AUTOSUMM: Automatic Model Creation for Text Summarization",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Nangi, Sharmila Reddy and Tyagi, Atharv and Mundra, Jay and Mukherjee, Sagnik and Snehal, Raj and Chhaya, Niyati and Garimella, Aparna",
+          "doi": "10.18653/v1/2021.emnlp-main.798",
+          "journal": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+          "pages": "10162--10172",
+          "year": "2021",
+          "publisher": "Association for Computational Linguistics"
+        }
+      },
+      "additions": {
+        "doi": "10.18653/v1/2021.emnlp-main.798",
+        "pages": "10162--10172",
+        "publisher": "Association for Computational Linguistics"
+      },
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "GouYuMaybank2021",
+      "title": "{Knowledge} {Distillation}: {A} {Survey}",
+      "status": "conflict",
+      "candidate": {
+        "source": "crossref",
+        "title": "Knowledge Distillation: A Survey",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Gou, Jianping and Yu, Baosheng and Maybank, Stephen J. and Tao, Dacheng",
+          "doi": "10.1007/s11263-021-01453-z",
+          "journal": "International Journal of Computer Vision",
+          "volume": "129",
+          "pages": "1789--1819",
+          "year": "2021",
+          "publisher": "Springer Science and Business Media LLC"
+        }
+      },
+      "additions": {
+        "doi": "10.1007/s11263-021-01453-z",
+        "volume": "129",
+        "pages": "1789--1819",
+        "publisher": "Springer Science and Business Media LLC"
+      },
+      "conflicts": {
+        "journal": {
+          "ours": "International Journey of Computer Vision",
+          "registry": "International Journal of Computer Vision"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "KurisinkelChen2019",
+      "title": "Set to {Ordered} {Text}: {Generating} discharge instructions from medical billing codes",
+      "status": "conflict",
+      "candidate": {
+        "source": "crossref",
+        "title": "Set to Ordered Text: Generating Discharge Instructions from Medical Billing Codes",
+        "similarity": 1.0,
+        "fields": {
+          "author": "J Kurisinkel, Litton and Chen, Nancy",
+          "doi": "10.18653/v1/d19-1638",
+          "journal": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+          "pages": "6164--6174",
+          "year": "2019",
+          "publisher": "Association for Computational Linguistics"
+        }
+      },
+      "additions": {
+        "doi": "10.18653/v1/d19-1638",
+        "pages": "6164--6174",
+        "publisher": "Association for Computational Linguistics"
+      },
+      "conflicts": {
+        "journal": {
+          "ours": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing",
+          "registry": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "lu2019nsga",
+      "title": "Nsga-net: neural architecture search using multi-objective genetic algorithm",
+      "status": "conflict",
+      "candidate": {
+        "source": "arxiv",
+        "title": "NSGA-Net: Neural Architecture Search using Multi-Objective Genetic Algorithm",
+        "similarity": 1.0,
+        "fields": {
+          "eprint": "1810.03522v2",
+          "archiveprefix": "arXiv",
+          "year": "2018"
+        }
+      },
+      "additions": {},
+      "conflicts": {
+        "year": {
+          "ours": "2019",
+          "registry": "2018"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "dong2018dpp",
+      "title": "D{PP}-{N}et: Device-aware progressive search for pareto-optimal neural architectures",
+      "status": "conflict",
+      "candidate": {
+        "source": "crossref",
+        "title": "DPP-Net: Device-Aware Progressive Search for Pareto-Optimal Neural Architectures",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Dong, Jin-Dong and Cheng, An-Chieh and Juan, Da-Cheng and Wei, Wei and Sun, Min",
+          "doi": "10.1007/978-3-030-01252-6_32",
+          "journal": "Lecture Notes in Computer Science",
+          "pages": "540--555",
+          "year": "2018",
+          "publisher": "Springer International Publishing"
+        }
+      },
+      "additions": {
+        "doi": "10.1007/978-3-030-01252-6_32",
+        "journal": "Lecture Notes in Computer Science",
+        "publisher": "Springer International Publishing"
+      },
+      "conflicts": {
+        "pages": {
+          "ours": "517--531",
+          "registry": "540--555"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "tan2019mnasnet",
+      "title": "Mnas{N}et: Platform-aware neural architecture search for mobile",
+      "status": "conflict",
+      "candidate": {
+        "source": "crossref",
+        "title": "MnasNet: Platform-Aware Neural Architecture Search for Mobile",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Tan, Mingxing and Chen, Bo and Pang, Ruoming and Vasudevan, Vijay and Sandler, Mark and Howard, Andrew and Le, Quoc V.",
+          "doi": "10.1109/cvpr.2019.00293",
+          "journal": "2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+          "pages": "2815--2823",
+          "year": "2019",
+          "publisher": "IEEE"
+        }
+      },
+      "additions": {
+        "doi": "10.1109/cvpr.2019.00293",
+        "journal": "2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "publisher": "IEEE"
+      },
+      "conflicts": {
+        "pages": {
+          "ours": "2820--2828",
+          "registry": "2815--2823"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "cai2018proxylessnas",
+      "title": "Proxylessnas: Direct neural architecture search on target task and hardware",
+      "status": "matched",
+      "candidate": {
+        "source": "arxiv",
+        "title": "ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware",
+        "similarity": 1.0,
+        "fields": {
+          "eprint": "1812.00332v2",
+          "archiveprefix": "arXiv",
+          "year": "2018"
+        }
+      },
+      "additions": {},
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "wu2019fbnet",
+      "title": "F{BN}et: Hardware-aware efficient convnet design via differentiable neural architecture search",
+      "status": "conflict",
+      "candidate": {
+        "source": "crossref",
+        "title": "FBNet: Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Wu, Bichen and Keutzer, Kurt and Dai, Xiaoliang and Zhang, Peizhao and Wang, Yanghan and Sun, Fei and Wu, Yiming and Tian, Yuandong and Vajda, Peter and Jia, Yangqing",
+          "doi": "10.1109/cvpr.2019.01099",
+          "journal": "2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+          "pages": "10726--10734",
+          "year": "2019",
+          "publisher": "IEEE"
+        }
+      },
+      "additions": {
+        "doi": "10.1109/cvpr.2019.01099",
+        "journal": "2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "publisher": "IEEE"
+      },
+      "conflicts": {
+        "pages": {
+          "ours": "10734--10742",
+          "registry": "10726--10734"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "sinha2024multi",
+      "title": "Multi-objective hardware aware neural architecture search using hardware cost diversity",
+      "status": "matched",
+      "candidate": {
+        "source": "crossref",
+        "title": "Multi-Objective Hardware Aware Neural Architecture Search using Hardware Cost Diversity",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Sinha, Nilotpal and Rostami, Peyman and El Rahman Shabayek, Abd and Kacem, Anis and Aouada, Djamila",
+          "doi": "10.1109/cvprw63382.2024.00802",
+          "journal": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+          "pages": "8032--8039",
+          "year": "2024",
+          "publisher": "IEEE"
+        }
+      },
+      "additions": {
+        "doi": "10.1109/cvprw63382.2024.00802",
+        "journal": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+        "publisher": "IEEE"
+      },
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "wulandari2025lightweight",
+      "title": "Lightweight Swin-Transformer and {D}istil{GPT}2 for Image-to-LaTeX in Constrained Environments",
+      "status": "matched",
+      "candidate": {
+        "source": "crossref",
+        "title": "Lightweight Swin-Transformer and DistilGPT-2 for Image-to-LaTeX in Constrained Environments",
+        "similarity": 0.9945,
+        "fields": {
+          "author": "Wulandari, Ni Nyoman and Alfarozi, Syukron Abu Ishaq and Ardiyanto, Igi",
+          "doi": "10.1109/icatei67676.2025.11405233",
+          "journal": "2025 International Conference on Advanced Technologies in Energy and Informatic (ICATEI)",
+          "pages": "73--78",
+          "year": "2025",
+          "publisher": "IEEE"
+        }
+      },
+      "additions": {
+        "doi": "10.1109/icatei67676.2025.11405233",
+        "journal": "2025 International Conference on Advanced Technologies in Energy and Informatic (ICATEI)",
+        "publisher": "IEEE"
+      },
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "SanhDebutChaumondWolf2020",
+      "title": "{DistilBERT}, a distilled version of {BERT}: smaller, faster, cheaper and lighter",
+      "status": "conflict",
+      "candidate": {
+        "source": "arxiv",
+        "title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+        "similarity": 1.0,
+        "fields": {
+          "eprint": "1910.01108v4",
+          "archiveprefix": "arXiv",
+          "year": "2019"
+        }
+      },
+      "additions": {},
+      "conflicts": {
+        "year": {
+          "ours": "2020",
+          "registry": "2019"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "mao2021tprune",
+      "title": "T{P}rune: {Efficient} {Transformer} {Pruning} for {Mobile} {Devices}",
+      "status": "not found",
+      "candidate": null,
+      "additions": {},
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "moody1991effective",
+      "title": "The {Effective} {Number} of {Parameters}: {An} {Analysis} of {Generalization} and {Regularization} in {Nonlinear} {Learning} {Systems}",
+      "status": "matched",
+      "candidate": {
+        "source": "openalex",
+        "title": "The Effective Number of Parameters: An Analysis of Generalization and Regularization in Nonlinear Learning Systems",
+        "similarity": 1.0,
+        "fields": {
+          "volume": "4",
+          "pages": "847--854",
+          "year": "1991",
+          "author": "John E. Moody"
+        }
+      },
+      "additions": {
+        "pages": "847--854"
+      },
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "justus2018predicting",
+      "title": "Predicting the {Computational} {Cost} of {Deep} {Learning} {Models}",
+      "status": "matched",
+      "candidate": {
+        "source": "crossref",
+        "title": "Predicting the Computational Cost of Deep Learning Models",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Justus, Daniel and Brennan, John and Bonner, Stephen and McGough, Andrew Stephen",
+          "doi": "10.1109/bigdata.2018.8622396",
+          "journal": "2018 IEEE International Conference on Big Data (Big Data)",
+          "pages": "3873--3882",
+          "year": "2018",
+          "publisher": "IEEE"
+        }
+      },
+      "additions": {
+        "doi": "10.1109/bigdata.2018.8622396"
+      },
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "dwivedi2023revisiting",
+      "title": "Revisiting {Minimum} {Description} {Length} {Complexity} in {Overparameterized} {Models}",
+      "status": "conflict",
+      "candidate": {
+        "source": "arxiv",
+        "title": "Revisiting minimum description length complexity in overparameterized models",
+        "similarity": 1.0,
+        "fields": {
+          "eprint": "2006.10189v4",
+          "archiveprefix": "arXiv",
+          "year": "2020"
+        }
+      },
+      "additions": {},
+      "conflicts": {
+        "year": {
+          "ours": "2023",
+          "registry": "2020"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "KaplanMcCandlishHenighanBrownChessChildGrayRadfordWuAmodei2020",
+      "title": "Scaling {Laws} for {Neural} {Language} {Models}",
+      "status": "matched",
+      "candidate": {
+        "source": "arxiv",
+        "title": "Scaling Laws for Neural Language Models",
+        "similarity": 1.0,
+        "fields": {
+          "eprint": "2001.08361v1",
+          "archiveprefix": "arXiv",
+          "year": "2020"
+        }
+      },
+      "additions": {},
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "VermaKolhatkar2023",
+      "title": "Optimizing transformer-based machine translation model for single {GPU} training: {A} hyperparameter ablation study",
+      "status": "matched",
+      "candidate": {
+        "source": "arxiv",
+        "title": "Optimizing transformer-based machine translation model for single GPU training: a hyperparameter ablation study",
+        "similarity": 1.0,
+        "fields": {
+          "eprint": "2308.06017v1",
+          "archiveprefix": "arXiv",
+          "year": "2023"
+        }
+      },
+      "additions": {},
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "BeumeNaujoksEmmerich2006",
+      "title": "{SMS}-{EMOA}: {Multiobjective} selection based on dominated hypervolume",
+      "status": "conflict",
+      "candidate": {
+        "source": "crossref",
+        "title": "SMS-EMOA: Multiobjective selection based on dominated hypervolume",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Beume, Nicola and Naujoks, Boris and Emmerich, Michael",
+          "doi": "10.1016/j.ejor.2006.08.008",
+          "journal": "European Journal of Operational Research",
+          "volume": "181",
+          "pages": "1653--1669",
+          "year": "2007",
+          "publisher": "Elsevier BV"
+        }
+      },
+      "additions": {
+        "doi": "10.1016/j.ejor.2006.08.008",
+        "volume": "181",
+        "pages": "1653--1669",
+        "publisher": "Elsevier BV"
+      },
+      "conflicts": {
+        "journal": {
+          "ours": "Elsevier",
+          "registry": "European Journal of Operational Research"
+        },
+        "year": {
+          "ours": "2006",
+          "registry": "2007"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "ZhengDoerr2024",
+      "title": "Runtime {Analysis} of the {SMS}-{EMOA} for {Many}-{Objective} {Optimization}",
+      "status": "matched",
+      "candidate": {
+        "source": "crossref",
+        "title": "Runtime Analysis of the SMS-EMOA for Many-Objective Optimization",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Zheng, Weijie and Doerr, Benjamin",
+          "doi": "10.1609/aaai.v38i18.30077",
+          "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "volume": "38",
+          "pages": "20874--20882",
+          "year": "2024",
+          "publisher": "Association for the Advancement of Artificial Intelligence (AAAI)"
+        }
+      },
+      "additions": {
+        "doi": "10.1609/aaai.v38i18.30077"
+      },
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "BeumeLaumannsRudolph2011",
+      "title": "Convergence rates of {SMS}-{EMOA} on continuous bi-objective problem classes",
+      "status": "matched",
+      "candidate": {
+        "source": "crossref",
+        "title": "Convergence rates of SMS-EMOA on continuous bi-objective problem classes",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Beume, Nicola and Laumanns, Marco and Rudolph, G\u00fcnter",
+          "doi": "10.1145/1967654.1967676",
+          "journal": "Proceedings of the 11th workshop proceedings on Foundations of genetic algorithms",
+          "pages": "243--252",
+          "year": "2011",
+          "publisher": "ACM"
+        }
+      },
+      "additions": {
+        "doi": "10.1145/1967654.1967676",
+        "pages": "243--252",
+        "publisher": "ACM"
+      },
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "Ali2020",
+      "title": "A {Differential} {Evolution} {Algorithm} for {Generic} {Combinatorial} {Optimization} {Problems}",
+      "status": "needs a human",
+      "candidate": {
+        "source": "crossref",
+        "title": "A novel differential evolution mapping technique for generic combinatorial optimization problems",
+        "similarity": 0.8539,
+        "fields": {
+          "author": "Ali, Ismail M. and Essam, Daryl and Kasmarik, Kathryn",
+          "doi": "10.1016/j.asoc.2019.04.017",
+          "journal": "Applied Soft Computing",
+          "volume": "80",
+          "pages": "297--309",
+          "year": "2019",
+          "publisher": "Elsevier BV"
+        }
+      },
+      "additions": {},
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "Awad2020",
+      "title": "Differential {Evolution} for {Neural} {Architecture} {Search}",
+      "status": "matched",
+      "candidate": {
+        "source": "arxiv",
+        "title": "Differential Evolution for Neural Architecture Search",
+        "similarity": 1.0,
+        "fields": {
+          "eprint": "2012.06400v2",
+          "archiveprefix": "arXiv",
+          "year": "2020"
+        }
+      },
+      "additions": {},
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "KusKirazKocakAydinOzkanVuralKirazCan2023",
+      "title": "Differential {Evolution}-based {Neural} {Architecture} {Search} for brain vessel segmentation",
+      "status": "matched",
+      "candidate": {
+        "source": "crossref",
+        "title": "Differential evolution-based neural architecture search for brain vessel segmentation",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Ku\u015f, Zeki and Kiraz, Berna and G\u00f6ksu, Tu\u011f\u00e7e Ko\u00e7ak and Ayd\u0131n, Musa and \u00d6zkan, Esra and Vural, Atay and Kiraz, Alper and Can, Burhanettin",
+          "doi": "10.1016/j.jestch.2023.101502",
+          "journal": "Engineering Science and Technology, an International Journal",
+          "volume": "46",
+          "pages": "101502",
+          "year": "2023",
+          "publisher": "Elsevier BV"
+        }
+      },
+      "additions": {
+        "doi": "10.1016/j.jestch.2023.101502",
+        "volume": "46",
+        "pages": "101502",
+        "publisher": "Elsevier BV"
+      },
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "Lampien1999",
+      "title": "Mixed {Integer}-{Discrete}-{Continuous} {Optimization} by {Differential} {Evolution}",
+      "status": "not found",
+      "candidate": null,
+      "additions": {},
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "CaiThierauf1995",
+      "title": "Evolution strategies for solving discrete optimization problems",
+      "status": "conflict",
+      "candidate": {
+        "source": "crossref",
+        "title": "Evolution strategies for solving discrete optimization problems",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Cai, Jianbo and Thierauf, Georg",
+          "doi": "10.1016/0965-9978(95)00104-2",
+          "journal": "Advances in Engineering Software",
+          "volume": "25",
+          "pages": "177--183",
+          "year": "1996",
+          "publisher": "Elsevier BV"
+        }
+      },
+      "additions": {
+        "doi": "10.1016/0965-9978(95)00104-2",
+        "volume": "25",
+        "pages": "177--183",
+        "publisher": "Elsevier BV"
+      },
+      "conflicts": {
+        "journal": {
+          "ours": "Elsevier",
+          "registry": "Advances in Engineering Software"
+        },
+        "year": {
+          "ours": "1995",
+          "registry": "1996"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "DoerrNeumann2021",
+      "title": "A {Survey} on {Recent} {Progress} in the {Theory} of {Evolutionary} {Algorithms} for {Discrete} {Optimization}",
+      "status": "matched",
+      "candidate": {
+        "source": "crossref",
+        "title": "A Survey on Recent Progress in the Theory of Evolutionary Algorithms for Discrete Optimization",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Doerr, Benjamin and Neumann, Frank",
+          "doi": "10.1145/3472304",
+          "journal": "ACM Transactions on Evolutionary Learning and Optimization",
+          "volume": "1",
+          "pages": "1--43",
+          "year": "2021",
+          "publisher": "Association for Computing Machinery (ACM)"
+        }
+      },
+      "additions": {
+        "doi": "10.1145/3472304",
+        "volume": "1",
+        "pages": "1--43",
+        "publisher": "Association for Computing Machinery (ACM)"
+      },
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "Rechenberg1984",
+      "title": "The {Evolution} {Strategy}. {A} {Mathematical} {Model} of {Darwinian} {Evolution}",
+      "status": "matched",
+      "candidate": {
+        "source": "crossref",
+        "title": "The Evolution Strategy. A Mathematical Model of Darwinian Evolution",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Rechenberg, Ingo",
+          "doi": "10.1007/978-3-642-69540-7_13",
+          "journal": "Springer Series in Synergetics",
+          "pages": "122--132",
+          "year": "1984",
+          "publisher": "Springer Berlin Heidelberg"
+        }
+      },
+      "additions": {
+        "doi": "10.1007/978-3-642-69540-7_13",
+        "pages": "122--132",
+        "publisher": "Springer Berlin Heidelberg"
+      },
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "Khilkova2023",
+      "title": "Cross-{Selection} {Based} {Evolution} {Strategies}",
+      "status": "conflict",
+      "candidate": {
+        "source": "crossref",
+        "title": "Cross-Selection Based Evolution Strategies",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Khilkova, Larysa O.",
+          "doi": "10.47839/ijc.22.1.2881",
+          "journal": "International Journal of Computing",
+          "pages": "69--77",
+          "year": "2023",
+          "publisher": "Research Institute for Intelligent Computer Systems"
+        }
+      },
+      "additions": {
+        "doi": "10.47839/ijc.22.1.2881",
+        "pages": "69--77",
+        "publisher": "Research Institute for Intelligent Computer Systems"
+      },
+      "conflicts": {
+        "journal": {
+          "ours": "Internatinal Journal of Computing",
+          "registry": "International Journal of Computing"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "SarmientoLlanoFalconMonroyCasillasSosa2024",
+      "title": "Surrogate {Modeling} for {Efficient} {Evolutionary} {Multi}-{Objective} {Neural} {Architecture} {Search} in {Super} {Resolution} {Image} {Restoration}",
+      "status": "conflict",
+      "candidate": {
+        "source": "crossref",
+        "title": "Surrogate Modeling for Efficient Evolutionary Multi-Objective Neural Architecture Search in Super Resolution Image Restoration",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Sarmiento-Rosales, Sergio and Llano Garc\u00eda, Jes\u00fas and Falc\u00f3n-Cardona, Jes\u00fas and Monroy, Ra\u00fal and Casillas del Llano, Manuel and Sosa-Hern\u00e1ndez, V\u00edctor",
+          "doi": "10.5220/0012949000003837",
+          "journal": "Proceedings of the 16th International Joint Conference on Computational Intelligence",
+          "pages": "242--249",
+          "year": "2024",
+          "publisher": "SCITEPRESS - Science and Technology Publications"
+        }
+      },
+      "additions": {
+        "doi": "10.5220/0012949000003837",
+        "pages": "242--249",
+        "publisher": "SCITEPRESS - Science and Technology Publications"
+      },
+      "conflicts": {
+        "journal": {
+          "ours": "Scite Press",
+          "registry": "Proceedings of the 16th International Joint Conference on Computational Intelligence"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "sarmiento2026evolutionary",
+      "title": "Evolutionary Neural Architecture Search for Super-Resolution: Benchmarking SynFlow and model-based predictors",
+      "status": "conflict",
+      "candidate": {
+        "source": "crossref",
+        "title": "Evolutionary Neural Architecture Search for Super-Resolution: Benchmarking SynFlow and model-based predictors",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Sarmiento-Rosales, Sergio and Sosa Hern\u00e1ndez, V\u00edctor Adr\u00edan and Monroy, Ra\u00fal",
+          "doi": "10.1016/j.swevo.2025.102236",
+          "journal": "Swarm and Evolutionary Computation",
+          "volume": "100",
+          "pages": "102236",
+          "year": "2026",
+          "publisher": "Elsevier BV"
+        }
+      },
+      "additions": {
+        "doi": "10.1016/j.swevo.2025.102236"
+      },
+      "conflicts": {
+        "publisher": {
+          "ours": "Elsevier",
+          "registry": "Elsevier BV"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "MerityXiongBradburySocher2016",
+      "title": "Pointer {Sentinel} {Mixture} {Models}",
+      "status": "matched",
+      "candidate": {
+        "source": "arxiv",
+        "title": "Pointer Sentinel Mixture Models",
+        "similarity": 1.0,
+        "fields": {
+          "eprint": "1609.07843v1",
+          "archiveprefix": "arXiv",
+          "year": "2016"
+        }
+      },
+      "additions": {},
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "loh1996latin",
+      "title": "On Latin hypercube sampling",
+      "status": "matched",
+      "candidate": {
+        "source": "crossref",
+        "title": "On Latin hypercube sampling",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Loh, Wei-Liem",
+          "doi": "10.1214/aos/1069362310",
+          "journal": "The Annals of Statistics",
+          "volume": "24",
+          "pages": "2058--2080",
+          "year": "1996",
+          "publisher": "Institute of Mathematical Statistics"
+        }
+      },
+      "additions": {
+        "doi": "10.1214/aos/1069362310"
+      },
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "tacorda2017controlling",
+      "title": "Controlling {Byte}-{Pair} {Encoding} for {Neural} {Machine} {Translation}",
+      "status": "matched",
+      "candidate": {
+        "source": "crossref",
+        "title": "Controlling byte pair encoding for neural machine translation",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Tacorda, Alfred John and Ignacio, Marvin John and Oco, Nathaniel and Roxas, Rachel Edita",
+          "doi": "10.1109/ialp.2017.8300571",
+          "journal": "2017 International Conference on Asian Language Processing (IALP)",
+          "pages": "168--171",
+          "year": "2017",
+          "publisher": "IEEE"
+        }
+      },
+      "additions": {
+        "doi": "10.1109/ialp.2017.8300571"
+      },
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "VaswaniShazeerParmarUszkoreitJonesGomezKaiserPolosukhin2017",
+      "title": "{Attention} {Is} {All} {You} {Need}",
+      "status": "matched",
+      "candidate": {
+        "source": "arxiv",
+        "title": "Attention Is All You Need",
+        "similarity": 1.0,
+        "fields": {
+          "eprint": "1706.03762v7",
+          "archiveprefix": "arXiv",
+          "year": "2017"
+        }
+      },
+      "additions": {},
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "GilmerGhorbaniGargKuduguntaNeyshaburCardozeDahlNadoFirat",
+      "title": "A {Loss} {Curvature} {Perpsective} on {Training} {Instability} in {Deep} {Learning}",
+      "status": "not found",
+      "candidate": null,
+      "additions": {},
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "NakamuraDerbelWonHong",
+      "title": "Learning-{Rate} {Annealing} {Methods} for {Deep} {Neural} {Networks}",
+      "status": "matched",
+      "candidate": {
+        "source": "crossref",
+        "title": "Learning-Rate Annealing Methods for Deep Neural Networks",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Nakamura, Kensuke and Derbel, Bilel and Won, Kyoung-Jae and Hong, Byung-Woo",
+          "doi": "10.3390/electronics10162029",
+          "journal": "Electronics",
+          "volume": "10",
+          "pages": "2029",
+          "year": "2021",
+          "publisher": "MDPI AG"
+        }
+      },
+      "additions": {
+        "doi": "10.3390/electronics10162029",
+        "volume": "10",
+        "pages": "2029",
+        "publisher": "MDPI AG"
+      },
+      "conflicts": {},
+      "still_missing": []
+    },
+    {
+      "key": "ZhuXieZhuangGeSunZhangLinCao",
+      "title": "Learning to {Warm} {Up} {Cold} {Item} {Embeddings} for {Cold}-start {Recommendation} with {Meta} {Scaling} and {Shifting} {Networks}",
+      "status": "conflict",
+      "candidate": {
+        "source": "crossref",
+        "title": "Learning to Warm Up Cold Item Embeddings for Cold-start Recommendation with Meta Scaling and Shifting Networks",
+        "similarity": 1.0,
+        "fields": {
+          "author": "Zhu, Yongchun and Xie, Ruobing and Zhuang, Fuzhen and Ge, Kaikai and Sun, Ying and Zhang, Xu and Lin, Leyu and Cao, Juan",
+          "doi": "10.1145/3404835.3462843",
+          "journal": "Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+          "pages": "1167--1176",
+          "year": "2021",
+          "publisher": "ACM"
+        }
+      },
+      "additions": {
+        "doi": "10.1145/3404835.3462843",
+        "pages": "1167--1176",
+        "publisher": "ACM"
+      },
+      "conflicts": {
+        "journal": {
+          "ours": "SIGIR",
+          "registry": "Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "KroghHertz",
+      "title": "A {Simple} {Weight} {Decay} {Can} {Improve} {Generalization}",
+      "status": "conflict",
+      "candidate": {
+        "source": "openalex",
+        "title": "A Simple Weight Decay Can Improve Generalization",
+        "similarity": 1.0,
+        "fields": {
+          "year": "1992",
+          "author": "Anders Krogh and John Hertz"
+        }
+      },
+      "additions": {},
+      "conflicts": {
+        "year": {
+          "ours": "1991",
+          "registry": "1992"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "LoshchilovHutter",
+      "title": "Decoupled {Weight} {Decay} {Regularization}",
+      "status": "conflict",
+      "candidate": {
+        "source": "arxiv",
+        "title": "Decoupled Weight Decay Regularization",
+        "similarity": 1.0,
+        "fields": {
+          "eprint": "1711.05101v3",
+          "archiveprefix": "arXiv",
+          "year": "2017"
+        }
+      },
+      "additions": {},
+      "conflicts": {
+        "year": {
+          "ours": "2019",
+          "registry": "2017"
+        }
+      },
+      "still_missing": []
+    },
+    {
+      "key": "Anonymous2021",
+      "title": "Stable {Weight} {Decay} {Regularization}",
+      "status": "conflict",
+      "candidate": {
+        "source": "openalex",
+        "title": "Stable Weight Decay Regularization",
+        "similarity": 1.0,
+        "fields": {
+          "journal": "arXiv (Cornell University)",
+          "year": "2021",
+          "author": "Zeke Xie and Issei Sato and Masashi Sugiyama"
+        }
+      },
+      "additions": {},
+      "conflicts": {
+        "journal": {
+          "ours": "ICLR",
+          "registry": "arXiv (Cornell University)"
+        }
+      },
+      "still_missing": []
+    }
+  ],
+  "what_this_is_not": "Nothing here edits the bibliography. Each entry carries a proposal and the similarity it rests on; a wrong DOI applied automatically resolves to another paper, which is worse than the gap it would have filled."
+}

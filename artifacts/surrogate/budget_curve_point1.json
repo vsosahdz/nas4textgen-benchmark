@@ -1,0 +1,51 @@
+{
+  "provenance": {
+    "written_at": "2026-08-23T04:28:36+00:00",
+    "git_revision": "d595d36b25d29930ed1c36412e4ffa131e086fa9",
+    "git_dirty": false,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "-"
+  },
+  "training_rows": 176,
+  "coverage": 0.1601,
+  "metric": "Kendall tau, 5-fold cross-validation, on held-out perplexity rank",
+  "predictors": {
+    "sort_by_parameters": {
+      "tau": 0.8902,
+      "sd": 0.0196
+    },
+    "linear_on_genes": {
+      "tau": 0.7724,
+      "sd": 0.0349
+    },
+    "random_forest": {
+      "tau": 0.914,
+      "sd": 0.0118
+    },
+    "gradient_boosting": {
+      "tau": 0.9313,
+      "sd": 0.0202
+    }
+  },
+  "trivial_floor": {
+    "predictor": "sort_by_parameters",
+    "tau": 0.8902,
+    "why": "The spec requires a surrogate to beat 'bigger is better' or it adds nothing. Reporting a surrogate's tau without this number beside it would present a modest gain as a strong result."
+  },
+  "finding": "The best surrogate reaches tau 0.9313 against a trivial floor of 0.8902 \u2014 a gain of 0.0411. The floor is unusually strong because parameter count in this space is dominated by the embedding matrix and correlates with capacity. Linear regression on the genes scores below the floor, so the relationship is nonlinear rather than absent.",
+  "caveat": "One point on the budget curve, from 16% coverage. Whether the gap widens or closes with more training rows is the question group 13 exists to answer, and it cannot be read off a single point."
+}

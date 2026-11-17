@@ -1,0 +1,2187 @@
+{
+  "provenance": {
+    "written_at": "2026-09-14T17:17:59+00:00",
+    "git_revision": "f223eadc97a9a9a72af3f0bfeb52a22082b95929",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen sampling"
+  },
+  "results": [
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 0,
+      "igd_plus": 0.00919301,
+      "front_recall": 0.127273,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 0,
+      "igd_plus": 0.01553103,
+      "front_recall": 0.077273,
+      "fill_distance": 0.600925
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 0,
+      "igd_plus": 0.00738829,
+      "front_recall": 0.186364,
+      "fill_distance": 0.563718
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 0,
+      "igd_plus": 0.00459362,
+      "front_recall": 0.240909,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 0,
+      "igd_plus": 0.00817715,
+      "front_recall": 0.154545,
+      "fill_distance": 0.527046
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 0,
+      "igd_plus": 0.00357582,
+      "front_recall": 0.336364,
+      "fill_distance": 0.527046
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 0,
+      "igd_plus": 0.00201971,
+      "front_recall": 0.527273,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 0,
+      "igd_plus": 0.0036332,
+      "front_recall": 0.386364,
+      "fill_distance": 0.4
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 0,
+      "igd_plus": 0.00186866,
+      "front_recall": 0.568182,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 1,
+      "igd_plus": 0.00761014,
+      "front_recall": 0.118182,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 1,
+      "igd_plus": 0.01228958,
+      "front_recall": 0.104545,
+      "fill_distance": 0.726483
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 1,
+      "igd_plus": 0.0078531,
+      "front_recall": 0.136364,
+      "fill_distance": 0.654896
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 1,
+      "igd_plus": 0.00497039,
+      "front_recall": 0.213636,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 1,
+      "igd_plus": 0.00988852,
+      "front_recall": 0.172727,
+      "fill_distance": 0.5
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 1,
+      "igd_plus": 0.00428299,
+      "front_recall": 0.245455,
+      "fill_distance": 0.471405
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 1,
+      "igd_plus": 0.00198997,
+      "front_recall": 0.513636,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 1,
+      "igd_plus": 0.00466877,
+      "front_recall": 0.340909,
+      "fill_distance": 0.372678
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 1,
+      "igd_plus": 0.00183479,
+      "front_recall": 0.522727,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 2,
+      "igd_plus": 0.0093645,
+      "front_recall": 0.131818,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 2,
+      "igd_plus": 0.01162983,
+      "front_recall": 0.104545,
+      "fill_distance": 0.633333
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 2,
+      "igd_plus": 0.00650773,
+      "front_recall": 0.159091,
+      "fill_distance": 0.62361
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 2,
+      "igd_plus": 0.00519887,
+      "front_recall": 0.222727,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 2,
+      "igd_plus": 0.00691736,
+      "front_recall": 0.186364,
+      "fill_distance": 0.422953
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 2,
+      "igd_plus": 0.00365199,
+      "front_recall": 0.286364,
+      "fill_distance": 0.520683
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 2,
+      "igd_plus": 0.00172826,
+      "front_recall": 0.513636,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 2,
+      "igd_plus": 0.00484192,
+      "front_recall": 0.363636,
+      "fill_distance": 0.38873
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 2,
+      "igd_plus": 0.00148197,
+      "front_recall": 0.590909,
+      "fill_distance": 0.422953
+    },
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 3,
+      "igd_plus": 0.00757966,
+      "front_recall": 0.140909,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 3,
+      "igd_plus": 0.01229818,
+      "front_recall": 0.104545,
+      "fill_distance": 0.563718
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 3,
+      "igd_plus": 0.00730292,
+      "front_recall": 0.131818,
+      "fill_distance": 0.600925
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 3,
+      "igd_plus": 0.00467962,
+      "front_recall": 0.240909,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 3,
+      "igd_plus": 0.00639295,
+      "front_recall": 0.190909,
+      "fill_distance": 0.538516
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 3,
+      "igd_plus": 0.0047986,
+      "front_recall": 0.25,
+      "fill_distance": 0.422953
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 3,
+      "igd_plus": 0.00214031,
+      "front_recall": 0.504545,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 3,
+      "igd_plus": 0.00471603,
+      "front_recall": 0.354545,
+      "fill_distance": 0.422953
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 3,
+      "igd_plus": 0.00212163,
+      "front_recall": 0.536364,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 4,
+      "igd_plus": 0.00851731,
+      "front_recall": 0.154545,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 4,
+      "igd_plus": 0.01220249,
+      "front_recall": 0.113636,
+      "fill_distance": 0.622718
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 4,
+      "igd_plus": 0.00781128,
+      "front_recall": 0.145455,
+      "fill_distance": 0.600925
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 4,
+      "igd_plus": 0.00412836,
+      "front_recall": 0.277273,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 4,
+      "igd_plus": 0.00840778,
+      "front_recall": 0.172727,
+      "fill_distance": 0.527046
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 4,
+      "igd_plus": 0.00411009,
+      "front_recall": 0.286364,
+      "fill_distance": 0.527046
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 4,
+      "igd_plus": 0.0018634,
+      "front_recall": 0.586364,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 4,
+      "igd_plus": 0.00431926,
+      "front_recall": 0.377273,
+      "fill_distance": 0.309121
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 4,
+      "igd_plus": 0.00203281,
+      "front_recall": 0.563636,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 5,
+      "igd_plus": 0.00755852,
+      "front_recall": 0.131818,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 5,
+      "igd_plus": 0.01179156,
+      "front_recall": 0.1,
+      "fill_distance": 0.563718
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 5,
+      "igd_plus": 0.00814056,
+      "front_recall": 0.109091,
+      "fill_distance": 0.527046
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 5,
+      "igd_plus": 0.00518656,
+      "front_recall": 0.227273,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 5,
+      "igd_plus": 0.00730177,
+      "front_recall": 0.181818,
+      "fill_distance": 0.563718
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 5,
+      "igd_plus": 0.00376032,
+      "front_recall": 0.263636,
+      "fill_distance": 0.520683
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 5,
+      "igd_plus": 0.00196336,
+      "front_recall": 0.513636,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 5,
+      "igd_plus": 0.00427333,
+      "front_recall": 0.345455,
+      "fill_distance": 0.471405
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 5,
+      "igd_plus": 0.00179837,
+      "front_recall": 0.513636,
+      "fill_distance": 0.372678
+    },
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 6,
+      "igd_plus": 0.00817878,
+      "front_recall": 0.140909,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 6,
+      "igd_plus": 0.01090606,
+      "front_recall": 0.090909,
+      "fill_distance": 0.600925
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 6,
+      "igd_plus": 0.00900994,
+      "front_recall": 0.1,
+      "fill_distance": 0.546707
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 6,
+      "igd_plus": 0.00419716,
+      "front_recall": 0.263636,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 6,
+      "igd_plus": 0.00777377,
+      "front_recall": 0.177273,
+      "fill_distance": 0.5
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 6,
+      "igd_plus": 0.0045776,
+      "front_recall": 0.245455,
+      "fill_distance": 0.471405
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 6,
+      "igd_plus": 0.00163881,
+      "front_recall": 0.540909,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 6,
+      "igd_plus": 0.00358851,
+      "front_recall": 0.390909,
+      "fill_distance": 0.433333
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 6,
+      "igd_plus": 0.00187816,
+      "front_recall": 0.518182,
+      "fill_distance": 0.309121
+    },
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 7,
+      "igd_plus": 0.00805213,
+      "front_recall": 0.15,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 7,
+      "igd_plus": 0.01220059,
+      "front_recall": 0.072727,
+      "fill_distance": 0.58784
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 7,
+      "igd_plus": 0.00663367,
+      "front_recall": 0.145455,
+      "fill_distance": 0.600925
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 7,
+      "igd_plus": 0.004994,
+      "front_recall": 0.268182,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 7,
+      "igd_plus": 0.00730217,
+      "front_recall": 0.177273,
+      "fill_distance": 0.46428
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 7,
+      "igd_plus": 0.00358252,
+      "front_recall": 0.281818,
+      "fill_distance": 0.563718
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 7,
+      "igd_plus": 0.00184263,
+      "front_recall": 0.536364,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 7,
+      "igd_plus": 0.0037469,
+      "front_recall": 0.390909,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 7,
+      "igd_plus": 0.00160573,
+      "front_recall": 0.577273,
+      "fill_distance": 0.309121
+    },
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 8,
+      "igd_plus": 0.01090608,
+      "front_recall": 0.122727,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 8,
+      "igd_plus": 0.01020766,
+      "front_recall": 0.1,
+      "fill_distance": 0.633333
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 8,
+      "igd_plus": 0.00734122,
+      "front_recall": 0.159091,
+      "fill_distance": 0.563718
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 8,
+      "igd_plus": 0.00538625,
+      "front_recall": 0.231818,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 8,
+      "igd_plus": 0.00677291,
+      "front_recall": 0.15,
+      "fill_distance": 0.520683
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 8,
+      "igd_plus": 0.00470446,
+      "front_recall": 0.272727,
+      "fill_distance": 0.5
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 8,
+      "igd_plus": 0.00206942,
+      "front_recall": 0.531818,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 8,
+      "igd_plus": 0.00349963,
+      "front_recall": 0.395455,
+      "fill_distance": 0.372678
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 8,
+      "igd_plus": 0.00211777,
+      "front_recall": 0.531818,
+      "fill_distance": 0.309121
+    },
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 9,
+      "igd_plus": 0.00888705,
+      "front_recall": 0.113636,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 9,
+      "igd_plus": 0.01107089,
+      "front_recall": 0.095455,
+      "fill_distance": 0.563718
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 9,
+      "igd_plus": 0.0085353,
+      "front_recall": 0.131818,
+      "fill_distance": 0.563718
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 9,
+      "igd_plus": 0.0043619,
+      "front_recall": 0.227273,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 9,
+      "igd_plus": 0.00690385,
+      "front_recall": 0.177273,
+      "fill_distance": 0.5
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 9,
+      "igd_plus": 0.00420177,
+      "front_recall": 0.295455,
+      "fill_distance": 0.5
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 9,
+      "igd_plus": 0.00163502,
+      "front_recall": 0.536364,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 9,
+      "igd_plus": 0.00396725,
+      "front_recall": 0.377273,
+      "fill_distance": 0.5
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 9,
+      "igd_plus": 0.00175012,
+      "front_recall": 0.554545,
+      "fill_distance": 0.372678
+    },
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 10,
+      "igd_plus": 0.01059492,
+      "front_recall": 0.118182,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 10,
+      "igd_plus": 0.01209116,
+      "front_recall": 0.090909,
+      "fill_distance": 0.58784
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 10,
+      "igd_plus": 0.00733583,
+      "front_recall": 0.104545,
+      "fill_distance": 0.62361
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 10,
+      "igd_plus": 0.00560067,
+      "front_recall": 0.209091,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 10,
+      "igd_plus": 0.00738518,
+      "front_recall": 0.2,
+      "fill_distance": 0.5
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 10,
+      "igd_plus": 0.0047052,
+      "front_recall": 0.231818,
+      "fill_distance": 0.527046
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 10,
+      "igd_plus": 0.00208444,
+      "front_recall": 0.540909,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 10,
+      "igd_plus": 0.00470614,
+      "front_recall": 0.331818,
+      "fill_distance": 0.422953
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 10,
+      "igd_plus": 0.00220042,
+      "front_recall": 0.5,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 11,
+      "igd_plus": 0.00890711,
+      "front_recall": 0.127273,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 11,
+      "igd_plus": 0.01558539,
+      "front_recall": 0.104545,
+      "fill_distance": 0.563718
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 11,
+      "igd_plus": 0.00792399,
+      "front_recall": 0.1,
+      "fill_distance": 0.62361
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 11,
+      "igd_plus": 0.00494897,
+      "front_recall": 0.259091,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 11,
+      "igd_plus": 0.00714407,
+      "front_recall": 0.213636,
+      "fill_distance": 0.5
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 11,
+      "igd_plus": 0.00435296,
+      "front_recall": 0.231818,
+      "fill_distance": 0.471405
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 11,
+      "igd_plus": 0.00180279,
+      "front_recall": 0.540909,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 11,
+      "igd_plus": 0.00396144,
+      "front_recall": 0.386364,
+      "fill_distance": 0.38873
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 11,
+      "igd_plus": 0.00167594,
+      "front_recall": 0.581818,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 12,
+      "igd_plus": 0.00955161,
+      "front_recall": 0.122727,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 12,
+      "igd_plus": 0.01099674,
+      "front_recall": 0.1,
+      "fill_distance": 0.563718
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 12,
+      "igd_plus": 0.01011796,
+      "front_recall": 0.109091,
+      "fill_distance": 0.563718
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 12,
+      "igd_plus": 0.00542134,
+      "front_recall": 0.2,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 12,
+      "igd_plus": 0.00750466,
+      "front_recall": 0.186364,
+      "fill_distance": 0.512076
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 12,
+      "igd_plus": 0.00545687,
+      "front_recall": 0.254545,
+      "fill_distance": 0.5
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 12,
+      "igd_plus": 0.00173596,
+      "front_recall": 0.540909,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 12,
+      "igd_plus": 0.00364321,
+      "front_recall": 0.381818,
+      "fill_distance": 0.422953
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 12,
+      "igd_plus": 0.00207803,
+      "front_recall": 0.545455,
+      "fill_distance": 0.422953
+    },
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 13,
+      "igd_plus": 0.00777859,
+      "front_recall": 0.122727,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 13,
+      "igd_plus": 0.00987164,
+      "front_recall": 0.086364,
+      "fill_distance": 0.563718
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 13,
+      "igd_plus": 0.00618738,
+      "front_recall": 0.145455,
+      "fill_distance": 0.563718
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 13,
+      "igd_plus": 0.00521222,
+      "front_recall": 0.227273,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 13,
+      "igd_plus": 0.00702874,
+      "front_recall": 0.218182,
+      "fill_distance": 0.5
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 13,
+      "igd_plus": 0.00348373,
+      "front_recall": 0.304545,
+      "fill_distance": 0.527046
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 13,
+      "igd_plus": 0.00202037,
+      "front_recall": 0.545455,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 13,
+      "igd_plus": 0.00382886,
+      "front_recall": 0.377273,
+      "fill_distance": 0.372678
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 13,
+      "igd_plus": 0.00162154,
+      "front_recall": 0.604545,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 14,
+      "igd_plus": 0.00798072,
+      "front_recall": 0.154545,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 14,
+      "igd_plus": 0.01500895,
+      "front_recall": 0.072727,
+      "fill_distance": 0.58784
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 14,
+      "igd_plus": 0.00842546,
+      "front_recall": 0.095455,
+      "fill_distance": 0.546707
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 14,
+      "igd_plus": 0.00505008,
+      "front_recall": 0.254545,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 14,
+      "igd_plus": 0.00642822,
+      "front_recall": 0.2,
+      "fill_distance": 0.512076
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 14,
+      "igd_plus": 0.00494463,
+      "front_recall": 0.222727,
+      "fill_distance": 0.46428
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 14,
+      "igd_plus": 0.00189544,
+      "front_recall": 0.540909,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 14,
+      "igd_plus": 0.00407468,
+      "front_recall": 0.381818,
+      "fill_distance": 0.372678
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 14,
+      "igd_plus": 0.00207175,
+      "front_recall": 0.486364,
+      "fill_distance": 0.372678
+    },
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 15,
+      "igd_plus": 0.00725386,
+      "front_recall": 0.15,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 15,
+      "igd_plus": 0.01335186,
+      "front_recall": 0.104545,
+      "fill_distance": 0.58784
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 15,
+      "igd_plus": 0.00562581,
+      "front_recall": 0.163636,
+      "fill_distance": 0.600925
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 15,
+      "igd_plus": 0.00487547,
+      "front_recall": 0.245455,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 15,
+      "igd_plus": 0.00662483,
+      "front_recall": 0.209091,
+      "fill_distance": 0.520683
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 15,
+      "igd_plus": 0.00345808,
+      "front_recall": 0.309091,
+      "fill_distance": 0.422953
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 15,
+      "igd_plus": 0.00165627,
+      "front_recall": 0.572727,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 15,
+      "igd_plus": 0.0041678,
+      "front_recall": 0.409091,
+      "fill_distance": 0.520683
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 15,
+      "igd_plus": 0.00155975,
+      "front_recall": 0.6,
+      "fill_distance": 0.309121
+    },
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 16,
+      "igd_plus": 0.00926766,
+      "front_recall": 0.127273,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 16,
+      "igd_plus": 0.01232203,
+      "front_recall": 0.072727,
+      "fill_distance": 0.654896
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 16,
+      "igd_plus": 0.00732316,
+      "front_recall": 0.113636,
+      "fill_distance": 0.666667
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 16,
+      "igd_plus": 0.00499531,
+      "front_recall": 0.25,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 16,
+      "igd_plus": 0.00717087,
+      "front_recall": 0.15,
+      "fill_distance": 0.538516
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 16,
+      "igd_plus": 0.00428907,
+      "front_recall": 0.245455,
+      "fill_distance": 0.5
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 16,
+      "igd_plus": 0.00173419,
+      "front_recall": 0.540909,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 16,
+      "igd_plus": 0.00370911,
+      "front_recall": 0.386364,
+      "fill_distance": 0.38873
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 16,
+      "igd_plus": 0.00172165,
+      "front_recall": 0.568182,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 17,
+      "igd_plus": 0.00864193,
+      "front_recall": 0.131818,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 17,
+      "igd_plus": 0.01092724,
+      "front_recall": 0.081818,
+      "fill_distance": 0.622718
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 17,
+      "igd_plus": 0.00865236,
+      "front_recall": 0.154545,
+      "fill_distance": 0.600925
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 17,
+      "igd_plus": 0.00547105,
+      "front_recall": 0.204545,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 17,
+      "igd_plus": 0.00619415,
+      "front_recall": 0.213636,
+      "fill_distance": 0.527046
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 17,
+      "igd_plus": 0.00385628,
+      "front_recall": 0.327273,
+      "fill_distance": 0.5
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 17,
+      "igd_plus": 0.00171436,
+      "front_recall": 0.568182,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 17,
+      "igd_plus": 0.00454346,
+      "front_recall": 0.359091,
+      "fill_distance": 0.38873
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 17,
+      "igd_plus": 0.00159868,
+      "front_recall": 0.636364,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 18,
+      "igd_plus": 0.00827161,
+      "front_recall": 0.140909,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 18,
+      "igd_plus": 0.01410718,
+      "front_recall": 0.072727,
+      "fill_distance": 0.600925
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 18,
+      "igd_plus": 0.00683502,
+      "front_recall": 0.15,
+      "fill_distance": 0.6
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 18,
+      "igd_plus": 0.004811,
+      "front_recall": 0.254545,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 18,
+      "igd_plus": 0.00878191,
+      "front_recall": 0.172727,
+      "fill_distance": 0.563718
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 18,
+      "igd_plus": 0.00433976,
+      "front_recall": 0.295455,
+      "fill_distance": 0.546707
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 18,
+      "igd_plus": 0.00174225,
+      "front_recall": 0.568182,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 18,
+      "igd_plus": 0.00441631,
+      "front_recall": 0.4,
+      "fill_distance": 0.38873
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 18,
+      "igd_plus": 0.00157616,
+      "front_recall": 0.613636,
+      "fill_distance": 0.5
+    },
+    {
+      "design": "maximin",
+      "budget": 150,
+      "seed": 19,
+      "igd_plus": 0.00909709,
+      "front_recall": 0.140909,
+      "fill_distance": 0.333333
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 150,
+      "seed": 19,
+      "igd_plus": 0.00996489,
+      "front_recall": 0.104545,
+      "fill_distance": 0.633333
+    },
+    {
+      "design": "uniform_random",
+      "budget": 150,
+      "seed": 19,
+      "igd_plus": 0.00580502,
+      "front_recall": 0.15,
+      "fill_distance": 0.538516
+    },
+    {
+      "design": "maximin",
+      "budget": 300,
+      "seed": 19,
+      "igd_plus": 0.00516622,
+      "front_recall": 0.259091,
+      "fill_distance": 0.260342
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 300,
+      "seed": 19,
+      "igd_plus": 0.00683726,
+      "front_recall": 0.181818,
+      "fill_distance": 0.520683
+    },
+    {
+      "design": "uniform_random",
+      "budget": 300,
+      "seed": 19,
+      "igd_plus": 0.00384209,
+      "front_recall": 0.295455,
+      "fill_distance": 0.5
+    },
+    {
+      "design": "maximin",
+      "budget": 600,
+      "seed": 19,
+      "igd_plus": 0.00194226,
+      "front_recall": 0.522727,
+      "fill_distance": 0.166667
+    },
+    {
+      "design": "latin_hypercube",
+      "budget": 600,
+      "seed": 19,
+      "igd_plus": 0.00421532,
+      "front_recall": 0.390909,
+      "fill_distance": 0.38873
+    },
+    {
+      "design": "uniform_random",
+      "budget": 600,
+      "seed": 19,
+      "igd_plus": 0.00175732,
+      "front_recall": 0.554545,
+      "fill_distance": 0.372678
+    }
+  ],
+  "space_size": 1099,
+  "front_size": 220,
+  "source_table": "table.csv",
+  "medians": {
+    "igd_plus": {
+      "150": {
+        "latin_hypercube": 0.012145877840513342,
+        "maximin": 0.008579622495264397,
+        "uniform_random": 0.0073647531881117795
+      },
+      "300": {
+        "latin_hypercube": 0.007157469853387928,
+        "maximin": 0.004994651694719857,
+        "uniform_random": 0.004242377569228367
+      },
+      "600": {
+        "latin_hypercube": 0.004121237491897222,
+        "maximin": 0.0018530146917983398,
+        "uniform_random": 0.0017778442862542564
+      }
+    },
+    "front_recall": {
+      "150": {
+        "latin_hypercube": 0.09772727272727273,
+        "maximin": 0.1318181818181818,
+        "uniform_random": 0.1409090909090909
+      },
+      "300": {
+        "latin_hypercube": 0.18181818181818182,
+        "maximin": 0.2409090909090909,
+        "uniform_random": 0.2772727272727272
+      },
+      "600": {
+        "latin_hypercube": 0.38181818181818183,
+        "maximin": 0.5409090909090909,
+        "uniform_random": 0.5590909090909091
+      }
+    },
+    "fill_distance": {
+      "150": {
+        "latin_hypercube": 0.5943824744311391,
+        "maximin": 0.33333333333333337,
+        "uniform_random": 0.6004626062886658
+      },
+      "300": {
+        "latin_hypercube": 0.5163798474591754,
+        "maximin": 0.26034165586355523,
+        "uniform_random": 0.5
+      },
+      "600": {
+        "latin_hypercube": 0.38873012632302,
+        "maximin": 0.16666666666666674,
+        "uniform_random": 0.33333333333333337
+      }
+    }
+  },
+  "igd_plus_at_150": {
+    "declaration": {
+      "question": "With 150 architectures to train, which sampling design recovers the exact Pareto front best, measured by igd_plus?",
+      "treatments": [
+        "latin_hypercube",
+        "maximin",
+        "uniform_random"
+      ],
+      "blocks": [
+        "seed0",
+        "seed1",
+        "seed2",
+        "seed3",
+        "seed4",
+        "seed5",
+        "seed6",
+        "seed7",
+        "seed8",
+        "seed9",
+        "seed10",
+        "seed11",
+        "seed12",
+        "seed13",
+        "seed14",
+        "seed15",
+        "seed16",
+        "seed17",
+        "seed18",
+        "seed19"
+      ],
+      "n_treatments": 3,
+      "n_blocks": 20,
+      "metric": "igd_plus",
+      "direction": "lower is better",
+      "rope": 0.0006570992499915647,
+      "rope_source": "3 designs x 20 seeds at a budget of 150 architectures, pooled within design so real differences between them are removed (3 configurations x 20 seeds)",
+      "notes": "The front is exact because every architecture under the ceiling was trained, so this is a loss against ground truth rather than a comparison between samples. Uniform random is the floor: the campaign used maximin, and a comparison that omitted the floor would be an author grading their own choice."
+    },
+    "rope": {
+      "rope": 0.0006570992499915647,
+      "metric": "igd_plus",
+      "source": "3 designs x 20 seeds at a budget of 150 architectures, pooled within design so real differences between them are removed (3 configurations x 20 seeds)",
+      "replicates": 60,
+      "mean": 0.009471720912995335,
+      "std": 0.0013141984999831295,
+      "observed_range": 0.00995957945970705,
+      "sigma_multiple": 0.5,
+      "relative_width": 0.06937485342183333,
+      "description": "0.000657099 on igd_plus, from 0.5x the standard deviation of 60 replicates of 3 designs x 20 seeds at a budget of 150 architectures, pooled within design so real differences between them are removed (3 configurations x 20 seeds) (mean 0.00947172, sd 0.0013142, range 0.00995958)",
+      "why": "Derived from repeated measurements under identical conditions, so it is the floor below which no claim about architecture can be made: that much movement happens with nothing changed."
+    },
+    "mean_ranks": {
+      "latin_hypercube": 2.95,
+      "maximin": 1.75,
+      "uniform_random": 1.3
+    },
+    "friedman": {
+      "test": "Friedman",
+      "statistic": 29.1,
+      "p_value": 4.797503368127275e-07,
+      "n_treatments": 3,
+      "n_blocks": 20,
+      "mean_ranks": {
+        "latin_hypercube": 2.95,
+        "maximin": 1.75,
+        "uniform_random": 1.3
+      },
+      "kendalls_w": 0.7275,
+      "differs_at_0.05": true
+    },
+    "power": {
+      "blocks": 20,
+      "treatments": 3,
+      "blocks_needed_to_reject": 3
+    },
+    "posthoc": [
+      {
+        "a": "latin_hypercube",
+        "b": "maximin",
+        "statistic": 1.0,
+        "p_raw": 3.814697265625e-06,
+        "p_adjusted": 7.62939453125e-06,
+        "rejected_at_0.05": true,
+        "median_difference": -0.00337
+      },
+      {
+        "a": "latin_hypercube",
+        "b": "uniform_random",
+        "statistic": 0.0,
+        "p_raw": 1.9073486328125e-06,
+        "p_adjusted": 5.7220458984375e-06,
+        "rejected_at_0.05": true,
+        "median_difference": -0.004596
+      },
+      {
+        "a": "maximin",
+        "b": "uniform_random",
+        "statistic": 30.0,
+        "p_raw": 0.00365447998046875,
+        "p_adjusted": 0.00365447998046875,
+        "rejected_at_0.05": true,
+        "median_difference": -0.001201
+      }
+    ],
+    "posthoc_withheld": null,
+    "probability_best": {
+      "latin_hypercube": 0.0,
+      "maximin": 0.02436,
+      "uniform_random": 0.97564
+    }
+  },
+  "igd_plus_at_300": {
+    "declaration": {
+      "question": "With 300 architectures to train, which sampling design recovers the exact Pareto front best, measured by igd_plus?",
+      "treatments": [
+        "latin_hypercube",
+        "maximin",
+        "uniform_random"
+      ],
+      "blocks": [
+        "seed0",
+        "seed1",
+        "seed2",
+        "seed3",
+        "seed4",
+        "seed5",
+        "seed6",
+        "seed7",
+        "seed8",
+        "seed9",
+        "seed10",
+        "seed11",
+        "seed12",
+        "seed13",
+        "seed14",
+        "seed15",
+        "seed16",
+        "seed17",
+        "seed18",
+        "seed19"
+      ],
+      "n_treatments": 3,
+      "n_blocks": 20,
+      "metric": "igd_plus",
+      "direction": "lower is better",
+      "rope": 0.00032608594698321346,
+      "rope_source": "3 designs x 20 seeds at a budget of 300 architectures, pooled within design so real differences between them are removed (3 configurations x 20 seeds)",
+      "notes": "The front is exact because every architecture under the ceiling was trained, so this is a loss against ground truth rather than a comparison between samples. Uniform random is the floor: the campaign used maximin, and a comparison that omitted the floor would be an author grading their own choice."
+    },
+    "rope": {
+      "rope": 0.00032608594698321346,
+      "metric": "igd_plus",
+      "source": "3 designs x 20 seeds at a budget of 300 architectures, pooled within design so real differences between them are removed (3 configurations x 20 seeds)",
+      "replicates": 60,
+      "mean": 0.005502699774465592,
+      "std": 0.0006521718939664269,
+      "observed_range": 0.006430441073581226,
+      "sigma_multiple": 0.5,
+      "relative_width": 0.05925926551478671,
+      "description": "0.000326086 on igd_plus, from 0.5x the standard deviation of 60 replicates of 3 designs x 20 seeds at a budget of 300 architectures, pooled within design so real differences between them are removed (3 configurations x 20 seeds) (mean 0.0055027, sd 0.000652172, range 0.00643044)",
+      "why": "Derived from repeated measurements under identical conditions, so it is the floor below which no claim about architecture can be made: that much movement happens with nothing changed."
+    },
+    "mean_ranks": {
+      "latin_hypercube": 3.0,
+      "maximin": 1.85,
+      "uniform_random": 1.15
+    },
+    "friedman": {
+      "test": "Friedman",
+      "statistic": 34.9,
+      "p_value": 2.6397408354582e-08,
+      "n_treatments": 3,
+      "n_blocks": 20,
+      "mean_ranks": {
+        "latin_hypercube": 3.0,
+        "maximin": 1.85,
+        "uniform_random": 1.15
+      },
+      "kendalls_w": 0.8725,
+      "differs_at_0.05": true
+    },
+    "power": {
+      "blocks": 20,
+      "treatments": 3,
+      "blocks_needed_to_reject": 3
+    },
+    "posthoc": [
+      {
+        "a": "latin_hypercube",
+        "b": "maximin",
+        "statistic": 0.0,
+        "p_raw": 1.9073486328125e-06,
+        "p_adjusted": 5.7220458984375e-06,
+        "rejected_at_0.05": true,
+        "median_difference": -0.002099
+      },
+      {
+        "a": "latin_hypercube",
+        "b": "uniform_random",
+        "statistic": 0.0,
+        "p_raw": 1.9073486328125e-06,
+        "p_adjusted": 5.7220458984375e-06,
+        "rejected_at_0.05": true,
+        "median_difference": -0.003081
+      },
+      {
+        "a": "maximin",
+        "b": "uniform_random",
+        "statistic": 12.0,
+        "p_raw": 0.000133514404296875,
+        "p_adjusted": 0.000133514404296875,
+        "rejected_at_0.05": true,
+        "median_difference": -0.000697
+      }
+    ],
+    "posthoc_withheld": null,
+    "probability_best": {
+      "latin_hypercube": 0.0,
+      "maximin": 0.00038,
+      "uniform_random": 0.99962
+    }
+  },
+  "igd_plus_at_600": {
+    "declaration": {
+      "question": "With 600 architectures to train, which sampling design recovers the exact Pareto front best, measured by igd_plus?",
+      "treatments": [
+        "latin_hypercube",
+        "maximin",
+        "uniform_random"
+      ],
+      "blocks": [
+        "seed0",
+        "seed1",
+        "seed2",
+        "seed3",
+        "seed4",
+        "seed5",
+        "seed6",
+        "seed7",
+        "seed8",
+        "seed9",
+        "seed10",
+        "seed11",
+        "seed12",
+        "seed13",
+        "seed14",
+        "seed15",
+        "seed16",
+        "seed17",
+        "seed18",
+        "seed19"
+      ],
+      "n_treatments": 3,
+      "n_blocks": 20,
+      "metric": "igd_plus",
+      "direction": "lower is better",
+      "rope": 0.00014578672667962526,
+      "rope_source": "3 designs x 20 seeds at a budget of 600 architectures, pooled within design so real differences between them are removed (3 configurations x 20 seeds)",
+      "notes": "The front is exact because every architecture under the ceiling was trained, so this is a loss against ground truth rather than a comparison between samples. Uniform random is the floor: the campaign used maximin, and a comparison that omitted the floor would be an author grading their own choice."
+    },
+    "rope": {
+      "rope": 0.00014578672667962526,
+      "metric": "igd_plus",
+      "source": "3 designs x 20 seeds at a budget of 600 architectures, pooled within design so real differences between them are removed (3 configurations x 20 seeds)",
+      "replicates": 60,
+      "mean": 0.002601526651281465,
+      "std": 0.0002915734533592505,
+      "observed_range": 0.00335995335061161,
+      "sigma_multiple": 0.5,
+      "relative_width": 0.056038913384882434,
+      "description": "0.000145787 on igd_plus, from 0.5x the standard deviation of 60 replicates of 3 designs x 20 seeds at a budget of 600 architectures, pooled within design so real differences between them are removed (3 configurations x 20 seeds) (mean 0.00260153, sd 0.000291573, range 0.00335995)",
+      "why": "Derived from repeated measurements under identical conditions, so it is the floor below which no claim about architecture can be made: that much movement happens with nothing changed."
+    },
+    "mean_ranks": {
+      "latin_hypercube": 3.0,
+      "maximin": 1.65,
+      "uniform_random": 1.35
+    },
+    "friedman": {
+      "test": "Friedman",
+      "statistic": 30.9,
+      "p_value": 1.9505193119838727e-07,
+      "n_treatments": 3,
+      "n_blocks": 20,
+      "mean_ranks": {
+        "latin_hypercube": 3.0,
+        "maximin": 1.65,
+        "uniform_random": 1.35
+      },
+      "kendalls_w": 0.7725,
+      "differs_at_0.05": true
+    },
+    "power": {
+      "blocks": 20,
+      "treatments": 3,
+      "blocks_needed_to_reject": 3
+    },
+    "posthoc": [
+      {
+        "a": "latin_hypercube",
+        "b": "maximin",
+        "statistic": 0.0,
+        "p_raw": 1.9073486328125e-06,
+        "p_adjusted": 5.7220458984375e-06,
+        "rejected_at_0.05": true,
+        "median_difference": -0.002292
+      },
+      {
+        "a": "latin_hypercube",
+        "b": "uniform_random",
+        "statistic": 0.0,
+        "p_raw": 1.9073486328125e-06,
+        "p_adjusted": 5.7220458984375e-06,
+        "rejected_at_0.05": true,
+        "median_difference": -0.002286
+      },
+      {
+        "a": "maximin",
+        "b": "uniform_random",
+        "statistic": 78.0,
+        "p_raw": 0.3299827575683594,
+        "p_adjusted": 0.3299827575683594,
+        "rejected_at_0.05": false,
+        "median_difference": -0.000106
+      }
+    ],
+    "posthoc_withheld": null,
+    "probability_best": {
+      "latin_hypercube": 0.0,
+      "maximin": 0.08558,
+      "uniform_random": 0.91442
+    }
+  },
+  "front_recall_at_150": {
+    "declaration": {
+      "question": "With 150 architectures to train, which sampling design recovers the exact Pareto front best, measured by front_recall?",
+      "treatments": [
+        "latin_hypercube",
+        "maximin",
+        "uniform_random"
+      ],
+      "blocks": [
+        "seed0",
+        "seed1",
+        "seed2",
+        "seed3",
+        "seed4",
+        "seed5",
+        "seed6",
+        "seed7",
+        "seed8",
+        "seed9",
+        "seed10",
+        "seed11",
+        "seed12",
+        "seed13",
+        "seed14",
+        "seed15",
+        "seed16",
+        "seed17",
+        "seed18",
+        "seed19"
+      ],
+      "n_treatments": 3,
+      "n_blocks": 20,
+      "metric": "front_recall",
+      "direction": "higher is better",
+      "rope": 0.009121509503595577,
+      "rope_source": "3 designs x 20 seeds at a budget of 150 architectures, pooled within design so real differences between them are removed (3 configurations x 20 seeds)",
+      "notes": "The front is exact because every architecture under the ceiling was trained, so this is a loss against ground truth rather than a comparison between samples. Uniform random is the floor: the campaign used maximin, and a comparison that omitted the floor would be an author grading their own choice."
+    },
+    "rope": {
+      "rope": 0.009121509503595577,
+      "metric": "front_recall",
+      "source": "3 designs x 20 seeds at a budget of 150 architectures, pooled within design so real differences between them are removed (3 configurations x 20 seeds)",
+      "replicates": 60,
+      "mean": 0.12022727272727271,
+      "std": 0.018243019007191153,
+      "observed_range": 0.11363636363636365,
+      "sigma_multiple": 0.5,
+      "relative_width": 0.07586888812064375,
+      "description": "0.00912151 on front_recall, from 0.5x the standard deviation of 60 replicates of 3 designs x 20 seeds at a budget of 150 architectures, pooled within design so real differences between them are removed (3 configurations x 20 seeds) (mean 0.120227, sd 0.018243, range 0.113636)",
+      "why": "Derived from repeated measurements under identical conditions, so it is the floor below which no claim about architecture can be made: that much movement happens with nothing changed."
+    },
+    "mean_ranks": {
+      "latin_hypercube": 2.95,
+      "maximin": 1.5,
+      "uniform_random": 1.55
+    },
+    "friedman": {
+      "test": "Friedman",
+      "statistic": 27.1,
+      "p_value": 1.3040966227551423e-06,
+      "n_treatments": 3,
+      "n_blocks": 20,
+      "mean_ranks": {
+        "latin_hypercube": 2.95,
+        "maximin": 1.5,
+        "uniform_random": 1.55
+      },
+      "kendalls_w": 0.6775,
+      "differs_at_0.05": true
+    },
+    "power": {
+      "blocks": 20,
+      "treatments": 3,
+      "blocks_needed_to_reject": 3
+    },
+    "posthoc": [
+      {
+        "a": "latin_hypercube",
+        "b": "maximin",
+        "statistic": 0.0,
+        "p_raw": 8.695454033787863e-05,
+        "p_adjusted": 0.0002608636210136359,
+        "rejected_at_0.05": true,
+        "median_difference": -0.036364
+      },
+      {
+        "a": "latin_hypercube",
+        "b": "uniform_random",
+        "statistic": 1.0,
+        "p_raw": 0.00010277255532145712,
+        "p_adjusted": 0.0002608636210136359,
+        "rejected_at_0.05": true,
+        "median_difference": -0.038636
+      },
+      {
+        "a": "maximin",
+        "b": "uniform_random",
+        "statistic": 94.5,
+        "p_raw": 0.6946588871144245,
+        "p_adjusted": 0.6946588871144245,
+        "rejected_at_0.05": false,
+        "median_difference": -0.002273
+      }
+    ],
+    "posthoc_withheld": null,
+    "probability_best": {
+      "latin_hypercube": 0.0,
+      "maximin": 0.5816,
+      "uniform_random": 0.4184
+    }
+  },
+  "front_recall_at_300": {
+    "declaration": {
+      "question": "With 300 architectures to train, which sampling design recovers the exact Pareto front best, measured by front_recall?",
+      "treatments": [
+        "latin_hypercube",
+        "maximin",
+        "uniform_random"
+      ],
+      "blocks": [
+        "seed0",
+        "seed1",
+        "seed2",
+        "seed3",
+        "seed4",
+        "seed5",
+        "seed6",
+        "seed7",
+        "seed8",
+        "seed9",
+        "seed10",
+        "seed11",
+        "seed12",
+        "seed13",
+        "seed14",
+        "seed15",
+        "seed16",
+        "seed17",
+        "seed18",
+        "seed19"
+      ],
+      "n_treatments": 3,
+      "n_blocks": 20,
+      "metric": "front_recall",
+      "direction": "higher is better",
+      "rope": 0.012828615094048928,
+      "rope_source": "3 designs x 20 seeds at a budget of 300 architectures, pooled within design so real differences between them are removed (3 configurations x 20 seeds)",
+      "notes": "The front is exact because every architecture under the ceiling was trained, so this is a loss against ground truth rather than a comparison between samples. Uniform random is the floor: the campaign used maximin, and a comparison that omitted the floor would be an author grading their own choice."
+    },
+    "rope": {
+      "rope": 0.012828615094048928,
+      "metric": "front_recall",
+      "source": "3 designs x 20 seeds at a budget of 300 architectures, pooled within design so real differences between them are removed (3 configurations x 20 seeds)",
+      "replicates": 60,
+      "mean": 0.23242424242424242,
+      "std": 0.025657230188097856,
+      "observed_range": 0.18636363636363637,
+      "sigma_multiple": 0.5,
+      "relative_width": 0.05519482374232264,
+      "description": "0.0128286 on front_recall, from 0.5x the standard deviation of 60 replicates of 3 designs x 20 seeds at a budget of 300 architectures, pooled within design so real differences between them are removed (3 configurations x 20 seeds) (mean 0.232424, sd 0.0256572, range 0.186364)",
+      "why": "Derived from repeated measurements under identical conditions, so it is the floor below which no claim about architecture can be made: that much movement happens with nothing changed."
+    },
+    "mean_ranks": {
+      "latin_hypercube": 2.95,
+      "maximin": 1.85,
+      "uniform_random": 1.2
+    },
+    "friedman": {
+      "test": "Friedman",
+      "statistic": 31.3,
+      "p_value": 1.5969501451937217e-07,
+      "n_treatments": 3,
+      "n_blocks": 20,
+      "mean_ranks": {
+        "latin_hypercube": 2.95,
+        "maximin": 1.85,
+        "uniform_random": 1.2
+      },
+      "kendalls_w": 0.7825,
+      "differs_at_0.05": true
+    },
+    "power": {
+      "blocks": 20,
+      "treatments": 3,
+      "blocks_needed_to_reject": 3
+    },
+    "posthoc": [
+      {
+        "a": "latin_hypercube",
+        "b": "maximin",
+        "statistic": 1.5,
+        "p_raw": 0.00011126928015754345,
+        "p_adjusted": 0.0002638463804115046,
+        "rejected_at_0.05": true,
+        "median_difference": -0.05
+      },
+      {
+        "a": "latin_hypercube",
+        "b": "uniform_random",
+        "statistic": 0.0,
+        "p_raw": 8.794879347050152e-05,
+        "p_adjusted": 0.0002638463804115046,
+        "rejected_at_0.05": true,
+        "median_difference": -0.097727
+      },
+      {
+        "a": "maximin",
+        "b": "uniform_random",
+        "statistic": 21.0,
+        "p_raw": 0.0017114225691997201,
+        "p_adjusted": 0.0017114225691997201,
+        "rejected_at_0.05": true,
+        "median_difference": -0.036364
+      }
+    ],
+    "posthoc_withheld": null,
+    "probability_best": {
+      "latin_hypercube": 0.0,
+      "maximin": 0.00144,
+      "uniform_random": 0.99856
+    }
+  },
+  "front_recall_at_600": {
+    "declaration": {
+      "question": "With 600 architectures to train, which sampling design recovers the exact Pareto front best, measured by front_recall?",
+      "treatments": [
+        "latin_hypercube",
+        "maximin",
+        "uniform_random"
+      ],
+      "blocks": [
+        "seed0",
+        "seed1",
+        "seed2",
+        "seed3",
+        "seed4",
+        "seed5",
+        "seed6",
+        "seed7",
+        "seed8",
+        "seed9",
+        "seed10",
+        "seed11",
+        "seed12",
+        "seed13",
+        "seed14",
+        "seed15",
+        "seed16",
+        "seed17",
+        "seed18",
+        "seed19"
+      ],
+      "n_treatments": 3,
+      "n_blocks": 20,
+      "metric": "front_recall",
+      "direction": "higher is better",
+      "rope": 0.0143433805249419,
+      "rope_source": "3 designs x 20 seeds at a budget of 600 architectures, pooled within design so real differences between them are removed (3 configurations x 20 seeds)",
+      "notes": "The front is exact because every architecture under the ceiling was trained, so this is a loss against ground truth rather than a comparison between samples. Uniform random is the floor: the campaign used maximin, and a comparison that omitted the floor would be an author grading their own choice."
+    },
+    "rope": {
+      "rope": 0.0143433805249419,
+      "metric": "front_recall",
+      "source": "3 designs x 20 seeds at a budget of 600 architectures, pooled within design so real differences between them are removed (3 configurations x 20 seeds)",
+      "replicates": 60,
+      "mean": 0.49136363636363634,
+      "std": 0.0286867610498838,
+      "observed_range": 0.3045454545454545,
+      "sigma_multiple": 0.5,
+      "relative_width": 0.029190968690908585,
+      "description": "0.0143434 on front_recall, from 0.5x the standard deviation of 60 replicates of 3 designs x 20 seeds at a budget of 600 architectures, pooled within design so real differences between them are removed (3 configurations x 20 seeds) (mean 0.491364, sd 0.0286868, range 0.304545)",
+      "why": "Derived from repeated measurements under identical conditions, so it is the floor below which no claim about architecture can be made: that much movement happens with nothing changed."
+    },
+    "mean_ranks": {
+      "latin_hypercube": 3.0,
+      "maximin": 1.75,
+      "uniform_random": 1.25
+    },
+    "friedman": {
+      "test": "Friedman",
+      "statistic": 33.333333,
+      "p_value": 5.7777485194191284e-08,
+      "n_treatments": 3,
+      "n_blocks": 20,
+      "mean_ranks": {
+        "latin_hypercube": 3.0,
+        "maximin": 1.75,
+        "uniform_random": 1.25
+      },
+      "kendalls_w": 0.833333,
+      "differs_at_0.05": true
+    },
+    "power": {
+      "blocks": 20,
+      "treatments": 3,
+      "blocks_needed_to_reject": 3
+    },
+    "posthoc": [
+      {
+        "a": "latin_hypercube",
+        "b": "maximin",
+        "statistic": 0.0,
+        "p_raw": 8.794879347050152e-05,
+        "p_adjusted": 0.0002638463804115046,
+        "rejected_at_0.05": true,
+        "median_difference": -0.159091
+      },
+      {
+        "a": "latin_hypercube",
+        "b": "uniform_random",
+        "statistic": 0.0,
+        "p_raw": 8.81987020419445e-05,
+        "p_adjusted": 0.0002638463804115046,
+        "rejected_at_0.05": true,
+        "median_difference": -0.181818
+      },
+      {
+        "a": "maximin",
+        "b": "uniform_random",
+        "statistic": 35.0,
+        "p_raw": 0.027746017865467203,
+        "p_adjusted": 0.027746017865467203,
+        "rejected_at_0.05": true,
+        "median_difference": -0.027273
+      }
+    ],
+    "posthoc_withheld": null,
+    "probability_best": {
+      "latin_hypercube": 0.0,
+      "maximin": 0.00628,
+      "uniform_random": 0.99372
+    }
+  }
+}

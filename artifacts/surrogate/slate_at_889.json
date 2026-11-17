@@ -1,0 +1,271 @@
+{
+  "provenance": {
+    "written_at": "2026-09-04T17:21:07+00:00",
+    "git_revision": "91a43505aca0741613cd1c6236023da9b5d57a6b",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen surrogate"
+  },
+  "training_rows": 889,
+  "coverage": 0.8089,
+  "folds": 5,
+  "criterion": "Kendall tau on held-out perplexity rank; precision@k beside it",
+  "why_three_measures": "Global tau asks whether the model orders the space; tau on the top decile asks whether it orders the part anyone will look at, since a model can score well globally by getting the gap between tiny and large architectures right while shuffling everything near the front; precision@k is what a budget is actually spent against and is the only one of the three that is not a correlation.",
+  "trivial_floors": {
+    "sort_by_parameters": 0.8943,
+    "rule": "A candidate that outranks neither trivial predictor is disqualified. In this space the parameter floor is high, so a slate reported without it would present a marginal gain as a strong result."
+  },
+  "best_non_trivial": "xgboost",
+  "gain_over_floor": 0.0775,
+  "disqualified": [
+    "linear_on_genes",
+    "xgboost_ranker"
+  ],
+  "unavailable": {},
+  "scores": [
+    {
+      "name": "xgboost",
+      "tier": "tier1",
+      "kendall_tau": 0.9718,
+      "kendall_tau_sd": 0.0012,
+      "kendall_tau_top_decile": 0.6706,
+      "precision_at": {
+        "5": 0.8,
+        "10": 0.86,
+        "25": 0.976,
+        "50": 0.956
+      },
+      "beats_parameter_floor": true,
+      "beats_linear_floor": true,
+      "disqualified": false
+    },
+    {
+      "name": "lightgbm",
+      "tier": "tier1",
+      "kendall_tau": 0.9701,
+      "kendall_tau_sd": 0.0021,
+      "kendall_tau_top_decile": 0.6,
+      "precision_at": {
+        "5": 0.8,
+        "10": 0.84,
+        "25": 0.968,
+        "50": 0.964
+      },
+      "beats_parameter_floor": true,
+      "beats_linear_floor": true,
+      "disqualified": false
+    },
+    {
+      "name": "random_forest",
+      "tier": "tier1",
+      "kendall_tau": 0.9651,
+      "kendall_tau_sd": 0.0024,
+      "kendall_tau_top_decile": 0.6118,
+      "precision_at": {
+        "5": 0.8,
+        "10": 0.82,
+        "25": 0.976,
+        "50": 0.956
+      },
+      "beats_parameter_floor": true,
+      "beats_linear_floor": true,
+      "disqualified": false
+    },
+    {
+      "name": "quantile_forest",
+      "tier": "tier2",
+      "kendall_tau": 0.9641,
+      "kendall_tau_sd": 0.003,
+      "kendall_tau_top_decile": 0.6746,
+      "precision_at": {
+        "5": 0.8,
+        "10": 0.82,
+        "25": 0.968,
+        "50": 0.956
+      },
+      "beats_parameter_floor": true,
+      "beats_linear_floor": true,
+      "disqualified": false
+    },
+    {
+      "name": "gradient_boosting",
+      "tier": "tier1",
+      "kendall_tau": 0.9633,
+      "kendall_tau_sd": 0.003,
+      "kendall_tau_top_decile": 0.5961,
+      "precision_at": {
+        "5": 0.76,
+        "10": 0.82,
+        "25": 0.976,
+        "50": 0.948
+      },
+      "beats_parameter_floor": true,
+      "beats_linear_floor": true,
+      "disqualified": false
+    },
+    {
+      "name": "gaussian_process",
+      "tier": "tier1",
+      "kendall_tau": 0.9607,
+      "kendall_tau_sd": 0.0043,
+      "kendall_tau_top_decile": 0.6235,
+      "precision_at": {
+        "5": 0.8,
+        "10": 0.84,
+        "25": 0.944,
+        "50": 0.944
+      },
+      "beats_parameter_floor": true,
+      "beats_linear_floor": true,
+      "disqualified": false
+    },
+    {
+      "name": "ngboost",
+      "tier": "tier2",
+      "kendall_tau": 0.96,
+      "kendall_tau_sd": 0.0027,
+      "kendall_tau_top_decile": 0.535,
+      "precision_at": {
+        "5": 0.68,
+        "10": 0.8,
+        "25": 0.952,
+        "50": 0.94
+      },
+      "beats_parameter_floor": true,
+      "beats_linear_floor": true,
+      "disqualified": false
+    },
+    {
+      "name": "mlp",
+      "tier": "tier4",
+      "kendall_tau": 0.9595,
+      "kendall_tau_sd": 0.0055,
+      "kendall_tau_top_decile": 0.6471,
+      "precision_at": {
+        "5": 0.8,
+        "10": 0.8,
+        "25": 0.952,
+        "50": 0.94
+      },
+      "beats_parameter_floor": true,
+      "beats_linear_floor": true,
+      "disqualified": false
+    },
+    {
+      "name": "catboost",
+      "tier": "tier1",
+      "kendall_tau": 0.9452,
+      "kendall_tau_sd": 0.0073,
+      "kendall_tau_top_decile": 0.5765,
+      "precision_at": {
+        "5": 0.76,
+        "10": 0.82,
+        "25": 0.936,
+        "50": 0.92
+      },
+      "beats_parameter_floor": true,
+      "beats_linear_floor": true,
+      "disqualified": false
+    },
+    {
+      "name": "sort_by_parameters",
+      "tier": "trivial",
+      "kendall_tau": 0.8943,
+      "kendall_tau_sd": 0.0065,
+      "kendall_tau_top_decile": 0.4381,
+      "precision_at": {
+        "5": 0.4,
+        "10": 0.62,
+        "25": 0.816,
+        "50": 0.88
+      },
+      "beats_parameter_floor": false,
+      "beats_linear_floor": true,
+      "disqualified": false
+    },
+    {
+      "name": "svr_rbf",
+      "tier": "tier4",
+      "kendall_tau": 0.8788,
+      "kendall_tau_sd": 0.006,
+      "kendall_tau_top_decile": 0.1147,
+      "precision_at": {
+        "5": 0.24,
+        "10": 0.46,
+        "25": 0.824,
+        "50": 0.924
+      },
+      "beats_parameter_floor": false,
+      "beats_linear_floor": true,
+      "disqualified": false
+    },
+    {
+      "name": "bayesian_ridge",
+      "tier": "tier2",
+      "kendall_tau": 0.7849,
+      "kendall_tau_sd": 0.016,
+      "kendall_tau_top_decile": 0.4206,
+      "precision_at": {
+        "5": 0.52,
+        "10": 0.56,
+        "25": 0.68,
+        "50": 0.732
+      },
+      "beats_parameter_floor": false,
+      "beats_linear_floor": true,
+      "disqualified": false
+    },
+    {
+      "name": "linear_on_genes",
+      "tier": "trivial",
+      "kendall_tau": 0.7848,
+      "kendall_tau_sd": 0.0158,
+      "kendall_tau_top_decile": 0.4206,
+      "precision_at": {
+        "5": 0.52,
+        "10": 0.56,
+        "25": 0.68,
+        "50": 0.732
+      },
+      "beats_parameter_floor": false,
+      "beats_linear_floor": false,
+      "disqualified": true
+    },
+    {
+      "name": "xgboost_ranker",
+      "tier": "tier3",
+      "kendall_tau": 0.5583,
+      "kendall_tau_sd": 0.0493,
+      "kendall_tau_top_decile": 0.3706,
+      "precision_at": {
+        "5": 0.6,
+        "10": 0.54,
+        "25": 0.544,
+        "50": 0.668
+      },
+      "beats_parameter_floor": false,
+      "beats_linear_floor": false,
+      "disqualified": true
+    }
+  ],
+  "excluded_families": {
+    "graph_neural_network": "The genotype is a fixed-length vector of five genes, not a graph. Every architecture here has the same topology \u2014 a stack of identical blocks \u2014 so a GCN would receive the same graph 1,099 times with only node features differing, which is a multilayer perceptron with extra steps. Applicable the moment the space admits varying topology: skip connections, branching, or per-layer heterogeneity.",
+    "sequence_model": "An LSTM or transformer over the architecture string treats five genes as a sequence whose order carries no meaning. Applicable if the encoding becomes variable-length, as it would with per-layer genes.",
+    "zero_cost_proxy": "Gradient-based proxies at initialisation are a different experiment rather than a different model: they predict from an untrained network instead of from the genotype, so comparing them here would confound the question. Worth its own study against this table, which is one of the things a published benchmark enables."
+  },
+  "source_table": "table.csv"
+}

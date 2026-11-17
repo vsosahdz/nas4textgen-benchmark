@@ -1,0 +1,47 @@
+{
+  "provenance": {
+    "written_at": "2026-10-04T03:52:09+00:00",
+    "git_revision": "d37fa83daec56b17effa54e43ea6f0794cacabeb",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen progress"
+  },
+  "planned": 1099,
+  "measured": 1099,
+  "completed_without_result": 0,
+  "completed_without_result_fingerprints": [],
+  "fraction_complete": 1.0,
+  "jobs": {
+    "completed": 3341,
+    "in_flight": 0,
+    "waiting": 0,
+    "lost": 271
+  },
+  "node_hours": 3015.76,
+  "resumes": 584,
+  "failures": {
+    "Canceled": 223,
+    "Failed": 48
+  },
+  "elapsed_hours": 1209.85,
+  "concurrency": 5,
+  "cluster_occupancy": 0.4985,
+  "estimated_hours_remaining": null,
+  "estimated_finish": null,
+  "estimate_basis": "0.36 rows/node-hour over 3,016 node-hours, at 5 nodes",
+  "generated_at": "2026-10-04T03:52:09.462345+00:00"
+}

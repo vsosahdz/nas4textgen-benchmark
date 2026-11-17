@@ -1,0 +1,351 @@
+{
+  "provenance": {
+    "written_at": "2026-11-04T06:25:18+00:00",
+    "git_revision": "1ccebc6655700a3b096f174c390c7bc8ed101ae2",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen replication"
+  },
+  "tiers": {
+    "verify": {
+      "hardware": "any CPU, no GPU, no cloud account",
+      "compact": {
+        "wall_clock": "under ten minutes",
+        "establishes": "the analysis, recomputed from the published benchmark table; nothing is retrained"
+      },
+      "wall_clock": "under ten minutes",
+      "cost": "nothing",
+      "establishes": "the analysis: every table and figure recomputes from the published benchmark table and matches. Nothing is retrained",
+      "what_it_proves": "every table and figure in the paper is recomputed from the published benchmark table and matches. It does not retrain anything, so it verifies the analysis rather than the measurements.",
+      "stages": [
+        "structural gate",
+        "audit of the prior protocol",
+        "enumeration and exact cost front",
+        "sampling designs and execution order",
+        "corpus retrieval",
+        "tokenisation",
+        "benchmark table and exact front",
+        "surrogate study",
+        "characterisation"
+      ]
+    },
+    "smoke": {
+      "hardware": "one GPU, or a CPU with patience",
+      "compact": {
+        "wall_clock": "minutes",
+        "establishes": "the training path, run end to end, and a manifest with every field the benchmark assembly reads"
+      },
+      "wall_clock": "minutes",
+      "cost": "negligible",
+      "establishes": "the training path: it runs end to end and writes a manifest carrying every field the benchmark assembly reads",
+      "what_it_proves": "the training path runs end to end and writes a manifest with every required field. The perplexities are meaningless at this budget and are not compared.",
+      "stages": [
+        "one training run"
+      ]
+    },
+    "partial": {
+      "hardware": "one GPU",
+      "compact": {
+        "wall_clock": "about a day",
+        "establishes": "one nested wave, which is a space-filling sample of the space on its own"
+      },
+      "wall_clock": "about a day for 150 architectures at 100M tokens",
+      "cost": "roughly 26 USD at low-priority cloud pricing",
+      "establishes": "one nested wave: wave one is a space-filling sample on its own, enough for the regressor study and an interim front",
+      "what_it_proves": "one nested wave reproduces. Because the waves nest, wave one is a space-filling sample on its own and supports the surrogate study and an interim front.",
+      "stages": [
+        "one sweep wave"
+      ]
+    },
+    "full": {
+      "hardware": "a GPU cluster; the campaign used five T4 nodes",
+      "compact": {
+        "wall_clock": "about twelve days",
+        "establishes": "the whole benchmark, tolerance-exact against the measured seed ROPE"
+      },
+      "wall_clock": "about twelve days at five concurrent nodes",
+      "cost": "roughly 174 USD at the measured low-priority price",
+      "establishes": "the measurements: the whole benchmark, tolerance-exact against the measured seed ROPE and not bit-exact",
+      "what_it_proves": "the whole benchmark. Tolerance-exact against the measured seed ROPE, not bit-exact: GPU kernel scheduling is nondeterministic and the campaign's own re-runs of identical architectures moved perplexity by 0.07 to 0.33 per cent.",
+      "stages": [
+        "the remaining waves"
+      ]
+    }
+  },
+  "stages": [
+    {
+      "stage": "structural gate",
+      "command": "python -m nas4textgen.cli gate",
+      "tier": "verify",
+      "determinism": "bit_exact",
+      "tolerance": null,
+      "reads": [
+        "the search space definition in code"
+      ],
+      "writes": [
+        "artifacts/gate/structural_gate.json"
+      ],
+      "preconditions": [],
+      "resumable": false,
+      "requires": [],
+      "notes": "Eight checks the space must pass before any sweep is submitted: cardinality, injectivity of the encoding, no inert genes, the reference architecture dominated. Arithmetic on integers, so any machine gives the same file."
+    },
+    {
+      "stage": "audit of the prior protocol",
+      "command": "python -m nas4textgen.cli audit",
+      "tier": "verify",
+      "determinism": "bit_exact",
+      "tolerance": null,
+      "reads": [
+        "the WikiText-2 test split, retrieved on first use"
+      ],
+      "writes": [
+        "artifacts/audit/prior_protocol.json"
+      ],
+      "preconditions": [],
+      "resumable": false,
+      "requires": [
+        "network"
+      ],
+      "notes": "Re-derives the figures section 5 rests on: what an empty generation scores under the prior protocol, on which strata, and how far apart four model-free hypotheses are. CPU only and a few seconds. Listed in the verify tier because a reader who can run nothing else should still be able to check the claim the paper makes about someone else's work."
+    },
+    {
+      "stage": "enumeration and exact cost front",
+      "command": "python -m nas4textgen.cli enumerate",
+      "tier": "verify",
+      "determinism": "bit_exact",
+      "tolerance": null,
+      "reads": [
+        "the search space definition in code"
+      ],
+      "writes": [
+        "artifacts/space/enumeration.csv",
+        "artifacts/space/enumeration_summary.json"
+      ],
+      "preconditions": [],
+      "resumable": false,
+      "requires": [],
+      "notes": "Closed-form parameter and cache counts for all 1,099 architectures."
+    },
+    {
+      "stage": "sampling designs and execution order",
+      "command": "python -m nas4textgen.cli designs",
+      "tier": "verify",
+      "determinism": "bit_exact",
+      "tolerance": null,
+      "reads": [
+        "artifacts/space/enumeration.csv"
+      ],
+      "writes": [
+        "artifacts/space/sampling_designs.json"
+      ],
+      "preconditions": [],
+      "resumable": false,
+      "requires": [],
+      "notes": "The maximin order the sweep runs in, and the nested waves. Seeded, and the order is recorded rather than recomputed at submission so a later change to this code cannot reorder a campaign already in flight."
+    },
+    {
+      "stage": "corpus retrieval",
+      "command": "python -m nas4textgen.cli fetch",
+      "tier": "verify",
+      "determinism": "tolerance_exact",
+      "tolerance": "the corpora are fetched from upstream repositories that can change. The data vintage is recorded in every manifest and two results are comparable only if they share one. A fetch on a later date is a different experiment, not a failed reproduction.",
+      "reads": [
+        "the corpus registry in code"
+      ],
+      "writes": [
+        "data/cache/<corpus>/<split>.jsonl",
+        "artifacts/corpora/retrieval.json"
+      ],
+      "preconditions": [
+        "network access to the dataset hosts"
+      ],
+      "resumable": false,
+      "requires": [
+        "network"
+      ],
+      "notes": "The only stage that reaches the public internet. Everything after reads the cache."
+    },
+    {
+      "stage": "tokenisation",
+      "command": "python -m nas4textgen.cli tokenise",
+      "tier": "verify",
+      "determinism": "bit_exact",
+      "tolerance": null,
+      "reads": [
+        "data/cache/<corpus>/<split>.jsonl"
+      ],
+      "writes": [
+        "data/cache/<corpus>/<split>.tokens.jsonl"
+      ],
+      "preconditions": [
+        "the corpus is cached and its hash matches"
+      ],
+      "resumable": false,
+      "requires": [],
+      "notes": "Once, rather than once per job. Fixes the token stream so a rebuild that moved the tokeniser cannot change it under half a sweep."
+    },
+    {
+      "stage": "one training run",
+      "command": "python -m nas4textgen.train --h 2 --d-head 32 --n 2 --ffn 2 --kv 1 --corpus wikitext103 --token-budget 200000 --allow-cpu --output artifacts/smoke",
+      "tier": "smoke",
+      "determinism": "tolerance_exact",
+      "tolerance": "bit-exact on CPU, where deterministic kernels are enabled and cost nothing. On GPU, tolerance-exact against a seed ROPE of 0.651 perplexity measured from five replicates of one architecture.",
+      "reads": [
+        "the tokenised cache"
+      ],
+      "writes": [
+        "artifacts/smoke/manifest.json"
+      ],
+      "preconditions": [
+        "the corpus is tokenised",
+        "the output directory is writable"
+      ],
+      "resumable": true,
+      "requires": [],
+      "notes": "Checkpoints every ten minutes or longer, sized so the writing stays under five per cent of runtime. Resuming reproduces the uninterrupted result exactly on CPU."
+    },
+    {
+      "stage": "one sweep wave",
+      "command": "python -m nas4textgen.cli sweep --wave 1 --submit",
+      "tier": "partial",
+      "determinism": "tolerance_exact",
+      "tolerance": "the same seed ROPE, applied per architecture",
+      "reads": [
+        "the corpus cache in project storage",
+        "the published training image"
+      ],
+      "writes": [
+        "one manifest per architecture in the artifact container"
+      ],
+      "preconditions": [
+        "the platform is applied",
+        "the corpus is uploaded and verified",
+        "the image matches this checkout"
+      ],
+      "resumable": true,
+      "requires": [
+        "cloud",
+        "gpu"
+      ],
+      "notes": "Waves nest, so wave one is a space-filling sample on its own \u2014 fill distance 0.333 against 0.594 for a uniform random sample of the same size."
+    },
+    {
+      "stage": "benchmark table and exact front",
+      "command": "python -m nas4textgen.cli table",
+      "tier": "verify",
+      "determinism": "bit_exact",
+      "tolerance": null,
+      "reads": [
+        "artifacts/manifests/runs.jsonl"
+      ],
+      "writes": [
+        "artifacts/benchmark/table.csv",
+        "artifacts/benchmark/summary.json"
+      ],
+      "preconditions": [
+        "at least one run met its token budget"
+      ],
+      "resumable": false,
+      "requires": [],
+      "notes": "Refuses rows measured under different precision, corpus vintage, token budget or tokeniser. Given the same manifests it produces the same table, and the manifests are published with it, so the verification tier rebuilds the table rather than taking it on trust. It did take it on trust: the stage still declared that it reads the manifests from the artifact container and so needs an account, which had stopped being true when the command was changed to read the published mirror. Nothing rebuilt the table for as long as that stood, and an assembly bug that moved the measured front from 220 architectures to 218 went unreported."
+    },
+    {
+      "stage": "surrogate study",
+      "command": "python -m nas4textgen.cli surrogate",
+      "tier": "verify",
+      "determinism": "bit_exact",
+      "tolerance": null,
+      "reads": [
+        "artifacts/benchmark/table.csv"
+      ],
+      "writes": [
+        "artifacts/surrogate/slate_at_<rows>.json",
+        "artifacts/surrogate/budget_curve.json"
+      ],
+      "preconditions": [
+        "the benchmark table exists"
+      ],
+      "resumable": false,
+      "requires": [],
+      "notes": "Fourteen candidates on shared folds, every one scored against two trivial predictors and disqualified if it beats neither. Seeded throughout."
+    },
+    {
+      "stage": "characterisation",
+      "command": "python -m nas4textgen.cli characterise",
+      "tier": "verify",
+      "determinism": "bit_exact",
+      "tolerance": null,
+      "reads": [
+        "artifacts/benchmark/table.csv",
+        "artifacts/pilot/results.json"
+      ],
+      "writes": [
+        "artifacts/characterisation/"
+      ],
+      "preconditions": [
+        "the benchmark table exists"
+      ],
+      "resumable": false,
+      "requires": [],
+      "notes": "Depth against width at matched parameter count, the grouped-query frontier, gene effects on measured quality, and whether the two cost fronts differ."
+    },
+    {
+      "stage": "the remaining waves",
+      "command": "python -m nas4textgen.cli sweep --wave 5 --submit",
+      "tier": "full",
+      "determinism": "tolerance_exact",
+      "tolerance": "the same seed ROPE as one wave, applied per architecture. GPU kernel scheduling is nondeterministic and the campaign's own re-runs of identical architectures moved perplexity by 0.07 to 0.33 per cent.",
+      "reads": [
+        "the corpus cache in project storage",
+        "the published training image"
+      ],
+      "writes": [
+        "one manifest per architecture in the artifact container"
+      ],
+      "preconditions": [
+        "one wave has completed, so the throughput model exists",
+        "the image matches this checkout"
+      ],
+      "resumable": true,
+      "requires": [
+        "cloud",
+        "gpu"
+      ],
+      "notes": "The waves nest, so submitting the last one submits whatever the earlier ones did not cover \u2014 re-running it after an interruption skips every architecture already measured rather than paying for it again. Declared as a stage because the full tier quoted a cost and a duration for work no stage named, and a tier with no stages reports success for having done nothing."
+    }
+  ],
+  "determinism_summary": {
+    "bit_exact": [
+      "structural gate",
+      "audit of the prior protocol",
+      "enumeration and exact cost front",
+      "sampling designs and execution order",
+      "tokenisation",
+      "benchmark table and exact front",
+      "surrogate study",
+      "characterisation"
+    ],
+    "tolerance_exact": [
+      "corpus retrieval",
+      "one training run",
+      "one sweep wave",
+      "the remaining waves"
+    ]
+  },
+  "why_two_classes": "Enumerating the space is arithmetic and gives the same bits anywhere. Training a transformer on a GPU does not give the same bits twice on the same machine. Publishing both as 'reproducible' would be true of one and misleading about the other, so each stage says which it is and, where it is the second, names the tolerance and where the tolerance came from."
+}

@@ -1,0 +1,135 @@
+{
+  "provenance": {
+    "written_at": "2026-10-05T21:45:38+00:00",
+    "git_revision": "d37fa83daec56b17effa54e43ea6f0794cacabeb",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen transfer-analysis"
+  },
+  "search_corpus": "wikitext103",
+  "front_size": 220,
+  "token_budget": 100000000,
+  "corpora": [
+    {
+      "corpus": "babylm",
+      "architectures": 220,
+      "seeds": 3,
+      "rope": 0.179289,
+      "kendall_tau": 0.9556,
+      "kendall_p": 9.3193069533154e-99,
+      "kendall_tau_top_decile": 0.4892,
+      "still_non_dominated": 113,
+      "still_non_dominated_share": 0.5136,
+      "top10_overlap": 7,
+      "rules": [
+        {
+          "rule": "kv <= 1",
+          "base_rate": 0.6545,
+          "precision": 0.8673,
+          "lift": 1.325,
+          "holds": true
+        },
+        {
+          "rule": "n <= 6",
+          "base_rate": 0.7955,
+          "precision": 0.7699,
+          "lift": 0.9679,
+          "holds": false
+        },
+        {
+          "rule": "h <= 2",
+          "base_rate": 0.1864,
+          "precision": 0.2212,
+          "lift": 1.1871,
+          "holds": true
+        }
+      ]
+    },
+    {
+      "corpus": "stack_python",
+      "architectures": 220,
+      "seeds": 3,
+      "rope": 0.123058,
+      "kendall_tau": 0.9287,
+      "kendall_p": 2.208346935892036e-93,
+      "kendall_tau_top_decile": 0.8355,
+      "still_non_dominated": 85,
+      "still_non_dominated_share": 0.3864,
+      "top10_overlap": 9,
+      "rules": [
+        {
+          "rule": "kv <= 1",
+          "base_rate": 0.6545,
+          "precision": 0.5882,
+          "lift": 0.8987,
+          "holds": false
+        },
+        {
+          "rule": "n <= 6",
+          "base_rate": 0.7955,
+          "precision": 0.7882,
+          "lift": 0.9909,
+          "holds": false
+        },
+        {
+          "rule": "h <= 2",
+          "base_rate": 0.1864,
+          "precision": 0.2941,
+          "lift": 1.5782,
+          "holds": true
+        }
+      ]
+    },
+    {
+      "corpus": "tinystories",
+      "architectures": 220,
+      "seeds": 3,
+      "rope": 0.101376,
+      "kendall_tau": 0.9649,
+      "kendall_p": 1.1910742645202742e-100,
+      "kendall_tau_top_decile": 0.4719,
+      "still_non_dominated": 99,
+      "still_non_dominated_share": 0.45,
+      "top10_overlap": 9,
+      "rules": [
+        {
+          "rule": "kv <= 1",
+          "base_rate": 0.6545,
+          "precision": 0.5253,
+          "lift": 0.8025,
+          "holds": false
+        },
+        {
+          "rule": "n <= 6",
+          "base_rate": 0.7955,
+          "precision": 0.8182,
+          "lift": 1.0286,
+          "holds": true
+        },
+        {
+          "rule": "h <= 2",
+          "base_rate": 0.1864,
+          "precision": 0.303,
+          "lift": 1.626,
+          "holds": true
+        }
+      ]
+    }
+  ],
+  "what_this_can_and_cannot_say": "Only the front was retrained, so no other corpus's exact front is known and none is claimed. Retention is the share of the search corpus's front that remains non-dominated among those same architectures on the new corpus; it would be 100% by construction if the ordering were identical, and it falls as the ordering diverges.",
+  "why_no_perplexity_is_compared_across_corpora": "Different text has different entropy. Every quantity here is a rank, a dominance relation or a share, computed inside one corpus."
+}

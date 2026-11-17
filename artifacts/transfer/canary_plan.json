@@ -1,0 +1,37 @@
+{
+  "provenance": {
+    "written_at": "2026-09-08T07:07:43+00:00",
+    "git_revision": "8dd15f9a975f26db95e8241ce11ed8762a9481cc",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen transfer --canary --submit"
+  },
+  "canary": true,
+  "front_architectures": 3,
+  "corpora": [
+    "tinystories",
+    "babylm",
+    "stack_python"
+  ],
+  "seeds": [
+    0
+  ],
+  "runs": 9,
+  "token_budget": 100000000,
+  "source_table": "table.csv",
+  "batching": "one corpus and seed per submission, verified before the next. A single call queueing every run is how 213 jobs came back Completed having never been scheduled."
+}

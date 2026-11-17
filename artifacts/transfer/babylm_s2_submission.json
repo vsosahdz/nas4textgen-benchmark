@@ -1,0 +1,1568 @@
+{
+  "provenance": {
+    "written_at": "2026-09-09T04:16:11+00:00",
+    "git_revision": "ffbc0c3635069bd1eebe0ddde20c58669ee78e18",
+    "git_dirty": true,
+    "python": "3.12.13",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.5.1",
+      "scipy": "1.18.0",
+      "pandas": "3.0.5",
+      "pymoo": "0.6.2",
+      "scikit-learn": "1.9.0"
+    },
+    "determinism_environment": {
+      "PYTHONHASHSEED": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "seed": null,
+    "command": "nas4textgen transfer --submit"
+  },
+  "outcomes": [
+    {
+      "fingerprint": "3b782d5f297f0897",
+      "job_name": "nas-3b782d5f297f0897-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n12-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7317s"
+    },
+    {
+      "fingerprint": "6ef88cbde7b0fefb",
+      "job_name": "nas-6ef88cbde7b0fefb-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5466s"
+    },
+    {
+      "fingerprint": "1740982ce91a8ce6",
+      "job_name": "nas-1740982ce91a8ce6-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n8-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7881s"
+    },
+    {
+      "fingerprint": "7b1e1b34fa6ed148",
+      "job_name": "nas-7b1e1b34fa6ed148-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6725s"
+    },
+    {
+      "fingerprint": "b5c221a7a24b796e",
+      "job_name": "nas-b5c221a7a24b796e-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n2-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6839s"
+    },
+    {
+      "fingerprint": "1e0fede8ea8087fd",
+      "job_name": "nas-1e0fede8ea8087fd-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n8-f3-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7881s"
+    },
+    {
+      "fingerprint": "0a705520bb735b1f",
+      "job_name": "nas-0a705520bb735b1f-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n4-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5151s"
+    },
+    {
+      "fingerprint": "7d358c7bc6630fc2",
+      "job_name": "nas-7d358c7bc6630fc2-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n12-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8199s"
+    },
+    {
+      "fingerprint": "e09734dc972f1a8c",
+      "job_name": "nas-e09734dc972f1a8c-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n2-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5244s"
+    },
+    {
+      "fingerprint": "0c06e5bc4e2ed1eb",
+      "job_name": "nas-0c06e5bc4e2ed1eb-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n12-f3-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8199s"
+    },
+    {
+      "fingerprint": "9f584a18d4e9716a",
+      "job_name": "nas-9f584a18d4e9716a-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n2-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4783s"
+    },
+    {
+      "fingerprint": "5e4e2fbcbdc08d62",
+      "job_name": "nas-5e4e2fbcbdc08d62-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n12-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7317s"
+    },
+    {
+      "fingerprint": "4ebdbf8490ed8cd6",
+      "job_name": "nas-4ebdbf8490ed8cd6-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n8-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6245s"
+    },
+    {
+      "fingerprint": "b7a72eca0da4a689",
+      "job_name": "nas-b7a72eca0da4a689-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n8-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6832s"
+    },
+    {
+      "fingerprint": "150b9f900674da6b",
+      "job_name": "nas-150b9f900674da6b-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5550s"
+    },
+    {
+      "fingerprint": "26efa2ed0fbcbb47",
+      "job_name": "nas-26efa2ed0fbcbb47-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n6-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6149s"
+    },
+    {
+      "fingerprint": "de433ad05dfd0a3d",
+      "job_name": "nas-de433ad05dfd0a3d-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5130s"
+    },
+    {
+      "fingerprint": "6a7cf8ebcafb0ff6",
+      "job_name": "nas-6a7cf8ebcafb0ff6-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n2-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6461s"
+    },
+    {
+      "fingerprint": "b6f1fa74fe311266",
+      "job_name": "nas-b6f1fa74fe311266-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f4-kv6 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5139s"
+    },
+    {
+      "fingerprint": "5978ce2fe85306fb",
+      "job_name": "nas-5978ce2fe85306fb-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n6-f3-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8037s"
+    },
+    {
+      "fingerprint": "25e37859addd1c74",
+      "job_name": "nas-25e37859addd1c74-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n6-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6275s"
+    },
+    {
+      "fingerprint": "dc381f6943bbf06e",
+      "job_name": "nas-dc381f6943bbf06e-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n6-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5645s"
+    },
+    {
+      "fingerprint": "d32847dfe51a5342",
+      "job_name": "nas-d32847dfe51a5342-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n2-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4615s"
+    },
+    {
+      "fingerprint": "5339681d6281db44",
+      "job_name": "nas-5339681d6281db44-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n4-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5172s"
+    },
+    {
+      "fingerprint": "ba2c1222cda16d81",
+      "job_name": "nas-ba2c1222cda16d81-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n6-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8541s"
+    },
+    {
+      "fingerprint": "05272ece3e195fef",
+      "job_name": "nas-05272ece3e195fef-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n6-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5677s"
+    },
+    {
+      "fingerprint": "bac5929722b505b8",
+      "job_name": "nas-bac5929722b505b8-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n4-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6725s"
+    },
+    {
+      "fingerprint": "ce31087e2d1307de",
+      "job_name": "nas-ce31087e2d1307de-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n4-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5466s"
+    },
+    {
+      "fingerprint": "2f7104091d23e7b1",
+      "job_name": "nas-2f7104091d23e7b1-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n4-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 9578s"
+    },
+    {
+      "fingerprint": "66f1235f4c5b2fd2",
+      "job_name": "nas-66f1235f4c5b2fd2-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n6-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 10052s"
+    },
+    {
+      "fingerprint": "f9a4d925a96208f2",
+      "job_name": "nas-f9a4d925a96208f2-a1",
+      "status": "submitted",
+      "display_name": "h8-d128-n4-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 13103s"
+    },
+    {
+      "fingerprint": "cee5443c39008144",
+      "job_name": "nas-cee5443c39008144-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n4-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6179s"
+    },
+    {
+      "fingerprint": "441476029aafbdb0",
+      "job_name": "nas-441476029aafbdb0-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5944s"
+    },
+    {
+      "fingerprint": "9835d677d8a44046",
+      "job_name": "nas-9835d677d8a44046-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n6-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6275s"
+    },
+    {
+      "fingerprint": "8ec272bb649ccdc5",
+      "job_name": "nas-8ec272bb649ccdc5-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n6-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 12318s"
+    },
+    {
+      "fingerprint": "df8e04e1534b3b8a",
+      "job_name": "nas-df8e04e1534b3b8a-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n8-f4-kv4 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "e2585a4a72cee9a7",
+      "job_name": "nas-e2585a4a72cee9a7-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6653s"
+    },
+    {
+      "fingerprint": "61da23b4dacc1857",
+      "job_name": "nas-61da23b4dacc1857-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5580s"
+    },
+    {
+      "fingerprint": "4753348ce5a6f1f6",
+      "job_name": "nas-4753348ce5a6f1f6-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5330s"
+    },
+    {
+      "fingerprint": "93549ff02fc2e0cd",
+      "job_name": "nas-93549ff02fc2e0cd-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5172s"
+    },
+    {
+      "fingerprint": "2a89922dd8f70820",
+      "job_name": "nas-2a89922dd8f70820-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n4-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5072s"
+    },
+    {
+      "fingerprint": "d3007f410a1de0d2",
+      "job_name": "nas-d3007f410a1de0d2-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n12-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7947s"
+    },
+    {
+      "fingerprint": "9f9e88cdb3ef82c7",
+      "job_name": "nas-9f9e88cdb3ef82c7-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5151s"
+    },
+    {
+      "fingerprint": "9f9e88f9ef47208c",
+      "job_name": "nas-9f9e88f9ef47208c-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f2-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5382s"
+    },
+    {
+      "fingerprint": "f3a282f7afa24c67",
+      "job_name": "nas-f3a282f7afa24c67-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n6-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8541s"
+    },
+    {
+      "fingerprint": "76f1e70827286fdd",
+      "job_name": "nas-76f1e70827286fdd-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7219s"
+    },
+    {
+      "fingerprint": "66c75ee9d75d05fd",
+      "job_name": "nas-66c75ee9d75d05fd-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f2-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5802s"
+    },
+    {
+      "fingerprint": "279e2a916226c3f3",
+      "job_name": "nas-279e2a916226c3f3-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n2-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4825s"
+    },
+    {
+      "fingerprint": "ffe20e02977831a1",
+      "job_name": "nas-ffe20e02977831a1-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n6-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 12318s"
+    },
+    {
+      "fingerprint": "3c8d89404daa2712",
+      "job_name": "nas-3c8d89404daa2712-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n4-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 13103s"
+    },
+    {
+      "fingerprint": "f4220a3fb7d3e20a",
+      "job_name": "nas-f4220a3fb7d3e20a-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n6-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8037s"
+    },
+    {
+      "fingerprint": "88e28072d1a911a1",
+      "job_name": "nas-88e28072d1a911a1-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n6-f3-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5559s"
+    },
+    {
+      "fingerprint": "c99aa51969a9197b",
+      "job_name": "nas-c99aa51969a9197b-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n6-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6275s"
+    },
+    {
+      "fingerprint": "67535f396457bce1",
+      "job_name": "nas-67535f396457bce1-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n6-f2-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7534s"
+    },
+    {
+      "fingerprint": "91a6651a6fe4e4f1",
+      "job_name": "nas-91a6651a6fe4e4f1-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5244s"
+    },
+    {
+      "fingerprint": "48c9c0c6f035a822",
+      "job_name": "nas-48c9c0c6f035a822-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5580s"
+    },
+    {
+      "fingerprint": "695d502d4de24fb0",
+      "job_name": "nas-695d502d4de24fb0-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n6-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 13577s"
+    },
+    {
+      "fingerprint": "834be5c844c70308",
+      "job_name": "nas-834be5c844c70308-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5990s"
+    },
+    {
+      "fingerprint": "1423fcad45aeb6da",
+      "job_name": "nas-1423fcad45aeb6da-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n4-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5078s"
+    },
+    {
+      "fingerprint": "daf7303cb4d9c62e",
+      "job_name": "nas-daf7303cb4d9c62e-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n4-f3-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8823s"
+    },
+    {
+      "fingerprint": "017b47a65e2c4340",
+      "job_name": "nas-017b47a65e2c4340-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n2-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5045s"
+    },
+    {
+      "fingerprint": "c110fa1559fc4464",
+      "job_name": "nas-c110fa1559fc4464-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n4-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5466s"
+    },
+    {
+      "fingerprint": "a570232c6bceae25",
+      "job_name": "nas-a570232c6bceae25-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n8-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6056s"
+    },
+    {
+      "fingerprint": "9921885fae56e40b",
+      "job_name": "nas-9921885fae56e40b-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6559s"
+    },
+    {
+      "fingerprint": "30dc610377d35df2",
+      "job_name": "nas-30dc610377d35df2-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n8-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "526fded3d1f96c49",
+      "job_name": "nas-526fded3d1f96c49-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n12-f3-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8199s"
+    },
+    {
+      "fingerprint": "85759adf18a46b0a",
+      "job_name": "nas-85759adf18a46b0a-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4253s"
+    },
+    {
+      "fingerprint": "fade8a69bda28e20",
+      "job_name": "nas-fade8a69bda28e20-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7219s"
+    },
+    {
+      "fingerprint": "b6ab22173e0af453",
+      "job_name": "nas-b6ab22173e0af453-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n6-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5645s"
+    },
+    {
+      "fingerprint": "6a14d045de939928",
+      "job_name": "nas-6a14d045de939928-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n12-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8450s"
+    },
+    {
+      "fingerprint": "1a9989b4a85766e6",
+      "job_name": "nas-1a9989b4a85766e6-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n6-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8037s"
+    },
+    {
+      "fingerprint": "6a986eddf1d1c5f8",
+      "job_name": "nas-6a986eddf1d1c5f8-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n2-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7930s"
+    },
+    {
+      "fingerprint": "c8889cc97974c0cc",
+      "job_name": "nas-c8889cc97974c0cc-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n4-f3-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 11760s"
+    },
+    {
+      "fingerprint": "b717111d3c129bf3",
+      "job_name": "nas-b717111d3c129bf3-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n8-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "7704f471628e931b",
+      "job_name": "nas-7704f471628e931b-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n2-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "671d99cc225be50c",
+      "job_name": "nas-671d99cc225be50c-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n6-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 12318s"
+    },
+    {
+      "fingerprint": "6ff8686765940417",
+      "job_name": "nas-6ff8686765940417-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n8-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 9350s"
+    },
+    {
+      "fingerprint": "90e32c431b89f82d",
+      "job_name": "nas-90e32c431b89f82d-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n8-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7000s"
+    },
+    {
+      "fingerprint": "f89176d180915061",
+      "job_name": "nas-f89176d180915061-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f2-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6653s"
+    },
+    {
+      "fingerprint": "a312c0531f58aec5",
+      "job_name": "nas-a312c0531f58aec5-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n2-f2-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4583s"
+    },
+    {
+      "fingerprint": "afd7433e272f951b",
+      "job_name": "nas-afd7433e272f951b-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f3-kv4 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "3f8c659daa8d7a9a",
+      "job_name": "nas-3f8c659daa8d7a9a-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f2-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4667s"
+    },
+    {
+      "fingerprint": "c3321c85625fe6b3",
+      "job_name": "nas-c3321c85625fe6b3-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n8-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7000s"
+    },
+    {
+      "fingerprint": "1b714844d1e97194",
+      "job_name": "nas-1b714844d1e97194-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6179s"
+    },
+    {
+      "fingerprint": "6183003a0aa3bebb",
+      "job_name": "nas-6183003a0aa3bebb-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f4-kv6 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6179s"
+    },
+    {
+      "fingerprint": "4135bb89a25f3617",
+      "job_name": "nas-4135bb89a25f3617-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n4-f4-kv4 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5550s"
+    },
+    {
+      "fingerprint": "addfa19beef84239",
+      "job_name": "nas-addfa19beef84239-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n4-f2-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5382s"
+    },
+    {
+      "fingerprint": "088bd1567d857d31",
+      "job_name": "nas-088bd1567d857d31-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n2-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6839s"
+    },
+    {
+      "fingerprint": "385e6dca005f190e",
+      "job_name": "nas-385e6dca005f190e-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4951s"
+    },
+    {
+      "fingerprint": "ae30a29625b68784",
+      "job_name": "nas-ae30a29625b68784-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n4-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6725s"
+    },
+    {
+      "fingerprint": "9071b6330c1a931d",
+      "job_name": "nas-9071b6330c1a931d-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n16-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7098s"
+    },
+    {
+      "fingerprint": "5152bae3025547f8",
+      "job_name": "nas-5152bae3025547f8-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n16-f3-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8306s"
+    },
+    {
+      "fingerprint": "5657e066f951f13f",
+      "job_name": "nas-5657e066f951f13f-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n8-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 13546s"
+    },
+    {
+      "fingerprint": "dfe5072f45b112e4",
+      "job_name": "nas-dfe5072f45b112e4-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n2-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6839s"
+    },
+    {
+      "fingerprint": "4749010b5f93c5b4",
+      "job_name": "nas-4749010b5f93c5b4-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n6-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6653s"
+    },
+    {
+      "fingerprint": "830878f87d1625bd",
+      "job_name": "nas-830878f87d1625bd-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f3-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "b53133e77b10464a",
+      "job_name": "nas-b53133e77b10464a-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4572s"
+    },
+    {
+      "fingerprint": "73a70204b33f8bdb",
+      "job_name": "nas-73a70204b33f8bdb-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n6-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 11185s"
+    },
+    {
+      "fingerprint": "0b2b413f96c78b28",
+      "job_name": "nas-0b2b413f96c78b28-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5139s"
+    },
+    {
+      "fingerprint": "5608858e30efd567",
+      "job_name": "nas-5608858e30efd567-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f3-kv6 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5990s"
+    },
+    {
+      "fingerprint": "71058c5b941008da",
+      "job_name": "nas-71058c5b941008da-a1",
+      "status": "submitted",
+      "display_name": "h8-d128-n6-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 15591s"
+    },
+    {
+      "fingerprint": "870d9defa27493e2",
+      "job_name": "nas-870d9defa27493e2-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7061s"
+    },
+    {
+      "fingerprint": "4c1e38210bd75619",
+      "job_name": "nas-4c1e38210bd75619-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n2-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4625s"
+    },
+    {
+      "fingerprint": "0b650b063d3931ad",
+      "job_name": "nas-0b650b063d3931ad-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7061s"
+    },
+    {
+      "fingerprint": "a2dbcee48034ec0d",
+      "job_name": "nas-a2dbcee48034ec0d-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n6-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 17605s"
+    },
+    {
+      "fingerprint": "883ec4aaa215b815",
+      "job_name": "nas-883ec4aaa215b815-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n2-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4783s"
+    },
+    {
+      "fingerprint": "d8feca758a7e6dd1",
+      "job_name": "nas-d8feca758a7e6dd1-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n4-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 11760s"
+    },
+    {
+      "fingerprint": "48a5d9e639e7a848",
+      "job_name": "nas-48a5d9e639e7a848-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n2-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4589s"
+    },
+    {
+      "fingerprint": "b2d55232c3b40193",
+      "job_name": "nas-b2d55232c3b40193-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f3-kv6 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5874s"
+    },
+    {
+      "fingerprint": "2607862016412add",
+      "job_name": "nas-2607862016412add-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5172s"
+    },
+    {
+      "fingerprint": "aa1c27800c712625",
+      "job_name": "nas-aa1c27800c712625-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f2-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5803s"
+    },
+    {
+      "fingerprint": "883e42bf8008e7fd",
+      "job_name": "nas-883e42bf8008e7fd-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n2-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4741s"
+    },
+    {
+      "fingerprint": "c44af15e4a7a4720",
+      "job_name": "nas-c44af15e4a7a4720-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f2-kv6 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4951s"
+    },
+    {
+      "fingerprint": "2534d311c666cec2",
+      "job_name": "nas-2534d311c666cec2-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n2-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4951s"
+    },
+    {
+      "fingerprint": "61731d9cb14fb2cc",
+      "job_name": "nas-61731d9cb14fb2cc-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n16-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8306s"
+    },
+    {
+      "fingerprint": "cb24c16cef2eba16",
+      "job_name": "nas-cb24c16cef2eba16-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n4-f2-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5382s"
+    },
+    {
+      "fingerprint": "bc910ffe981d3c57",
+      "job_name": "nas-bc910ffe981d3c57-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n2-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4825s"
+    },
+    {
+      "fingerprint": "82a50ccecaa45440",
+      "job_name": "nas-82a50ccecaa45440-a1",
+      "status": "submitted",
+      "display_name": "h12-d128-n2-f3-kv4 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 12126s"
+    },
+    {
+      "fingerprint": "92b64b9b9689b9ee",
+      "job_name": "nas-92b64b9b9689b9ee-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n2-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4741s"
+    },
+    {
+      "fingerprint": "b54ef4c1ef126733",
+      "job_name": "nas-b54ef4c1ef126733-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n2-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6461s"
+    },
+    {
+      "fingerprint": "a7a04b6cf598ba9e",
+      "job_name": "nas-a7a04b6cf598ba9e-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n4-f2-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5130s"
+    },
+    {
+      "fingerprint": "5c39673d24b45ac7",
+      "job_name": "nas-5c39673d24b45ac7-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n4-f3-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8823s"
+    },
+    {
+      "fingerprint": "343e7d71bf0ddce5",
+      "job_name": "nas-343e7d71bf0ddce5-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5382s"
+    },
+    {
+      "fingerprint": "39b919cdca46da9c",
+      "job_name": "nas-39b919cdca46da9c-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n4-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5550s"
+    },
+    {
+      "fingerprint": "872d5e84a141633f",
+      "job_name": "nas-872d5e84a141633f-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n8-f3-kv4 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6832s"
+    },
+    {
+      "fingerprint": "a1a630db83d18898",
+      "job_name": "nas-a1a630db83d18898-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n4-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8823s"
+    },
+    {
+      "fingerprint": "36cbc9c2ed6d213c",
+      "job_name": "nas-36cbc9c2ed6d213c-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n2-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4586s"
+    },
+    {
+      "fingerprint": "0bb9705c8d3c7076",
+      "job_name": "nas-0bb9705c8d3c7076-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n2-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "4beeeb4f4d70dade",
+      "job_name": "nas-4beeeb4f4d70dade-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5802s"
+    },
+    {
+      "fingerprint": "e91d092a5c475f94",
+      "job_name": "nas-e91d092a5c475f94-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f2-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6389s"
+    },
+    {
+      "fingerprint": "7ed6085ba366ddb1",
+      "job_name": "nas-7ed6085ba366ddb1-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n12-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7648s"
+    },
+    {
+      "fingerprint": "7acd3a3f97caa28d",
+      "job_name": "nas-7acd3a3f97caa28d-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n4-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6389s"
+    },
+    {
+      "fingerprint": "1ee09c2aa30fbf6b",
+      "job_name": "nas-1ee09c2aa30fbf6b-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6559s"
+    },
+    {
+      "fingerprint": "e1308bdaad21e259",
+      "job_name": "nas-e1308bdaad21e259-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n6-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 10052s"
+    },
+    {
+      "fingerprint": "65197b51edbc5629",
+      "job_name": "nas-65197b51edbc5629-a1",
+      "status": "submitted",
+      "display_name": "h12-d128-n4-f2-kv6 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 16664s"
+    },
+    {
+      "fingerprint": "49dbd56ab7753027",
+      "job_name": "nas-49dbd56ab7753027-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n2-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4625s"
+    },
+    {
+      "fingerprint": "11782338fa323025",
+      "job_name": "nas-11782338fa323025-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n8-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "8669a2f67d4a2a7d",
+      "job_name": "nas-8669a2f67d4a2a7d-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n2-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5139s"
+    },
+    {
+      "fingerprint": "5d6b21afba4fceb0",
+      "job_name": "nas-5d6b21afba4fceb0-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n2-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5580s"
+    },
+    {
+      "fingerprint": "fce594135fbd24b8",
+      "job_name": "nas-fce594135fbd24b8-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n4-f4-kv6 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 9578s"
+    },
+    {
+      "fingerprint": "a7ff634f7ed8fa19",
+      "job_name": "nas-a7ff634f7ed8fa19-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n4-f3-kv4 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6725s"
+    },
+    {
+      "fingerprint": "beac5dc5aa59fcb8",
+      "job_name": "nas-beac5dc5aa59fcb8-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n6-f3-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6149s"
+    },
+    {
+      "fingerprint": "cc8229d7ccc33dc1",
+      "job_name": "nas-cc8229d7ccc33dc1-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n6-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5559s"
+    },
+    {
+      "fingerprint": "d5ae9ba2f062fda3",
+      "job_name": "nas-d5ae9ba2f062fda3-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4715s"
+    },
+    {
+      "fingerprint": "ef7516aa3aa51573",
+      "job_name": "nas-ef7516aa3aa51573-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f2-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4951s"
+    },
+    {
+      "fingerprint": "f108df9a2a8bbd6f",
+      "job_name": "nas-f108df9a2a8bbd6f-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5330s"
+    },
+    {
+      "fingerprint": "3f970af0f431bc46",
+      "job_name": "nas-3f970af0f431bc46-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n6-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6023s"
+    },
+    {
+      "fingerprint": "7fad35f1b947f2eb",
+      "job_name": "nas-7fad35f1b947f2eb-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f4-kv6 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4715s"
+    },
+    {
+      "fingerprint": "30e29c74e0df979c",
+      "job_name": "nas-30e29c74e0df979c-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n8-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 19421s"
+    },
+    {
+      "fingerprint": "256fe435cb323f75",
+      "job_name": "nas-256fe435cb323f75-a1",
+      "status": "submitted",
+      "display_name": "h8-d128-n2-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8601s"
+    },
+    {
+      "fingerprint": "0076c2f30ffd984f",
+      "job_name": "nas-0076c2f30ffd984f-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4691s"
+    },
+    {
+      "fingerprint": "4aa5f5a2b0ad11b4",
+      "job_name": "nas-4aa5f5a2b0ad11b4-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n2-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4667s"
+    },
+    {
+      "fingerprint": "36fe0bb1d3be51d3",
+      "job_name": "nas-36fe0bb1d3be51d3-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n6-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8541s"
+    },
+    {
+      "fingerprint": "654ea1f305079eaf",
+      "job_name": "nas-654ea1f305079eaf-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f3-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5874s"
+    },
+    {
+      "fingerprint": "298066db212ff152",
+      "job_name": "nas-298066db212ff152-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n2-f3-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4586s"
+    },
+    {
+      "fingerprint": "b7107133ee7de8ef",
+      "job_name": "nas-b7107133ee7de8ef-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n6-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8037s"
+    },
+    {
+      "fingerprint": "1f89f718ef544e10",
+      "job_name": "nas-1f89f718ef544e10-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5235s"
+    },
+    {
+      "fingerprint": "d8a251b59955a67f",
+      "job_name": "nas-d8a251b59955a67f-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f3-kv6 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6465s"
+    },
+    {
+      "fingerprint": "a4b0b390a50c1417",
+      "job_name": "nas-a4b0b390a50c1417-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f4-kv6 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6559s"
+    },
+    {
+      "fingerprint": "b4a13fdb2ad776b4",
+      "job_name": "nas-b4a13fdb2ad776b4-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n2-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5412s"
+    },
+    {
+      "fingerprint": "1533814e33909ef8",
+      "job_name": "nas-1533814e33909ef8-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n8-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 10021s"
+    },
+    {
+      "fingerprint": "7b83248d29c5d940",
+      "job_name": "nas-7b83248d29c5d940-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n6-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8541s"
+    },
+    {
+      "fingerprint": "63d014da29ae3a9a",
+      "job_name": "nas-63d014da29ae3a9a-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n12-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8450s"
+    },
+    {
+      "fingerprint": "bcdbf05c36c6ce8c",
+      "job_name": "nas-bcdbf05c36c6ce8c-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n2-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4741s"
+    },
+    {
+      "fingerprint": "af489a4e82170c9f",
+      "job_name": "nas-af489a4e82170c9f-a1",
+      "status": "submitted",
+      "display_name": "h8-d128-n6-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 17605s"
+    },
+    {
+      "fingerprint": "6a42d0cb2f2eb7ac",
+      "job_name": "nas-6a42d0cb2f2eb7ac-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n2-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 3256s"
+    },
+    {
+      "fingerprint": "0a35ab3dbe672386",
+      "job_name": "nas-0a35ab3dbe672386-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f3-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5990s"
+    },
+    {
+      "fingerprint": "aa3777b88228bcc3",
+      "job_name": "nas-aa3777b88228bcc3-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n6-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6149s"
+    },
+    {
+      "fingerprint": "d640ac4c5d196095",
+      "job_name": "nas-d640ac4c5d196095-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n8-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7000s"
+    },
+    {
+      "fingerprint": "2b53795983a8bfa1",
+      "job_name": "nas-2b53795983a8bfa1-a1",
+      "status": "submitted",
+      "display_name": "h8-d32-n2-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4825s"
+    },
+    {
+      "fingerprint": "f65cd8dcc6cb1060",
+      "job_name": "nas-f65cd8dcc6cb1060-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n4-f2-kv6 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5802s"
+    },
+    {
+      "fingerprint": "410ff0e542113357",
+      "job_name": "nas-410ff0e542113357-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n8-f3-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7881s"
+    },
+    {
+      "fingerprint": "3eaa8ee65777a12b",
+      "job_name": "nas-3eaa8ee65777a12b-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n6-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 11185s"
+    },
+    {
+      "fingerprint": "ac60c4165a28cf90",
+      "job_name": "nas-ac60c4165a28cf90-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n2-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5045s"
+    },
+    {
+      "fingerprint": "9610d3b3d3c8e4a7",
+      "job_name": "nas-9610d3b3d3c8e4a7-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n6-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5803s"
+    },
+    {
+      "fingerprint": "cd8f60df303d8930",
+      "job_name": "nas-cd8f60df303d8930-a1",
+      "status": "submitted",
+      "display_name": "h12-d64-n8-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 13546s"
+    },
+    {
+      "fingerprint": "0d089285ea4720c4",
+      "job_name": "nas-0d089285ea4720c4-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n16-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8642s"
+    },
+    {
+      "fingerprint": "1fb1eac27c3ca0a8",
+      "job_name": "nas-1fb1eac27c3ca0a8-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n2-f3-kv6 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6461s"
+    },
+    {
+      "fingerprint": "0ebe131ca1b281f3",
+      "job_name": "nas-0ebe131ca1b281f3-a1",
+      "status": "submitted",
+      "display_name": "h8-d128-n6-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 17605s"
+    },
+    {
+      "fingerprint": "de0051f10eaa267e",
+      "job_name": "nas-de0051f10eaa267e-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n6-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6275s"
+    },
+    {
+      "fingerprint": "a3253e0ba40aa0dd",
+      "job_name": "nas-a3253e0ba40aa0dd-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n8-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6056s"
+    },
+    {
+      "fingerprint": "434ff775b46a1769",
+      "job_name": "nas-434ff775b46a1769-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n6-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6936s"
+    },
+    {
+      "fingerprint": "eb65963eecf7f35a",
+      "job_name": "nas-eb65963eecf7f35a-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n4-f4-kv4 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7061s"
+    },
+    {
+      "fingerprint": "50d11a494b55db99",
+      "job_name": "nas-50d11a494b55db99-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n4-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5990s"
+    },
+    {
+      "fingerprint": "af9160bfcc779fe6",
+      "job_name": "nas-af9160bfcc779fe6-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n4-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 10418s"
+    },
+    {
+      "fingerprint": "88655401c4d74c05",
+      "job_name": "nas-88655401c4d74c05-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n6-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7534s"
+    },
+    {
+      "fingerprint": "1a5583e43d95e704",
+      "job_name": "nas-1a5583e43d95e704-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n2-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5244s"
+    },
+    {
+      "fingerprint": "6e977f36a16f9e04",
+      "job_name": "nas-6e977f36a16f9e04-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n8-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6832s"
+    },
+    {
+      "fingerprint": "0fb5eb4aed24a544",
+      "job_name": "nas-0fb5eb4aed24a544-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n2-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4615s"
+    },
+    {
+      "fingerprint": "cf1203e2ac410418",
+      "job_name": "nas-cf1203e2ac410418-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n8-f3-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6465s"
+    },
+    {
+      "fingerprint": "23f9bb65b842b121",
+      "job_name": "nas-23f9bb65b842b121-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n2-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4783s"
+    },
+    {
+      "fingerprint": "9275c07516671374",
+      "job_name": "nas-9275c07516671374-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n16-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8222s"
+    },
+    {
+      "fingerprint": "be73a00dd9eaac19",
+      "job_name": "nas-be73a00dd9eaac19-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n6-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7534s"
+    },
+    {
+      "fingerprint": "1d36ea0bc2f1122b",
+      "job_name": "nas-1d36ea0bc2f1122b-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n6-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5708s"
+    },
+    {
+      "fingerprint": "bc93b98698e4d49d",
+      "job_name": "nas-bc93b98698e4d49d-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n24-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 10409s"
+    },
+    {
+      "fingerprint": "a33ba1f54e5936b1",
+      "job_name": "nas-a33ba1f54e5936b1-a1",
+      "status": "submitted",
+      "display_name": "h6-d32-n4-f2-kv6 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5235s"
+    },
+    {
+      "fingerprint": "64e5fc32000958f4",
+      "job_name": "nas-64e5fc32000958f4-a1",
+      "status": "submitted",
+      "display_name": "h12-d128-n2-f4-kv4 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 13637s"
+    },
+    {
+      "fingerprint": "1451bdfb9416c3bd",
+      "job_name": "nas-1451bdfb9416c3bd-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f3-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6936s"
+    },
+    {
+      "fingerprint": "3e4eac56cff063a2",
+      "job_name": "nas-3e4eac56cff063a2-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n6-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6023s"
+    },
+    {
+      "fingerprint": "2f2794b0af8c9e95",
+      "job_name": "nas-2f2794b0af8c9e95-a1",
+      "status": "submitted",
+      "display_name": "h6-d64-n6-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6936s"
+    },
+    {
+      "fingerprint": "83602371b131ca50",
+      "job_name": "nas-83602371b131ca50-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n4-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5802s"
+    },
+    {
+      "fingerprint": "056dc874b64e4e12",
+      "job_name": "nas-056dc874b64e4e12-a1",
+      "status": "submitted",
+      "display_name": "h12-d32-n6-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7219s"
+    },
+    {
+      "fingerprint": "bb0c3a72e6e54b9b",
+      "job_name": "nas-bb0c3a72e6e54b9b-a1",
+      "status": "submitted",
+      "display_name": "h6-d128-n4-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 9578s"
+    },
+    {
+      "fingerprint": "e826082cbd41a8eb",
+      "job_name": "nas-e826082cbd41a8eb-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n4-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 3366s"
+    },
+    {
+      "fingerprint": "33cce41d4edf41a7",
+      "job_name": "nas-33cce41d4edf41a7-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n4-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7061s"
+    },
+    {
+      "fingerprint": "341469e41577e45e",
+      "job_name": "nas-341469e41577e45e-a1",
+      "status": "submitted",
+      "display_name": "h12-d128-n2-f4-kv6 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 13637s"
+    },
+    {
+      "fingerprint": "b382ff3ad9da29d8",
+      "job_name": "nas-b382ff3ad9da29d8-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n8-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6245s"
+    },
+    {
+      "fingerprint": "d8debc630ea6899b",
+      "job_name": "nas-d8debc630ea6899b-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n2-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 4825s"
+    },
+    {
+      "fingerprint": "cd35e31d1ee4cbec",
+      "job_name": "nas-cd35e31d1ee4cbec-a1",
+      "status": "submitted",
+      "display_name": "h8-d128-n2-f4-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8601s"
+    },
+    {
+      "fingerprint": "ce42cf20df5c6415",
+      "job_name": "nas-ce42cf20df5c6415-a1",
+      "status": "submitted",
+      "display_name": "h12-d128-n4-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 17132s"
+    },
+    {
+      "fingerprint": "784100956f66a195",
+      "job_name": "nas-784100956f66a195-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n2-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5580s"
+    },
+    {
+      "fingerprint": "a1de23b64e61ceb9",
+      "job_name": "nas-a1de23b64e61ceb9-a1",
+      "status": "submitted",
+      "display_name": "h2-d32-n4-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 3275s"
+    },
+    {
+      "fingerprint": "ae13d36d685d6fa5",
+      "job_name": "nas-ae13d36d685d6fa5-a1",
+      "status": "submitted",
+      "display_name": "h4-d32-n6-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 5677s"
+    },
+    {
+      "fingerprint": "608c7d5128885d9c",
+      "job_name": "nas-608c7d5128885d9c-a1",
+      "status": "submitted",
+      "display_name": "h8-d64-n4-f2-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6389s"
+    },
+    {
+      "fingerprint": "efc71758aaf3e156",
+      "job_name": "nas-efc71758aaf3e156-a1",
+      "status": "submitted",
+      "display_name": "h4-d64-n6-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6149s"
+    },
+    {
+      "fingerprint": "6b55acd80a01eedc",
+      "job_name": "nas-6b55acd80a01eedc-a1",
+      "status": "submitted",
+      "display_name": "h16-d64-n2-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 8601s"
+    },
+    {
+      "fingerprint": "c4a98b918b375320",
+      "job_name": "nas-c4a98b918b375320-a1",
+      "status": "submitted",
+      "display_name": "h2-d64-n8-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6203s"
+    },
+    {
+      "fingerprint": "502bf15ea56d7170",
+      "job_name": "nas-502bf15ea56d7170-a1",
+      "status": "submitted",
+      "display_name": "h2-d128-n8-f2-kv2 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 6664s"
+    },
+    {
+      "fingerprint": "6dfeaad1d4c6c87f",
+      "job_name": "nas-6dfeaad1d4c6c87f-a1",
+      "status": "submitted",
+      "display_name": "h4-d128-n8-f3-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 9350s"
+    },
+    {
+      "fingerprint": "fd55d26ffbe72e95",
+      "job_name": "nas-fd55d26ffbe72e95-a1",
+      "status": "submitted",
+      "display_name": "h16-d32-n4-f4-kv1 babylm s2",
+      "detail": "attempt 1 on sweep-spot, limit 7061s"
+    }
+  ],
+  "tally": {
+    "submitted": 220
+  }
+}
