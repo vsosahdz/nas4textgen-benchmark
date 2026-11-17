@@ -6,7 +6,9 @@ message: >-
   Pareto fronts, please cite this repository.
 type: software
 license: Apache-2.0
-repository-code: https://github.com/vsosahdz/NAS4TextGenerationApproach
+repository-code: https://github.com/vsosahdz/nas4textgen-benchmark
+version: 1.0.0
+date-released: '2026-11-17'
 
 # ─────────────────────────────────────────────────────────────────────────
 # Author order is settled: Israel, Sergio, Miriam, Víctor, with Víctor as the
